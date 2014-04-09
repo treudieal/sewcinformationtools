@@ -1,0 +1,3093 @@
+﻿MIME-Version: 1.0
+X-Document-Type: Workbook
+Content-Type: multipart/related; boundary="----=_NextPart_01CE64FB.7292DF40"
+
+���ĵ�Ϊ�������ļ���ҳ����Ҳ��Ϊ��Web �������ļ����������������Ϣ�����������������༭����֧�֡�Web �������ļ���������֧�֡�Web ����������������� Microsoft Internet Explorer��
+
+------=_NextPart_01CE64FB.7292DF40
+Content-Location: file:///C:/6EDABB9F/file8639.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name=3D"Excel Workbook Frameset">
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 11">
+<link rel=3DFile-List href=3D"file8639.files/filelist.xml">
+<link rel=3DEdit-Time-Data href=3D"file8639.files/editdata.mso">
+<link rel=3DOLE-Object-Data href=3D"file8639.files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>HTC</o:Author>
+  <o:LastAuthor>IDIO</o:LastAuthor>
+  <o:LastPrinted>2013-03-19T06:29:55Z</o:LastPrinted>
+  <o:Created>1999-08-16T03:04:37Z</o:Created>
+  <o:LastSaved>2013-06-09T02:23:56Z</o:LastSaved>
+  <o:Company>Halla Climate Control (Thailand) Co., Ltd.</o:Company>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><![if !supportTabStrip]>
+<link id=3D"shLink" href=3D"file8639.files/sheet001.htm">
+<link id=3D"shLink" href=3D"file8639.files/sheet002.htm">
+<link id=3D"shLink" href=3D"file8639.files/sheet003.htm">
+
+<link id=3D"shLink">
+
+<script language=3D"JavaScript">
+<!--
+ var c_lTabs=3D3;
+
+ var c_rgszSh=3Dnew Array(c_lTabs);
+ c_rgszSh[0] =3D "8D&#25253;&#21578;";
+ c_rgszSh[1] =3D "&#22635;&#20889;&#35828;&#26126;";
+ c_rgszSh[2] =3D "Sheet1";
+
+
+
+ var c_rgszClr=3Dnew Array(8);
+ c_rgszClr[0]=3D"window";
+ c_rgszClr[1]=3D"buttonface";
+ c_rgszClr[2]=3D"windowframe";
+ c_rgszClr[3]=3D"windowtext";
+ c_rgszClr[4]=3D"threedlightshadow";
+ c_rgszClr[5]=3D"threedhighlight";
+ c_rgszClr[6]=3D"threeddarkshadow";
+ c_rgszClr[7]=3D"threedshadow";
+
+ var g_iShCur;
+ var g_rglTabX=3Dnew Array(c_lTabs);
+
+function fnGetIEVer()
+{
+ var ua=3Dwindow.navigator.userAgent
+ var msie=3Dua.indexOf("MSIE")
+ if (msie>0 && window.navigator.platform=3D=3D"Win32")
+  return parseInt(ua.substring(msie+5,ua.indexOf(".", msie)));
+ else
+  return 0;
+}
+
+function fnBuildFrameset()
+{
+ var szHTML=3D"<frameset rows=3D\"*,18\" border=3D0 width=3D0 frameborder=
+=3Dno framespacing=3D0>"+
+  "<frame src=3D\""+document.all.item("shLink")[0].href+"\" name=3D\"frShee=
+t\" noresize>"+
+  "<frameset cols=3D\"54,*\" border=3D0 width=3D0 frameborder=3Dno framespa=
+cing=3D0>"+
+  "<frame src=3D\"\" name=3D\"frScroll\" marginwidth=3D0 marginheight=3D0 s=
+crolling=3Dno>"+
+  "<frame src=3D\"\" name=3D\"frTabs\" marginwidth=3D0 marginheight=3D0 scr=
+olling=3Dno>"+
+  "</frameset></frameset><plaintext>";
+
+ with (document) {
+  open("text/html","replace");
+  write(szHTML);
+  close();
+ }
+
+ fnBuildTabStrip();
+}
+
+function fnBuildTabStrip()
+{
+ var szHTML=3D
+  "<html><head><style>.clScroll {font:8pt Courier New;color:"+c_rgszClr[6]+=
+";cursor:default;line-height:10pt;}"+
+  ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:default;line-h=
+eight:11pt;}</style></head>"+
+  "<body onclick=3D\"event.returnValue=3Dfalse;\" ondragstart=3D\"event.ret=
+urnValue=3Dfalse;\" onselectstart=3D\"event.returnValue=3Dfalse;\" bgcolor=
+=3D"+c_rgszClr[4]+" topmargin=3D0 leftmargin=3D0><table cellpadding=3D0 cel=
+lspacing=3D0 width=3D100%>"+
+  "<tr><td colspan=3D6 height=3D1 bgcolor=3D"+c_rgszClr[2]+"></td></tr>"+
+  "<tr><td style=3D\"font:1pt\">&nbsp;<td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll\" onclick=3D\"parent.f=
+nFastScrollTabs(0);\" onmouseover=3D\"parent.fnMouseOverScroll(0);\" onmous=
+eout=3D\"parent.fnMouseOutScroll(0);\"><a>&#171;</a></td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll2\" onclick=3D\"parent.=
+fnScrollTabs(0);\" ondblclick=3D\"parent.fnScrollTabs(0);\" onmouseover=3D\=
+"parent.fnMouseOverScroll(1);\" onmouseout=3D\"parent.fnMouseOutScroll(1);\=
+"><a>&lt</a></td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll2\" onclick=3D\"parent.=
+fnScrollTabs(1);\" ondblclick=3D\"parent.fnScrollTabs(1);\" onmouseover=3D\=
+"parent.fnMouseOverScroll(2);\" onmouseout=3D\"parent.fnMouseOutScroll(2);\=
+"><a>&gt</a></td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll\" onclick=3D\"parent.f=
+nFastScrollTabs(1);\" onmouseover=3D\"parent.fnMouseOverScroll(3);\" onmous=
+eout=3D\"parent.fnMouseOutScroll(3);\"><a>&#187;</a></td>"+
+  "<td style=3D\"font:1pt\">&nbsp;<td></tr></table></body></html>";
+
+ with (frames['frScroll'].document) {
+  open("text/html","replace");
+  write(szHTML);
+  close();
+ }
+
+ szHTML =3D
+  "<html><head>"+
+  "<style>A:link,A:visited,A:active {text-decoration:none;"+"color:"+c_rgsz=
+Clr[3]+";}"+
+  ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt &#23435;&#20307=
+;;padding-left:3px;padding-right:3px;text-align:center;}"+
+  ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
+  "</style></head><body onload=3D\"parent.fnInit();\" onselectstart=3D\"eve=
+nt.returnValue=3Dfalse;\" ondragstart=3D\"event.returnValue=3Dfalse;\" bgco=
+lor=3D"+c_rgszClr[4]+
+  " topmargin=3D0 leftmargin=3D0><table id=3DtbTabs cellpadding=3D0 cellspa=
+cing=3D0>";
+
+ var iCellCount=3D(c_lTabs+1)*2;
+
+ var i;
+ for (i=3D0;i<iCellCount;i+=3D2)
+  szHTML+=3D"<col width=3D1><col>";
+
+ var iRow;
+ for (iRow=3D0;iRow<6;iRow++) {
+
+  szHTML+=3D"<tr>";
+
+  if (iRow=3D=3D5)
+   szHTML+=3D"<td colspan=3D"+iCellCount+"></td>";
+  else {
+   if (iRow=3D=3D0) {
+    for(i=3D0;i<iCellCount;i++)
+     szHTML+=3D"<td height=3D1 class=3D\"clBorder\"></td>";
+   } else if (iRow=3D=3D1) {
+    for(i=3D0;i<c_lTabs;i++) {
+     szHTML+=3D"<td height=3D1 nowrap class=3D\"clBorder\">&nbsp;</td>";
+     szHTML+=3D
+      "<td id=3DtdTab height=3D1 nowrap class=3D\"clTab\" onmouseover=3D\"p=
+arent.fnMouseOverTab("+i+");\" onmouseout=3D\"parent.fnMouseOutTab("+i+");\=
+">"+
+      "<a href=3D\""+document.all.item("shLink")[i].href+"\" target=3D\"frS=
+heet\" id=3DaTab>&nbsp;"+c_rgszSh[i]+"&nbsp;</a></td>";
+    }
+    szHTML+=3D"<td id=3DtdTab height=3D1 nowrap class=3D\"clBorder\"><a id=
+=3DaTab>&nbsp;</a></td><td width=3D100%></td>";
+   } else if (iRow=3D=3D2) {
+    for (i=3D0;i<c_lTabs;i++)
+     szHTML+=3D"<td height=3D1></td><td height=3D1 class=3D\"clBorder\"></t=
+d>";
+    szHTML+=3D"<td height=3D1></td><td height=3D1></td>";
+   } else if (iRow=3D=3D3) {
+    for (i=3D0;i<iCellCount;i++)
+     szHTML+=3D"<td height=3D1></td>";
+   } else if (iRow=3D=3D4) {
+    for (i=3D0;i<c_lTabs;i++)
+     szHTML+=3D"<td height=3D1 width=3D1></td><td height=3D1></td>";
+    szHTML+=3D"<td height=3D1 width=3D1></td><td></td>";
+   }
+  }
+  szHTML+=3D"</tr>";
+ }
+
+ szHTML+=3D"</table></body></html>";
+ with (frames['frTabs'].document) {
+  open("text/html","replace");
+  charset=3Ddocument.charset;
+  write(szHTML);
+  close();
+ }
+}
+
+function fnInit()
+{
+ g_rglTabX[0]=3D0;
+ var i;
+ for (i=3D1;i<=3Dc_lTabs;i++)
+  with (frames['frTabs'].document.all.tbTabs.rows[1].cells[fnTabToCol(i-1)])
+   g_rglTabX[i]=3DoffsetLeft+offsetWidth-6;
+}
+
+function fnTabToCol(iTab)
+{
+ return 2*iTab+1;
+}
+
+function fnNextTab(fDir)
+{
+ var iNextTab=3D-1;
+ var i;
+
+ with (frames['frTabs'].document.body) {
+  if (fDir=3D=3D0) {
+   if (scrollLeft>0) {
+    for (i=3D0;i<c_lTabs&&g_rglTabX[i]<scrollLeft;i++);
+    if (i<c_lTabs)
+     iNextTab=3Di-1;
+   }
+  } else {
+   if (g_rglTabX[c_lTabs]+6>offsetWidth+scrollLeft) {
+    for (i=3D0;i<c_lTabs&&g_rglTabX[i]<=3DscrollLeft;i++);
+    if (i<c_lTabs)
+     iNextTab=3Di;
+   }
+  }
+ }
+ return iNextTab;
+}
+
+function fnScrollTabs(fDir)
+{
+ var iNextTab=3DfnNextTab(fDir);
+
+ if (iNextTab>=3D0) {
+  frames['frTabs'].scroll(g_rglTabX[iNextTab],0);
+  return true;
+ } else
+  return false;
+}
+
+function fnFastScrollTabs(fDir)
+{
+ if (c_lTabs>16)
+  frames['frTabs'].scroll(g_rglTabX[fDir?c_lTabs-1:0],0);
+ else
+  if (fnScrollTabs(fDir)>0) window.setTimeout("fnFastScrollTabs("+fDir+");"=
+,5);
+}
+
+function fnSetTabProps(iTab,fActive)
+{
+ var iCol=3DfnTabToCol(iTab);
+ var i;
+
+ if (iTab>=3D0) {
+  with (frames['frTabs'].document.all) {
+   with (tbTabs) {
+    for (i=3D0;i<=3D4;i++) {
+     with (rows[i]) {
+      if (i=3D=3D0)
+       cells[iCol].style.background=3Dc_rgszClr[fActive?0:2];
+      else if (i>0 && i<4) {
+       if (fActive) {
+        cells[iCol-1].style.background=3Dc_rgszClr[2];
+        cells[iCol].style.background=3Dc_rgszClr[0];
+        cells[iCol+1].style.background=3Dc_rgszClr[2];
+       } else {
+        if (i=3D=3D1) {
+         cells[iCol-1].style.background=3Dc_rgszClr[2];
+         cells[iCol].style.background=3Dc_rgszClr[1];
+         cells[iCol+1].style.background=3Dc_rgszClr[2];
+        } else {
+         cells[iCol-1].style.background=3Dc_rgszClr[4];
+         cells[iCol].style.background=3Dc_rgszClr[(i=3D=3D2)?2:4];
+         cells[iCol+1].style.background=3Dc_rgszClr[4];
+        }
+       }
+      } else
+       cells[iCol].style.background=3Dc_rgszClr[fActive?2:4];
+     }
+    }
+   }
+   with (aTab[iTab].style) {
+    cursor=3D(fActive?"default":"hand");
+    color=3Dc_rgszClr[3];
+   }
+  }
+ }
+}
+
+function fnMouseOverScroll(iCtl)
+{
+ frames['frScroll'].document.all.tdScroll[iCtl].style.color=3Dc_rgszClr[7];
+}
+
+function fnMouseOutScroll(iCtl)
+{
+ frames['frScroll'].document.all.tdScroll[iCtl].style.color=3Dc_rgszClr[6];
+}
+
+function fnMouseOverTab(iTab)
+{
+ if (iTab!=3Dg_iShCur) {
+  var iCol=3DfnTabToCol(iTab);
+  with (frames['frTabs'].document.all) {
+   tdTab[iTab].style.background=3Dc_rgszClr[5];
+  }
+ }
+}
+
+function fnMouseOutTab(iTab)
+{
+ if (iTab>=3D0) {
+  var elFrom=3Dframes['frTabs'].event.srcElement;
+  var elTo=3Dframes['frTabs'].event.toElement;
+
+  if ((!elTo) ||
+   (elFrom.tagName=3D=3DelTo.tagName) ||
+   (elTo.tagName=3D=3D"A" && elTo.parentElement!=3DelFrom) ||
+   (elFrom.tagName=3D=3D"A" && elFrom.parentElement!=3DelTo)) {
+
+   if (iTab!=3Dg_iShCur) {
+    with (frames['frTabs'].document.all) {
+     tdTab[iTab].style.background=3Dc_rgszClr[1];
+    }
+   }
+  }
+ }
+}
+
+function fnSetActiveSheet(iSh)
+{
+ if (iSh!=3Dg_iShCur) {
+  fnSetTabProps(g_iShCur,false);
+  fnSetTabProps(iSh,true);
+  g_iShCur=3DiSh;
+ }
+}
+
+ window.g_iIEVer=3DfnGetIEVer();
+ if (window.g_iIEVer>=3D4)
+  fnBuildFrameset();
+//-->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>8D&#25253;&#21578;</x:Name>
+    <x:WorksheetSource HRef=3D"file8639.files/sheet001.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>&#22635;&#20889;&#35828;&#26126;</x:Name>
+    <x:WorksheetSource HRef=3D"file8639.files/sheet002.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetSource HRef=3D"file8639.files/sheet003.htm"/>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:Stylesheet HRef=3D"file8639.files/stylesheet.css"/>
+  <x:WindowHeight>8850</x:WindowHeight>
+  <x:WindowWidth>12120</x:WindowWidth>
+  <x:WindowTopX>120</x:WindowTopX>
+  <x:WindowTopY>120</x:WindowTopY>
+  <x:TabRatio>851</x:TabRatio>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+ <x:ExcelName>
+  <x:Name>Print_Area</x:Name>
+  <x:SheetIndex>1</x:SheetIndex>
+  <x:Formula>=3D'8D&#25253;&#21578;'!$A$1:$K$28</x:Formula>
+ </x:ExcelName>
+</xml><![endif]-->
+</head>
+
+<frameset rows=3D"*,39" border=3D0 width=3D0 frameborder=3Dno framespacing=
+=3D0>
+ <frame src=3D"file8639.files/sheet001.htm" name=3D"frSheet">
+ <frame src=3D"file8639.files/tabstrip.htm" name=3D"frTabs" marginwidth=3D0=
+ marginheight=3D0>
+ <noframes>
+  <body>
+   <p>&#27492;&#39029;&#38754;&#20351;&#29992;&#20102;&#26694;&#26550;&#652=
+92;&#32780;&#24744;&#30340;&#27983;&#35272;&#22120;&#19981;&#25903;&#25345;=
+&#26694;&#26550;&#12290;</p>
+  </body>
+ </noframes>
+</frameset>
+</html>
+
+------=_NextPart_01CE64FB.7292DF40
+Content-Location: file:///C:/6EDABB9F/file8639.files/stylesheet.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css; charset="us-ascii"
+
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+ruby
+	{ruby-align:left;}
+.style21
+	{background:#FF99CC;
+	mso-pattern:auto none;
+	color:purple;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-style-name:\5DEE;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Cordia New", sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:\5E38\89C4;
+	mso-style-id:0;}
+.style22
+	{background:#FFFF99;
+	mso-pattern:auto none;
+	color:#993300;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-style-name:\9002\4E2D;}
+.font5
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font10
+	{color:black;
+	font-size:24.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Cordia New", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl26
+	{mso-style-parent:style0;
+	color:black;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	white-space:normal;}
+.xl27
+	{mso-style-parent:style0;
+	color:black;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl28
+	{mso-style-parent:style0;
+	color:black;
+	font-size:22.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	white-space:normal;}
+.xl29
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	white-space:normal;}
+.xl30
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;}
+.xl31
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	white-space:normal;}
+.xl32
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl33
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl34
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl35
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl36
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"Short Date";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl37
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl38
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl39
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl40
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl41
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl42
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl43
+	{mso-style-parent:style0;
+	color:black;
+	font-size:24.0pt;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	white-space:normal;}
+.xl44
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	white-space:normal;}
+.xl45
+	{mso-style-parent:style22;
+	color:black;
+	font-size:20.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl46
+	{mso-style-parent:style0;
+	color:black;
+	font-size:20.0pt;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl47
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl48
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:1.0pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl49
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl50
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl51
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl52
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl53
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl54
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl55
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl56
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl57
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl58
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl59
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl60
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl61
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl62
+	{mso-style-parent:style22;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl63
+	{mso-style-parent:style22;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl64
+	{mso-style-parent:style22;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl65
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl66
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl67
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl68
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	white-space:normal;}
+.xl69
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl70
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl71
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl72
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl73
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl74
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl75
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl76
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl77
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl78
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl79
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"Short Date";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"Short Date";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl82
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl83
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:top;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl84
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl85
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl86
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl87
+	{mso-style-parent:style22;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl88
+	{mso-style-parent:style22;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl89
+	{mso-style-parent:style22;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl90
+	{mso-style-parent:style22;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl91
+	{mso-style-parent:style22;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl92
+	{mso-style-parent:style22;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl93
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl94
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl95
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl96
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl97
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl98
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl99
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl100
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl101
+	{mso-style-parent:style21;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl102
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl103
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl104
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl105
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl106
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl107
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl108
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl109
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl110
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl111
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl112
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl113
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl114
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl115
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl116
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl117
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl118
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl119
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl120
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid black;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl121
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl122
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl123
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl124
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl125
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl126
+	{mso-style-parent:style0;
+	color:green;
+	font-size:12.0pt;
+	white-space:normal;}
+.xl127
+	{mso-style-parent:style0;
+	color:blue;
+	font-size:12.0pt;
+	white-space:normal;}
+.xl128
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	white-space:normal;}
+.xl129
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	white-space:normal;}
+.xl130
+	{mso-style-parent:style0;
+	color:red;
+	font-size:12.0pt;
+	white-space:normal;}
+.xl131
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	white-space:normal;}
+.xl132
+	{mso-style-parent:style0;
+	color:blue;
+	font-size:12.0pt;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	white-space:normal;}
+.xl133
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	white-space:normal;}
+.xl134
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	white-space:normal;}
+.xl135
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	white-space:normal;}
+.xl136
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl137
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl138
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl139
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl140
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+
+------=_NextPart_01CE64FB.7292DF40
+Content-Location: file:///C:/6EDABB9F/file8639.files/tabstrip.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html>
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 11">
+<link id=3DMain-File rel=3DMain-File href=3D"../file8639.htm">
+<![if IE]>
+<base href=3D"file:///C:\6EDABB9F\file8639.files\tabstrip.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<script language=3D"JavaScript">
+<!--
+if (window.name!=3D"frTabs")
+ window.location.replace(document.all.item("Main-File").href);
+//-->
+</script>
+<style>
+<!--
+A {
+    text-decoration:none;
+    color:#000000;
+    font-size:9pt;
+}
+-->
+</style>
+</head>
+<body topmargin=3D0 leftmargin=3D0 bgcolor=3D"#808080">
+<table border=3D0 cellspacing=3D1>
+ <tr>
+ <td bgcolor=3D"#FFFFFF" nowrap><b><small><small>&nbsp;<a href=3D"sheet001.=
+htm" target=3D"frSheet"><font face=3D"&#23435;&#20307;" color=3D"#000000">8=
+D&#25253;&#21578;</font></a>&nbsp;</small></small></b></td>
+ <td bgcolor=3D"#FFFFFF" nowrap><b><small><small>&nbsp;<a href=3D"sheet002.=
+htm" target=3D"frSheet"><font face=3D"&#23435;&#20307;" color=3D"#000000">&=
+#22635;&#20889;&#35828;&#26126;</font></a>&nbsp;</small></small></b></td>
+ <td bgcolor=3D"#FFFFFF" nowrap><b><small><small>&nbsp;<a href=3D"sheet003.=
+htm" target=3D"frSheet"><font face=3D"&#23435;&#20307;" color=3D"#000000">S=
+heet1</font></a>&nbsp;</small></small></b></td>
+
+ </tr>
+</table>
+</body>
+</html>
+
+------=_NextPart_01CE64FB.7292DF40
+Content-Location: file:///C:/6EDABB9F/file8639.files/sheet001.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 11">
+<link id=3DMain-File rel=3DMain-File href=3D"../file8639.htm">
+<link rel=3DFile-List href=3Dfilelist.xml>
+<link rel=3DEdit-Time-Data href=3Deditdata.mso>
+<![if IE]>
+<base href=3D"file:///C:\6EDABB9F\file8639.files\sheet001.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<link rel=3DStylesheet href=3Dstylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.8in .12in .31in .12in;
+	mso-header-margin:1.22in;
+	mso-footer-margin:.51in;
+	mso-horizontal-page-align:center;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Cordia New", sans-serif;
+	mso-font-charset:0;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<![if !supportTabStrip]><script language=3D"JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3D4) {
+   if (parent.document.readyState=3D=3D"complete"
+    && parent.frames['frTabs'].document.readyState=3D=3D"complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3D"frSheet")
+ window.location.replace("../file8639.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:WorksheetOptions>
+  <x:DefaultRowHeight>375</x:DefaultRowHeight>
+  <x:StandardWidth>3328</x:StandardWidth>
+  <x:Print>
+   <x:ValidPrinterInfo/>
+   <x:PaperSizeIndex>9</x:PaperSizeIndex>
+   <x:Scale>50</x:Scale>
+   <x:HorizontalResolution>600</x:HorizontalResolution>
+   <x:VerticalResolution>600</x:VerticalResolution>
+  </x:Print>
+  <x:Zoom>59</x:Zoom>
+  <x:PageBreakZoom>70</x:PageBreakZoom>
+  <x:Selected/>
+  <x:DoNotDisplayGridlines/>
+  <x:TopRowVisible>15</x:TopRowVisible>
+  <x:Panes>
+   <x:Pane>
+    <x:Number>3</x:Number>
+    <x:ActiveRow>19</x:ActiveRow>
+    <x:ActiveCol>7</x:ActiveCol>
+   </x:Pane>
+  </x:Panes>
+  <x:ProtectContents>False</x:ProtectContents>
+  <x:ProtectObjects>False</x:ProtectObjects>
+  <x:ProtectScenarios>False</x:ProtectScenarios>
+ </x:WorksheetOptions>
+ <x:PageBreaks>
+  <x:RowBreaks>
+   <x:RowBreak>
+    <x:Row>28</x:Row>
+   </x:RowBreak>
+  </x:RowBreaks>
+ </x:PageBreaks>
+</xml><![endif]-->
+</head>
+
+<body link=3Dblue vlink=3Dpurple class=3Dxl26>
+
+<table x:str border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D1525 style=
+=3D'border-collapse:
+ collapse;table-layout:fixed;width:1145pt'>
+ <col class=3Dxl27 width=3D298 style=3D'mso-width-source:userset;mso-width-=
+alt:10898;
+ width:224pt'>
+ <col class=3Dxl26 width=3D110 style=3D'mso-width-source:userset;mso-width-=
+alt:4022;
+ width:83pt'>
+ <col class=3Dxl26 width=3D146 style=3D'mso-width-source:userset;mso-width-=
+alt:5339;
+ width:110pt'>
+ <col class=3Dxl26 width=3D77 style=3D'mso-width-source:userset;mso-width-a=
+lt:2816;
+ width:58pt'>
+ <col class=3Dxl26 width=3D61 style=3D'mso-width-source:userset;mso-width-a=
+lt:2230;
+ width:46pt'>
+ <col class=3Dxl26 width=3D203 style=3D'mso-width-source:userset;mso-width-=
+alt:7424;
+ width:152pt'>
+ <col class=3Dxl26 width=3D60 style=3D'mso-width-source:userset;mso-width-a=
+lt:2194;
+ width:45pt'>
+ <col class=3Dxl26 width=3D156 style=3D'mso-width-source:userset;mso-width-=
+alt:5705;
+ width:117pt'>
+ <col class=3Dxl26 width=3D148 style=3D'mso-width-source:userset;mso-width-=
+alt:5412;
+ width:111pt'>
+ <col class=3Dxl26 width=3D151 style=3D'mso-width-source:userset;mso-width-=
+alt:5522;
+ width:113pt'>
+ <col class=3Dxl26 width=3D115 style=3D'mso-width-source:userset;mso-width-=
+alt:4205;
+ width:86pt'>
+ <tr class=3Dxl28 height=3D42 style=3D'height:31.5pt'>
+  <td colspan=3D11 height=3D42 class=3Dxl43 width=3D1525 style=3D'height:31=
+.5pt;
+  width:1145pt'>&#20107;&#25925;<font class=3D"font10">/&#20107;&#20214;8D&=
+#25253;&#21578;</font></td>
+ </tr>
+ <tr class=3Dxl28 height=3D42 style=3D'height:31.5pt'>
+  <td colspan=3D11 height=3D42 class=3Dxl43 width=3D1525 style=3D'height:31=
+.5pt;
+  width:1145pt'>8D REPORT: INCIDENT/ACCIDENT</td>
+ </tr>
+ <tr height=3D25 style=3D'height:18.75pt'>
+  <td height=3D25 colspan=3D11 class=3Dxl26 style=3D'height:18.75pt;mso-ign=
+ore:colspan'></td>
+ </tr>
+ <tr class=3Dxl29 height=3D30 style=3D'height:22.5pt'>
+  <td colspan=3D7 height=3D30 class=3Dxl44 width=3D955 style=3D'height:22.5=
+pt;width:718pt'>&#26412;&#25253;&#21578;&#22312;&#20107;&#25925;/&#20107;&#=
+20214;&#21457;&#29983;&#19968;&#21608;&#20869;&#25552;&#20132;&#30005;&#233=
+76;&#29256;&#26412;&#25110;&#22797;&#21360;&#29256;&#26412;&#65292;&#20107;=
+&#25925;/&#20107;&#20214;&#23436;&#20840;&#20851;&#38381;&#21518;&#32463;&#=
+31614;&#26680;&#25552;&#20132;&#23436;&#25972;&#29256;&#26412;&#12290;</td>
+  <td class=3Dxl30>&#25991;&#20214;&#32534;&#21495;&#65306;</td>
+  <td class=3Dxl29 width=3D148 style=3D'width:111pt'>FY1307006</td>
+  <td colspan=3D2 class=3Dxl29 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl31 height=3D45 style=3D'mso-height-source:userset;height:33.=
+75pt'>
+  <td colspan=3D2 height=3D45 class=3Dxl45 width=3D408 style=3D'height:33.7=
+5pt;
+  width:307pt'>&#21019;&#24314;&#38382;&#39064;</td>
+  <td colspan=3D4 class=3Dxl46 width=3D487 style=3D'width:366pt'>&#21271;&#=
+20140;&#27743;&#26862;&#27773;&#36710;&#37096;&#20214;&#26377;&#38480;&#208=
+44;&#21496;</td>
+  <td colspan=3D5 class=3Dxl31 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl31 height=3D68 style=3D'mso-height-source:userset;height:51.=
+0pt'>
+  <td colspan=3D2 height=3D68 class=3Dxl47 width=3D408 style=3D'border-righ=
+t:.5pt solid black;
+  height:51.0pt;width:307pt'>&#21463;&#20260;&#20154;(Name of Injured
+  Person):&#38047&#25935</td>
+  <td colspan=3D4 class=3Dxl50 width=3D487 style=3D'border-right:.5pt solid=
+ black;
+  border-left:none;width:366pt'>&#24037;&#21495;(Employee ID): BJC0002566=
+</td>
+  <td colspan=3D5 class=3Dxl50 width=3D630 style=3D'border-right:1.0pt soli=
+d black;
+  border-left:none;width:472pt'>&#24180;&#40836;(Age):0</td>
+ </tr>
+ <tr class=3Dxl31 height=3D68 style=3D'mso-height-source:userset;height:51.=
+0pt'>
+  <td colspan=3D2 height=3D68 class=3Dxl52 width=3D408 style=3D'border-righ=
+t:.5pt solid black;
+  height:51.0pt;width:307pt'>&#20107;&#25925;&#26085;&#26399;(Date of
+  Accident): 2013-07-02</td>
+  <td colspan=3D4 class=3Dxl55 width=3D487 style=3D'border-right:.5pt solid=
+ black;
+  border-left:none;width:366pt'>&#20107;&#25925;&#26102;&#38388;(Time of
+  Accident): 16:30:0</td>
+  <td colspan=3D5 class=3Dxl55 width=3D630 style=3D'border-right:1.0pt soli=
+d black;
+  border-left:none;width:472pt'>&#24403;&#20107;&#20154;(Accident Witnes):
+  &#38047&#25935</td>
+ </tr>
+ <tr class=3Dxl31 height=3D102 style=3D'mso-height-source:userset;height:76=
+.5pt'>
+  <td colspan=3D2 height=3D102 class=3Dxl58 width=3D408 style=3D'border-rig=
+ht:.5pt solid black;
+  height:76.5pt;width:307pt'>&#20107;&#25925;&#21457;&#29983;&#21306;&#2249=
+5;(Location
+  of Accident): &#21271&#20140&#27743&#26862&#28699&#28023&#24037&#21378&#25104&#21697&#21457&#36816&#21306</td>
+  <td colspan=3D4 class=3Dxl55 width=3D487 style=3D'border-right:.5pt solid=
+ black;
+  border-left:none;width:366pt'>&#30456;&#20851;&#35774;&#26045;/&#35774;&#=
+22791;(Machine/Equipment
+  Involved):&#39030&#34924&#21457&#36816&#25104&#21697&#24037&#35013&#36710</td>
+  <td colspan=3D5 class=3Dxl55 width=3D630 style=3D'border-right:1.0pt soli=
+d black;
+  border-left:none;width:472pt'>&#20260;&#23475;&#31867;&#22411;(Nature of
+  Injury): &#29289&#26009&#25644&#36816</td>
+ </tr>
+ <tr class=3Dxl31 height=3D81 style=3D'height:60.75pt'>
+  <td height=3D81 class=3Dxl32 width=3D298 style=3D'height:60.75pt;width:22=
+4pt'>1.
+  &#23567;&#32452; Team</td>
+  <td colspan=3D4 class=3Dxl60 width=3D394 style=3D'border-right:.5pt solid=
+ black;
+  border-left:none;width:297pt' x:str=3D"2. &#20107;&#25925;&#25551;&#36848=
+; Description of Accident ">2.
+  &#20107;&#25925;&#25551;&#36848; Description of Accident<span
+  style=3D'mso-spacerun:yes'>&nbsp;</span></td>
+  <td colspan=3D5 class=3Dxl63 width=3D718 style=3D'border-right:.5pt solid=
+ black;
+  border-left:none;width:538pt'>3. &#20020;&#26102;&#25514;&#26045; Contain=
+ment
+  Action (s)</td>
+  <td class=3Dxl33 width=3D115 style=3D'width:86pt'>&#25191;&#34892;&#26085=
+;&#26399;<br>
+    Implement Date</td>
+ </tr>
+ <tr class=3Dxl31 height=3D54 style=3D'height:40.5pt'>
+  <td height=3D54 class=3Dxl34 width=3D298 style=3D'height:40.5pt;width:224=
+pt'>&#23567;&#32452;&#38271;
+  Team Leader &nbsp;</td>
+  <td colspan=3D4 rowspan=3D4 class=3Dxl65 width=3D394 style=3D'border-bott=
+om:.5pt solid black;
+  width:297pt'>&#20107&#21457&#24403&#26102&#65292&#35813&#21592&#24037&#27491&#22312&#20174&#20107&#31354&#36710&#36820&#22238&#30340&#24037&#20316&#65292&#22312&#25289&#21160&#36710&#30340&#36807&#31243&#20013&#65292&#24037&#35013&#36710&#21069&#36718&#29359&#21345&#65292&#35813&#21592&#24037&#29992&#21147&#24448&#21069&#25289&#21160&#65292&#24037&#35013&#36710&#24213&#37096&#19982&#35813&#21592&#24037&#33050&#21518&#37096&#25509&#35302&#65292&#35813&#21592&#24037&#24863&#35273&#33050&#37096&#30140&#30171&#65292&#24403&#26102&#26410&#35265&#32418&#32959&#21450&#20854&#23427&#38382&#39064&#65292&#24182&#19988&#32487&#32493&#24178&#27963&#21040&#53&#58&#51&#48&#19979&#29677&#26102&#38388&#12290&#31532&#20108&#22825&#26089&#19978&#21457&#29616&#33050&#37096&#32959&#32960&#65292&#24182&#19988&#31435&#21363&#21435&#21307&#38498&#26816&#26597&#12290</td>
+  <td rowspan=3D2 class=3Dxl71 width=3D203 style=3D'border-bottom:.5pt soli=
+d black;
+  border-top:none;width:152pt'>&#24212;&#24613;&#21709;&#24212;Emergency
+  Response</td>
+  <td colspan=3D4 rowspan=3D2 class=3Dxl73 width=3D515 style=3D'border-righ=
+t:.5pt solid black;
+  border-bottom:.5pt solid black;width:386pt'>&#49&#46&#30830&#35748&#21482&#26377&#33050&#37096&#30140&#30171&#65292&#26410&#35265&#32418&#32959&#21450&#20854&#23427&#38382&#39064&#65292&#33021&#27491&#24120&#27963&#21160&#12290</td>
+  <td rowspan=3D2 class=3Dxl79 width=3D115 style=3D'border-bottom:.5pt soli=
+d black;
+  border-top:none;width:86pt'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl31 height=3D75 style=3D'mso-height-source:userset;height:56.=
+25pt'>
+  <td rowspan=3D3 height=3D287 class=3Dxl82 width=3D298 style=3D'border-bot=
+tom:.5pt solid black;
+  height:215.25pt;border-top:none;width:224pt'>&#23567;&#32452;&#25104;&#21=
+592;
+  Team Member <br/>&#24464&#33391&#47&#76&#105&#97&#110&#103&#32&#88&#117</td>
+ </tr>
+ <tr class=3Dxl31 height=3D106 style=3D'mso-height-source:userset;height:79=
+.5pt'>
+  <td height=3D106 class=3Dxl35 width=3D203 style=3D'height:79.5pt;width:15=
+2pt'>&#20869;&#22806;&#37096;&#27807;&#36890;Communication</td>
+  <td colspan=3D4 class=3Dxl85 width=3D515 style=3D'border-right:.5pt solid=
+ black;
+  border-left:none;width:386pt'>&#49&#46&#9&#19982&#20854&#20182&#19968&#20999&#20174&#20107&#24037&#35013&#36710&#36716&#31227&#30340&#21592&#24037&#27807&#36890&#27492&#20107&#65292&#25552&#37266&#27880&#24847&#25289&#36710&#23433&#20840&#10&#50&#46&#9&#22312&#24037&#20316&#20013&#21457&#29616&#20219&#20309&#38382&#39064&#36710&#36742&#65292&#21450&#26102&#30830&#35748&#38382&#39064&#65292&#21450&#26102&#25253&#20462</td>
+  <td class=3Dxl36 width=3D115 style=3D'width:86pt'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl31 height=3D106 style=3D'mso-height-source:userset;height:79=
+.5pt'>
+  <td height=3D106 class=3Dxl37 width=3D203 style=3D'height:79.5pt;width:15=
+2pt'>&#20020;&#26102;&#25514;&#26045;Temporary
+  Action</td>
+  <td colspan=3D4 class=3Dxl85 width=3D515 style=3D'border-right:.5pt solid=
+ black;
+  border-left:none;width:386pt'>&#38548&#31163&#50&#51&#21495&#24037&#35013&#36710</td>
+  <td class=3Dxl36 width=3D115 style=3D'width:86pt'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl31 height=3D60 style=3D'mso-height-source:userset;height:45.=
+0pt'>
+  <td colspan=3D4 rowspan=3D2 height=3D180 class=3Dxl87 width=3D631 style=
+=3D'border-right:
+  .5pt solid black;border-bottom:.5pt solid black;height:135.0pt;width:475p=
+t'>4.
+  &#21407;&#22240;Root Cause (s)</td>
+  <td colspan=3D7 class=3Dxl93 width=3D894 style=3D'border-right:1.0pt soli=
+d black;
+  border-left:none;width:670pt'>5/6.<span style=3D'mso-spacerun:yes'>&nbsp;
+  </span>&#30830;&#23450;&#38271;&#26399;&#32416;&#27491;&#25514;&#26045;&#=
+21644;&#23454;&#26045;&#39564;&#35777;Permanent
+  Corrective Action(s) and verification</td>
+ </tr>
+ <tr class=3Dxl31 height=3D120 style=3D'mso-height-source:userset;height:90=
+.0pt'>
+  <td colspan=3D3 height=3D120 class=3Dxl93 width=3D324 style=3D'border-rig=
+ht:.5pt solid black;
+  height:90.0pt;border-left:none;width:243pt'>&#32416;&#27491;&#25514;&#260=
+45;Corrective
+  Action</td>
+  <td class=3Dxl38 width=3D156 style=3D'width:117pt' x:str=3D"&#36127;&#361=
+31;&#20154;Responsible ">&#36127;&#36131;&#20154;Responsible<span
+  style=3D'mso-spacerun:yes'>&nbsp;</span></td>
+  <td class=3Dxl38 width=3D148 style=3D'width:111pt'>&#35745;&#21010;&#2343=
+6;&#25104;&#26102;&#38388;
+  Planned Date</td>
+  <td class=3Dxl38 width=3D151 style=3D'width:113pt'>&#23454;&#38469;&#2343=
+6;&#25104;&#26085;&#26399;<br>
+    Actual Date</td>
+  <td class=3Dxl33 width=3D115 style=3D'width:86pt'>&#23436;&#25104;&#39564=
+;&#35777;&#35777;&#25454;verification</td>
+ </tr>
+ <tr class=3Dxl31 height=3D121 style=3D'mso-height-source:userset;height:90=
+.75pt'>
+  <td height=3D121 class=3Dxl39 width=3D298 style=3D'height:90.75pt;width:2=
+24pt'><span
+  style=3D'mso-spacerun:yes'>&nbsp;</span>&#39046;&#23548;&#21147;Leadershi=
+p<br>
+    &#65288;&#20154;Man&#65289;</td>
+  <td colspan=3D3 class=3Dxl96 width=3D333 style=3D'border-right:.5pt solid=
+ black;
+  border-left:none;width:251pt'></td>
+  <td colspan=3D3 class=3Dxl100 width=3D324 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:243pt'>&#23558&#29616&#26377&#24037&#35013&#36710&#25913&#36827&#24182&#36827&#34892&#35780&#23457</td>
+  <td class=3Dxl40 width=3D156 style=3D'width:117pt'>&#21556&#26107&#47&#74&#97&#99&#107&#115&#111&#110&#32&#87&#117</td>
+  <td class=3Dxl40 width=3D148 style=3D'width:111pt'>2013-07-09</td>
+  <td class=3Dxl40 width=3D151 style=3D'width:113pt'>2013-07-09</td>
+  <td class=3Dxl41 width=3D115 style=3D'width:86pt'>&#105&#109&#103&#95&#53&#57&#48&#57&#46&#106&#112&#103</td>
+ </tr>
+ <tr class=3Dxl31 height=3D143 style=3D'mso-height-source:userset;height:10=
+7.25pt'>
+  <td height=3D143 class=3Dxl39 width=3D298 style=3D'height:107.25pt;width:=
+224pt'
+  x:str=3D"&#26465;&#20214;&#21644;&#31995;&#32479;Condition&amp;Systems&#1=
+0;&#65288;&#26426;/&#26009;/&#29615;Machine/ Material/Environment&#65289; "=
+>&#26465;&#20214;&#21644;&#31995;&#32479;Condition&amp;Systems<br>
+    &#65288;&#26426;/&#26009;/&#29615;Machine/
+  Material/Environment&#65289;<span style=3D'mso-spacerun:yes'>&nbsp;</span=
+></td>
+  <td colspan=3D3 class=3Dxl103 width=3D333 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:251pt'>&#25913&#35013&#25152&#26377&#39030&#34924&#25104&#21697&#24037&#35013&#36710&#65292&#22686&#21152&#24037&#35013&#36710&#20004&#20391&#25289&#21160&#25226&#25163&#12290&#20351&#21592&#24037&#22312&#25289&#21160&#26102&#65292&#31449&#22312&#24037&#35013&#36710&#20391&#38754&#65292&#38450&#27490&#24037&#35013&#36710&#19982&#21592&#24037&#25509&#35302&#12290</td>
+  <td colspan=3D3 class=3Dxl100 width=3D324 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:243pt'>&#25209&#37327&#25913&#36827&#29616&#26377&#24037&#35013&#36710</td>
+  <td class=3Dxl40 width=3D156 style=3D'width:117pt'>&#21556&#26107&#47&#74&#97&#99&#107&#115&#111&#110&#32&#87&#117</td>
+  <td class=3Dxl40 width=3D148 style=3D'width:111pt'>2013-08-30</td>
+  <td class=3Dxl40 width=3D151 style=3D'width:113pt'></td>
+  <td class=3Dxl41 width=3D115 style=3D'width:86pt'></td>
+ </tr>
+ <tr class=3Dxl31 height=3D140 style=3D'mso-height-source:userset;height:10=
+5.0pt'>
+  <td height=3D140 class=3Dxl39 width=3D298 style=3D'height:105.0pt;width:2=
+24pt'
+  x:str=3D"&#31649;&#29702;&#31243;&#24207;Management Process&#10;&#65288;&=
+#27861;/&#27979;Method/Measurement&#65289; ">&#31649;&#29702;&#31243;&#2420=
+7;Management
+  Process<br>
+    &#65288;&#27861;/&#27979;Method/Measurement&#65289;<span
+  style=3D'mso-spacerun:yes'>&nbsp;</span></td>
+  <td colspan=3D3 class=3Dxl103 width=3D333 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:251pt'>&#22521&#35757&#21592&#24037&#20174&#24037&#35013&#36710&#20391&#38754&#25289&#21160&#12290</td>
+  <td colspan=3D3 class=3Dxl100 width=3D324 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:243pt'>&nbsp;</td>
+  <td class=3Dxl40 width=3D156 style=3D'width:117pt'>&nbsp;</td>
+  <td class=3Dxl40 width=3D148 style=3D'width:111pt'>&nbsp;</td>
+  <td class=3Dxl40 width=3D151 style=3D'width:113pt'>&nbsp;</td>
+  <td class=3Dxl41 width=3D115 style=3D'width:86pt'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl31 height=3D121 style=3D'mso-height-source:userset;height:90=
+.75pt'>
+  <td height=3D121 class=3Dxl39 width=3D298 style=3D'height:90.75pt;width:2=
+24pt'>&#21592;&#24037;&#21442;&#19982;
+  Employee Engagement<br>
+    &#65288;&#20154;Man&#65289;</td>
+  <td colspan=3D3 class=3Dxl103 width=3D333 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:251pt'></td>
+  <td colspan=3D3 class=3Dxl100 width=3D324 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:243pt'>&nbsp;</td>
+  <td class=3Dxl40 width=3D156 style=3D'width:117pt'>&nbsp;</td>
+  <td class=3Dxl40 width=3D148 style=3D'width:111pt'>&nbsp;</td>
+  <td class=3Dxl40 width=3D151 style=3D'width:113pt'>&nbsp;</td>
+  <td class=3Dxl41 width=3D115 style=3D'width:86pt'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl31 height=3D121 style=3D'mso-height-source:userset;height:90=
+.75pt'>
+  <td height=3D121 class=3Dxl39 width=3D298 style=3D'height:90.75pt;width:2=
+24pt'>&#34892;&#20026;Behavior<br>
+    &#65288;&#20154;Man&#65289;</td>
+  <td colspan=3D3 class=3Dxl103 width=3D333 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:251pt'></td>
+  <td colspan=3D3 class=3Dxl100 width=3D324 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:243pt'>&nbsp;</td>
+  <td class=3Dxl40 width=3D156 style=3D'width:117pt'>&nbsp;</td>
+  <td class=3Dxl40 width=3D148 style=3D'width:111pt'>&nbsp;</td>
+  <td class=3Dxl40 width=3D151 style=3D'width:113pt'>&nbsp;</td>
+  <td class=3Dxl41 width=3D115 style=3D'width:86pt'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl31 height=3D75 style=3D'mso-height-source:userset;height:56.=
+25pt'>
+  <td colspan=3D3 height=3D75 class=3Dxl105 width=3D554 style=3D'border-rig=
+ht:.5pt solid black;
+  height:56.25pt;width:417pt'>7. &#39044;&#38450;&#20877;&#21457;&#29983;Ac=
+tion
+  to Prevent Recurrence</td>
+  <td colspan=3D8 class=3Dxl108 width=3D971 style=3D'border-right:1.0pt sol=
+id black;
+  border-left:none;width:728pt'>8&#12289;&#29031;&#29255;&#21644;&#20854;&#=
+20182;
+  Photoes and others</td>
+ </tr>
+ <tr class=3Dxl31 height=3D27 style=3D'height:20.25pt'>
+  <td colspan=3D3 rowspan=3D5 height=3D135 class=3Dxl110 width=3D554 style=
+=3D'border-right:
+  .5pt solid black;border-bottom:.5pt solid black;height:101.25pt;width:417=
+pt'>&nbsp;</td>
+  <td colspan=3D8 rowspan=3D5 class=3Dxl118 width=3D971 style=3D'border-rig=
+ht:1.0pt solid black;
+  border-bottom:.5pt solid black;width:728pt'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl31 height=3D27 style=3D'height:20.25pt'>
+ </tr>
+ <tr class=3Dxl31 height=3D27 style=3D'height:20.25pt'>
+ </tr>
+ <tr class=3Dxl31 height=3D27 style=3D'height:20.25pt'>
+ </tr>
+ <tr class=3Dxl31 height=3D27 style=3D'height:20.25pt'>
+ </tr>
+ <tr class=3Dxl31 height=3D123 style=3D'mso-height-source:userset;height:92=
+.25pt'>
+  <td height=3D123 class=3Dxl42 width=3D298 style=3D'height:92.25pt;width:2=
+24pt'
+  x:str=3D"&#32844;&#33021;&#32463;&#29702;&#10;Funcation Manager: ">&#3284=
+4;&#33021;&#32463;&#29702;<br>
+    Funcation Manager:<span style=3D'mso-spacerun:yes'>&nbsp;</span></td>
+  <td colspan=3D4 class=3Dxl124 width=3D394 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:297pt'></td>
+  <td colspan=3D2 class=3Dxl136 width=3D263 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:197pt' x:str=3D"&#21327;&#35843;&#21592;&#10;Coord=
+inator: ">&#21327;&#35843;&#21592;<br>
+    Coordinator:<span style=3D'mso-spacerun:yes'>&nbsp;</span></td>
+  <td colspan=3D4 class=3Dxl138 width=3D570 style=3D'border-right:.5pt soli=
+d black;
+  border-left:none;width:427pt'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D298 style=3D'width:224pt'></td>
+  <td width=3D110 style=3D'width:83pt'></td>
+  <td width=3D146 style=3D'width:110pt'></td>
+  <td width=3D77 style=3D'width:58pt'></td>
+  <td width=3D61 style=3D'width:46pt'></td>
+  <td width=3D203 style=3D'width:152pt'></td>
+  <td width=3D60 style=3D'width:45pt'></td>
+  <td width=3D156 style=3D'width:117pt'></td>
+  <td width=3D148 style=3D'width:111pt'></td>
+  <td width=3D151 style=3D'width:113pt'></td>
+  <td width=3D115 style=3D'width:86pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
+
+------=_NextPart_01CE64FB.7292DF40
+Content-Location: file:///C:/6EDABB9F/file8639.files/sheet002.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 11">
+<link id=3DMain-File rel=3DMain-File href=3D"../file8639.htm">
+<link rel=3DFile-List href=3Dfilelist.xml>
+<link rel=3DEdit-Time-Data href=3Deditdata.mso>
+<![if IE]>
+<base href=3D"file:///C:\6EDABB9F\file8639.files\sheet002.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<link rel=3DStylesheet href=3Dstylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<![if !supportTabStrip]><script language=3D"JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3D4) {
+   if (parent.document.readyState=3D=3D"complete"
+    && parent.frames['frTabs'].document.readyState=3D=3D"complete")
+   parent.fnSetActiveSheet(1);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3D"frSheet")
+ window.location.replace("../file8639.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:WorksheetOptions>
+  <x:DefaultRowHeight>375</x:DefaultRowHeight>
+  <x:StandardWidth>2267</x:StandardWidth>
+  <x:Print>
+   <x:ValidPrinterInfo/>
+   <x:PaperSizeIndex>9</x:PaperSizeIndex>
+   <x:HorizontalResolution>600</x:HorizontalResolution>
+   <x:VerticalResolution>0</x:VerticalResolution>
+  </x:Print>
+  <x:Panes>
+   <x:Pane>
+    <x:Number>3</x:Number>
+    <x:ActiveRow>26</x:ActiveRow>
+   </x:Pane>
+  </x:Panes>
+  <x:ProtectContents>False</x:ProtectContents>
+  <x:ProtectObjects>False</x:ProtectObjects>
+  <x:ProtectScenarios>False</x:ProtectScenarios>
+ </x:WorksheetOptions>
+</xml><![endif]-->
+</head>
+
+<body link=3Dblue vlink=3Dpurple class=3Dxl126>
+
+<table x:str border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D1112 style=
+=3D'border-collapse:
+ collapse;table-layout:fixed;width:836pt'>
+ <col class=3Dxl126 width=3D570 style=3D'mso-width-source:userset;mso-width=
+-alt:20845;
+ width:428pt'>
+ <col class=3Dxl126 width=3D418 style=3D'mso-width-source:userset;mso-width=
+-alt:15286;
+ width:314pt'>
+ <col class=3Dxl126 width=3D62 span=3D2 style=3D'width:47pt'>
+ <tr class=3Dxl127 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl129 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>1&#12289;&#20020;&#26102;&#25514;&#26045;&#21253;&#25324;
+  Containment Action (s) include</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'></td>
+  <td class=3Dxl127 width=3D62 style=3D'width:47pt'></td>
+  <td class=3Dxl127 width=3D62 style=3D'width:47pt'></td>
+ </tr>
+ <tr class=3Dxl130 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td colspan=3D2 height=3D37 class=3Dxl134 width=3D988 style=3D'height:27.=
+75pt;
+  width:742pt'>&#21307;&#30103;&#24212;&#24613;&#21709;&#24212;<font
+  class=3D"font5">&#65306;&#20107;&#25925;&#21457;&#29983;&#21518;&#24403;&=
+#22330;&#37319;&#21462;&#30340;&#24212;&#24613;&#25514;&#26045;&#65292;&#21=
+253;&#25324;&#25250;&#25937;&#20260;&#21592;&#12289;&#36865;&#24448;&#21307=
+;&#38498;&#31561;</font></td>
+  <td colspan=3D2 class=3Dxl130 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl127 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td colspan=3D2 height=3D37 class=3Dxl134 width=3D988 style=3D'height:27.=
+75pt;
+  width:742pt'>&#20869;&#22806;&#37096;&#27807;&#36890;<font class=3D"font5=
+">&#65306;&#20851;&#20110;&#27492;&#27425;&#20107;&#25925;&#65292;&#23545;&=
+#20869;&#37096;&#30340;&#20107;&#25925;&#27807;&#36890;&#25110;&#23545;&#22=
+806;&#37096;&#30340;&#20107;&#25925;&#25253;&#21578;</font></td>
+  <td colspan=3D2 class=3Dxl132 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl130 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td colspan=3D2 height=3D37 class=3Dxl134 width=3D988 style=3D'height:27.=
+75pt;
+  width:742pt'>&#20020;&#26102;&#20030;&#25514;<font class=3D"font5">&#6530=
+6;&#21508;&#31181;&#26242;&#26102;&#24615;&#37319;&#21462;&#30340;&#24212;&=
+#23545;&#25514;&#26045;&#65288;&#20107;&#25925;&#35843;&#26597;&#21518;&#20=
+250;&#31227;&#38500;&#30340;&#65289;&#65292;&#20363;&#22914;&#20572;&#27490=
+;&#20316;&#19994;&#12289;&#35774;&#31435;&#20020;&#26102;&#38548;&#31163;&#=
+24102;&#12289;&#37319;&#21462;&#20020;&#26102;&#26367;&#20195;&#25805;&#203=
+16;&#26041;&#27861;&#31561;</font></td>
+  <td colspan=3D2 class=3Dxl130 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl127 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 colspan=3D2 class=3Dxl128 style=3D'height:27.75pt;mso-ign=
+ore:colspan'></td>
+  <td colspan=3D2 class=3Dxl127 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl130 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>2&#12289;&#21407;&#22240;Root
+  Cause (s)&#21253;&#25324;</td>
+  <td class=3Dxl133 width=3D418 style=3D'width:314pt'>&#20030;&#20363;</td>
+  <td colspan=3D2 class=3Dxl130 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl127 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl131 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>&#39046;&#23548;&#21147;(&#23545;&#24212;&#8220;&#20154;&#8221;&#3034=
+0;&#31649;&#29702;&#23618;&#38754;&#30456;&#20851;&#30340;&#21407;&#22240;)=
+<font
+  class=3D"font5">&#65306;</font></td>
+  <td colspan=3D3 class=3Dxl127 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl127 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(1)&#20107;&#25925;&#30456;&#20851;&#30340;&#31649;&#29702;&#32773;&#=
+32844;&#36131;&#65288;&#29289;&#26009;&#12289;&#32500;&#20462;&#12289;&#201=
+54;&#20107;&#12289;&#29983;&#20135;&#31561;&#65289;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#316=
+49;&#29702;&#32773;&#24378;&#20196;&#20882;&#38505;&#20316;&#19994;</td>
+  <td colspan=3D2 class=3Dxl127 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl130 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(2)&#23545;&#20107;&#25925;&#30456;&#20851;&#23433;&#20840;&#35201;&#=
+32032;&#30340;CFT&#19987;&#39033;&#31649;&#29702;&#22242;&#38431;&#30340;&#=
+32570;&#22833;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#264=
+10;&#24314;&#31435;&#26426;&#22120;&#38450;&#25252;&#21644;&#21152;&#26631;=
+&#38145;&#23450;&#22242;&#38431;</td>
+  <td colspan=3D2 class=3Dxl130 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl130 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(3)&#24037;&#21378;&#31649;&#29702;&#22242;&#38431;&#30340;&#24037;&#=
+21378;&#24033;&#26597;&#32570;&#22833;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#260=
+80;&#23450;&#26399;&#30340;&#24037;&#21378;&#24033;&#26597;\&#26816;&#26597=
+;&#28165;&#21333;\&#30456;&#20851;&#35760;&#24405;</td>
+  <td colspan=3D2 class=3Dxl130 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl127 height=3D59 style=3D'mso-height-source:userset;height:44=
+.25pt'>
+  <td height=3D59 class=3Dxl128 width=3D570 style=3D'height:44.25pt;width:4=
+28pt'>(4)&#31649;&#29702;&#21464;&#26356;&#26102;(&#26032;&#35774;&#22791;&=
+#37319;&#36141;&#12289;&#24067;&#23616;&#21464;&#21270;&#12289;&#21270;&#23=
+398;&#21697;&#37319;&#36141;)&#65292;&#31649;&#29702;&#23618;&#26410;&#3277=
+1;&#34385;HSE&#24847;&#35265;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#361=
+41;&#20080;&#20107;&#25925;&#30456;&#20851;&#30340;&#35774;&#22791;&#25110;=
+&#21270;&#23398;&#21697;&#26102;&#65292;&#31649;&#29702;&#23618;&#26410;&#2=
+4449;&#35810;HSE&#24847;&#35265;</td>
+  <td colspan=3D2 class=3Dxl127 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl130 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(5)&#23545;&#21457;&#29616;&#30340;&#39118;&#38505;&#38544;&#24739;&#=
+26410;&#21046;&#23450;&#25972;&#25913;&#35745;&#21010;&#25110;&#26410;&#214=
+50;&#26102;&#23436;&#25104;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#201=
+07;&#25925;&#30456;&#20851;&#30340;&#35774;&#22791;&#30340;&#38450;&#25252;=
+&#25913;&#36896;&#24050;&#21046;&#23450;&#35745;&#21010;&#20294;&#26410;&#2=
+3436;&#25104;</td>
+  <td colspan=3D2 class=3Dxl130 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl127 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl131 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>&#26465;&#20214;&#21644;&#31995;&#32479;(&#23545;&#24212;&#8220;&#264=
+26;&#12289;&#26009;&#12289;&#29615;&#8221;)<font
+  class=3D"font5">&#65306;</font></td>
+  <td colspan=3D3 class=3Dxl127 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl127 height=3D68 style=3D'mso-height-source:userset;height:51=
+.0pt'>
+  <td height=3D68 class=3Dxl128 width=3D570 style=3D'height:51.0pt;width:42=
+8pt'>(1)&#29616;&#22330;&#30828;&#20214;&#35774;&#26045;&#32570;&#20047;&#2=
+1644;&#19981;&#33391;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#357=
+74;&#22791;&#23433;&#20840;&#20851;&#38190;&#20214;&#30340;&#32570;&#22833;=
+&#12289;PPE&#30340;&#19981;&#36275;&#31561;</td>
+  <td colspan=3D2 class=3Dxl127 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl127 height=3D68 style=3D'mso-height-source:userset;height:51=
+.0pt'>
+  <td height=3D68 class=3Dxl128 width=3D570 style=3D'height:51.0pt;width:42=
+8pt'>(2)&#29615;&#22659;&#19981;&#33391;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#201=
+54;&#36710;&#28151;&#34892;&#12289;&#29031;&#26126;&#19981;&#36275;&#12289;=
+&#36890;&#39118;&#19981;&#36275;&#31561;</td>
+  <td colspan=3D2 class=3Dxl127 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl130 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(3)&#33258;&#19978;&#32780;&#19979;&#27807;&#36890;&#12289;&#22521;&#=
+35757;&#30340;&#32570;&#20047;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#215=
+92;&#24037;&#26410;&#32463;&#36807;&#22521;&#35757;&#21363;&#36827;&#34892;=
+&#25805;&#20316;&#25110;&#27809;&#26377;&#23450;&#26399;&#22797;&#35757;</t=
+d>
+  <td colspan=3D2 class=3Dxl130 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr class=3Dxl130 height=3D37 style=3D'mso-height-source:userset;height:27=
+.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(4)TPM&#30340;&#32570;&#22833;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#260=
+80;&#32500;&#25252;&#35745;&#21010;&#25110;&#26410;&#25353;&#35745;&#21010;=
+&#36827;&#34892;&#32500;&#25252;</td>
+  <td colspan=3D2 class=3Dxl130 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl131 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>&#31649;&#29702;&#31243;&#24207;(&#23545;&#24212;&#8220;&#27861;&#122=
+89;&#27979;&#8221;)<font
+  class=3D"font5">&#65306;</font></td>
+  <td colspan=3D3 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(1)&#20107;&#20214;&#27719;&#25253;&#20307;&#31995;&#32570;&#22833;</=
+td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#200=
+43;&#21069;&#31867;&#20284;&#20107;&#20214;&#26410;&#21450;&#26102;&#25253;=
+&#21578;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(2)&#21464;&#21270;&#31649;&#29702;&#20307;&#31995;&#30830;&#32570;&#=
+22833;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#325=
+70;&#23569;&#21464;&#21270;&#31649;&#29702;&#20307;&#31995;&#65292;&#25110;=
+&#26410;&#23558;HSE&#32435;&#20837;&#21464;&#21270;&#31649;&#29702;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(3)&#30456;&#20851;&#31649;&#29702;&#20154;&#21592;&#30340;&#32489;&#=
+25928;&#23457;&#26680;&#31243;&#24207;&#20013;&#26410;&#32435;&#20837;HSE&#=
+32844;&#36131;&#30340;&#35780;&#23450;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#325=
+70;&#23569;HSE&#30456;&#20851;&#32844;&#36131;&#25351;&#26631;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(4)&#36164;&#28304;&#35843;&#37197;&#20307;&#31995;&#30340;&#32570;&#=
+22833;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;HSE&#=
+36164;&#28304;&#20998;&#37197;&#65288;&#20154;&#12289;&#36130;&#31561;&#652=
+89;&#26080;&#26126;&#30830;&#31243;&#24207;&#35268;&#23450;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(5)&#31243;&#24207;&#12289;&#20316;&#19994;&#25351;&#23548;&#20070;&#=
+30340;&#32570;&#20047;&#21644;&#19981;&#36275;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#278=
+09;&#26377;&#21449;&#36710;&#20351;&#29992;&#21069;&#26816;&#26597;&#35201;=
+&#27714;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl131 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>&#21592;&#24037;&#21442;&#19982;(&#23545;&#24212;&#8220;&#20154;&#822=
+1;&#30340;&#21592;&#24037;&#23618;&#38754;&#38500;&#20102;&#34892;&#20026;&=
+#20043;&#22806;&#30456;&#20851;&#30340;&#21407;&#22240;)<font
+  class=3D"font5">&#65306;</font></td>
+  <td colspan=3D3 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(1)&#21592;&#24037;&#23545;&#20107;&#25925;&#30456;&#20851;&#23433;&#=
+20840;&#35201;&#32032;&#30340;&#27963;&#21160;&#12289;&#20250;&#35758;&#122=
+89;&#27807;&#36890;&#25110;&#22521;&#35757;&#21442;&#19982;&#24230;&#38382;=
+&#39064;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#215=
+92;&#24037;&#26410;&#21442;&#21152;&#35268;&#23450;&#30340;&#30456;&#20851;=
+&#22521;&#35757;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(2)&#21592;&#24037;&#23545;&#20107;&#25925;&#30456;&#20851;&#23433;&#=
+20840;&#35201;&#32032;&#30340;&#39118;&#38505;&#35780;&#20272;&#12289;&#312=
+43;&#24207;&#21046;&#23450;&#30340;&#21442;&#19982;&#24230;&#38382;&#39064;=
+</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#215=
+92;&#24037;&#26410;&#21442;&#21152;&#35201;&#27714;&#30340;&#20316;&#19994;=
+&#39118;&#38505;&#35780;&#20272;&#36807;&#31243;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(3)&#21592;&#24037;&#23545;&#20107;&#25925;&#30456;&#20851;&#23433;&#=
+20840;&#35201;&#32032;&#30340;&#39118;&#38505;&#12289;&#38544;&#24739;&#303=
+40;&#25253;&#21578;&#38382;&#39064;</td>
+  <td class=3Dxl128 width=3D418 style=3D'width:314pt'>&#20363;&#22914;&#215=
+92;&#24037;&#21457;&#29616;&#25110;&#30693;&#26195;&#24050;&#32463;&#23384;=
+&#22312;&#30340;&#39118;&#38505;&#38544;&#24739;&#20294;&#26410;&#25253;&#2=
+1578;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl131 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>&#34892;&#20026;(&#23545;&#24212;&#8220;&#20154;&#8221;&#30340;&#2159=
+2;&#24037;&#23618;&#38754;&#34892;&#20026;&#30456;&#20851;&#30340;&#21407;&=
+#22240;)<font
+  class=3D"font5">&#65306;</font></td>
+  <td class=3Dxl128></td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl128 width=3D570 style=3D'height:27.75pt;width:4=
+28pt'>(1)&#21592;&#24037;&#36829;&#32972;&#29616;&#26377;&#31243;&#24207;&#=
+12289;&#20316;&#19994;&#25351;&#23548;&#20070;&#21644;&#20854;&#20182;&#352=
+01;&#27714;&#30340;&#35268;&#23450;</td>
+  <td rowspan=3D2 class=3Dxl135 width=3D418 style=3D'width:314pt'>&#24314;&=
+#35758;&#20351;&#29992;ABC&#30340;&#24037;&#20855;&#20998;&#26512;&#21592;&=
+#24037;&#34892;&#20026;&#65292;&#20197;&#30830;&#23450;&#30456;&#24212;&#25=
+972;&#25913;&#34892;&#21160;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D50 style=3D'mso-height-source:userset;height:37.5pt'>
+  <td height=3D50 class=3Dxl128 width=3D570 style=3D'height:37.5pt;width:42=
+8pt'>(2)&#21592;&#24037;&#20854;&#20182;&#19981;&#23433;&#20840;&#30340;&#3=
+4892;&#20026;&#65288;&#31243;&#24207;&#12289;&#25351;&#23548;&#20070;&#2001=
+3;&#26410;&#26126;&#30830;&#35268;&#23450;&#30340;&#65292;&#20294;&#26159;&=
+#19981;&#23433;&#20840;&#30340;&#34892;&#20026;&#65289;</td>
+  <td colspan=3D2 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <tr height=3D25 style=3D'height:18.75pt'>
+  <td height=3D25 class=3Dxl128 style=3D'height:18.75pt'></td>
+  <td colspan=3D3 class=3Dxl126 style=3D'mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D570 style=3D'width:428pt'></td>
+  <td width=3D418 style=3D'width:314pt'></td>
+  <td width=3D62 style=3D'width:47pt'></td>
+  <td width=3D62 style=3D'width:47pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
+
+------=_NextPart_01CE64FB.7292DF40
+Content-Location: file:///C:/6EDABB9F/file8639.files/sheet003.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 11">
+<link id=3DMain-File rel=3DMain-File href=3D"../file8639.htm">
+<link rel=3DFile-List href=3Dfilelist.xml>
+<link rel=3DEdit-Time-Data href=3Deditdata.mso>
+<![if IE]>
+<base href=3D"file:///C:\6EDABB9F\file8639.files\sheet003.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<link rel=3DStylesheet href=3Dstylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:SimSun;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<![if !supportTabStrip]><script language=3D"JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3D4) {
+   if (parent.document.readyState=3D=3D"complete"
+    && parent.frames['frTabs'].document.readyState=3D=3D"complete")
+   parent.fnSetActiveSheet(2);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3D"frSheet")
+ window.location.replace("../file8639.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:WorksheetOptions>
+  <x:DefaultRowHeight>435</x:DefaultRowHeight>
+  <x:TopRowVisible>45</x:TopRowVisible>
+  <x:ProtectContents>False</x:ProtectContents>
+  <x:ProtectObjects>False</x:ProtectObjects>
+  <x:ProtectScenarios>False</x:ProtectScenarios>
+ </x:WorksheetOptions>
+</xml><![endif]-->
+</head>
+
+<body link=3Dblue vlink=3Dpurple>
+
+<table x:str border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D64 style=3D=
+'border-collapse:
+ collapse;table-layout:fixed;width:48pt'>
+ <col width=3D64 style=3D'width:48pt'>
+ <tr height=3D29 style=3D'height:21.75pt'>
+  <td height=3D29 width=3D64 style=3D'height:21.75pt;width:48pt'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D64 style=3D'width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
+
+------=_NextPart_01CE64FB.7292DF40
+Content-Location: file:///C:/6EDABB9F/file8639.files/filelist.xml
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/xml; charset="utf-8"
+
+<xml xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef=3D"../file8639.htm"/>
+ <o:File HRef=3D"stylesheet.css"/>
+ <o:File HRef=3D"tabstrip.htm"/>
+ <o:File HRef=3D"sheet001.htm"/>
+ <o:File HRef=3D"sheet002.htm"/>
+ <o:File HRef=3D"sheet003.htm"/>
+ <o:File HRef=3D"filelist.xml"/>
+</xml>
+------=_NextPart_01CE64FB.7292DF40--

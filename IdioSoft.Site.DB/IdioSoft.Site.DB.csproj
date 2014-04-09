@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B253B19D-5572-4DB7-9A2A-ECEE77CE6771}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IdioSoft.Site.DB</RootNamespace>
+    <AssemblyName>IdioSoft.Site.DB</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tables\Escalation\Escalation_ActivityInfo.cs" />
+    <Compile Include="Tables\Escalation\Escalation_Activity_AttachmentInfo.cs" />
+    <Compile Include="Tables\Escalation\Escalation_MainInfo.cs" />
+    <Compile Include="Tables\Public\CallCenter_Basic_Warranty_Info.cs" />
+    <Compile Include="Tables\Public\webInfo_Basic_ServiceRequest_ServiceType_Info.cs" />
+    <Compile Include="Tables\SEWC\SEWC_Basic_FailureCodeCaused_Info.cs" />
+    <Compile Include="Tables\SEWC\SEWC_Basic_FailureCode_Info.cs" />
+    <Compile Include="Tables\SEWC\SEWC_Basic_RepairAction_Info.cs" />
+    <Compile Include="Tables\SEWC\SEWC_Basic_RepairResult_Info.cs" />
+    <Compile Include="Tables\SEWC\SEWC_Basic_WorkStationCode_Info.cs" />
+    <Compile Include="Tables\SEWC\SEWC_GoodsReceipt_Info.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tables\SEWC\SEWC_IssueRepairOrder_Info.cs" />
+    <Compile Include="Tables\User\webinfo_loginInfo.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_All_Info.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_Delivery_Info.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_Finish_Info.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_Reject_Info.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_Request_Info.cs" />
+    <Compile Include="Views\Escalation\View_Escalation_Activity_List.cs" />
+    <Compile Include="Views\Escalation\View_Escalation_List.cs" />
+    <Compile Include="Views\Escalation\View_Escalation_LoadRequest_List.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_IssueRepairOrder_List.cs" />
+    <Compile Include="Tables\Webinfo_Account_Contact_info.cs" />
+    <Compile Include="Views\View_Callcenter_AccountContact_List.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_GoodsReceipt_Detail.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_GoodsReceipt_List.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_IssueRepairOrder_MDetial.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_Repair_MDetail.cs" />
+    <Compile Include="Views\SEWC\View_SEWC_Repair_List.cs" />
+    <Compile Include="Views\SFAE\View_SFAE_LogisticSearchPlatForm_DispatchList.cs" />
+    <Compile Include="Views\SFAE\View_SFAE_LogisticSearchPlatForm_List.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\IdioSoft.Business\IdioSoft.Business.csproj">
+      <Project>{4cf9f8a2-808b-4e45-9ba2-d7ad4bd99ddf}</Project>
+      <Name>IdioSoft.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

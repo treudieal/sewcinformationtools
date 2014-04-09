@@ -1,0 +1,851 @@
+glaciq.p b+                25.3.14 Account Code Inquiry               08/06/13
+
+
+ From Account:                                               Output: local
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+100101   现金-人民币(Petty cash)  A cny   1001 Yes 1   no
+100203   银行存款SCB资本金0961#   A USD   1002 Yes 1   no
+100204   银行存款-scb外债1971#    A USD   1002 Yes 1   no
+100205   银行存款-内部银行        A CNY   1002 Yes 1   no
+100206   银行存款SCB结算0921#     A USD   1002 Yes 1   no
+100207   银行存款-顺义工行41905#  A CNY   1002 Yes 1   no
+100208   银行存款-渣打银行0943#   A CNY   1002 Yes 1   no
+100209   银行存款-顺义工行2530#   A CNY   1002 Yes 1   no
+100210   银行存款顺义工行EUR      A EUR   1002 Yes 1   no
+100211   兴业银行-方庄支行6473#   A CNY   1002 Yes 1   no
+100212   兴业银行-通知存款        A CNY   1002 No  1   no
+100213   工行-USD5909116007363    A USD   1002 Yes 1   no
+100214   花旗银行1768766203       A CNY   1002 Yes 1   no
+100215   银行存款-Cash Pool       A cny   1002 Yes 1   no
+100216   银行存款-中行250130#     A CNY   1002 Yes 1   no
+100230   银行-亦庄农行开发区2526  A CNY   1002 Yes 1   no
+100231   工行顺义388170二工厂     A CNY   1002 Yes 1   no
+100288   银行存款-工行杰通8635#   A CNY   1002 Yes 1   no
+100289   银行存款-中行杰通-通知   A CNY   1002 Yes 1   no
+100290   银行存款-中行（杰通)     A CNY   1002 Yes 1   no
+100291   虚拟USD银行              A CNY   1002 No  1   no
+100292   虚拟EUR银行              A CNY   1002 No  1   no
+100293   虚拟JPY银行              A CNY   1002 No  1   no
+100294   虚拟银行USD              A USD   1002 Yes 1   no
+100295   虚拟银行EUR              A EUR   1002 Yes 1   no
+100296   虚拟银行JPY              A JPY   1002 Yes 1   no
+100297   海纳川江森内部银行       a CNY   1002 Yes 1   no
+110100   短期投资                 A CNY   1101 Yes 1   no
+110101   短期投资-关联AE0914      A CNY   1101 Yes 1   no
+111100   应收票据                 A cny   1111 Yes 1   no
+113101   应收账款(Account Receiv) A cny   1131 Yes 1   no
+113102   应收账款-其他            A CNY   1131 No  1   no
+113104   应收帐款-claim           a CNY   1131 Yes 1   no
+113105   应收账款-UNBILL          A CNY   1131 No  1   no
+113201   应收账款－售后及其他     A CNY   1131 Yes 1   no
+113211   应收账款-BBDC Tooling    a CNY   1131 Yes 1   no
+113212   应收账款-BBDC sample Exp A CNY   1131 Yes 1   no
+113290   应收账款-AE0914          A CNY   1131 Yes 1   no
+113291   应收账款-AE0382          A CNY   1131 Yes 1   no
+113297   应收账款AR-CLAIM         A CNY   1131 Yes 1   no
+113298   AR-Unbilled sales        A CNY   1131 Yes 1   no
+113299   AR_LTA                   A CNY   1131 Yes 1   no
+113300   其他应收款-其他          A cny   1133 Yes 1   no
+113302   OR-JCI Singapore900(RMB) A cny   1133 No  1   no
+113307   其他应收款-客户模具      A CNY   1133 Yes 1   no
+113315   其他应收款-Tooling Recov A CNY   1133 Yes 1   no
+113316   其他应收款-Tooling Adjus A CNY   1133 Yes 1   no
+113321   OR-JCI Korea375          A usd   1133 No  1   no
+113322   OR-JCI Korea735          A usd   1133 No  1   no
+113323   其他应收款-福田电动车    A CNY   1133 Yes 1   no
+113324   其他应收款-新工厂        A CNY   1133 Yes 1   no
+113325   其他应收款-Geel SMRR DMR A CNY   1133 Yes 1   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+113326   其他应收款-文雅          A CNY   1133 Yes 1   no
+113327   其他应收款-罗腾飞        A CNY   1133 Yes 1   no
+114100   坏账准备                 A cny   1141 Yes 1   no
+115100   预付账款-人民币          A cny   1151 Yes 1   no
+115101   预付账款-欧元            A EUR   1151 Yes 1   no
+115103   预付帐款-美元            A USD   1151 Yes 1   no
+115104   预付帐款-押金            A CNY   1151 Yes 1   no
+115105   预付账款-员工借款        A CNY   1151 Yes 1   no
+117001   内部往来                 A CNY   1360 Yes 1   no
+118001   内部往来转移AE0914一厂用 A CNY   1360 Yes 1   no
+118002   内部往来转移AE0382二厂用 A CNY   1360 No  1   no
+121101   原材料-骨架/滑道         A CNY   1211 Yes 1   no
+121102   原材料-泡沫              A CNY   1211 Yes 1   no
+121103   原材料-面套              A CNY   1211 Yes 1   no
+121104   原材料-机械部件          A CNY   1211 Yes 1   no
+121105   原材料-塑料件            A CNY   1211 Yes 1   no
+121106   原材料-附加件            A CNY   1211 Yes 1   no
+121107   原材料-紧固件            A CNY   1211 Yes 1   no
+121108   原材料-安全件            A CNY   1211 Yes 1   no
+121109   原材料-电子件            A CNY   1211 Yes 1   no
+121123   原材料-化工原料-发泡车间 A CNY   1211 Yes 1   no
+121124   原材料-金属件-发泡车间   A CNY   1211 Yes 1   no
+121125   原材料-其他-发泡车间     A CNY   1211 Yes 1   no
+121130   原材料-裁片-辅料         A CNY   1211 Yes 1   no
+121131   原材料-裁片-卷料         A CNY   1211 Yes 1   no
+121135   原材料-缝纫-裁片         A CNY   1211 Yes 1   no
+121136   原材料-缝纫-其他         A CNY   1211 Yes 1   no
+121150   原材料-在徒存货          A cny   1211 Yes 1   no
+121180   原材料-库存重估          A cny   1211 Yes 1   no
+121190   原材料-外购半成品        A CNY   1211 Yes 1   no
+121191   原材料-辅料              A CNY   1211 Yes 1   no
+123100   自制半成品               A CNY   1241 Yes 1   no
+123101   低值易耗品               A CNY   1231 Yes 1   no
+123102   包装物                   A CNY   1231 Yes 1   no
+123107   备件                     A CNY   1231 Yes 1   no
+123108   备件差异                 A CNY   1231 Yes 1   no
+123210   采购价格差异             A cny   1232 Yes 1   no
+123220   应付帐款数量差异         A cny   1232 Yes 1   no
+123230   应付账款价格差异         A cny   1232 Yes 1   no
+123240   标准成本变更差异         A cny   1232 Yes 1   no
+123250   人工差异分摊             A cny   1232 Yes 1   no
+123260   差异分摊                 A cny   1232 Yes 1   no
+123270   转移成本差异             A cny   1232 Yes 1   no
+123280   国产化差异（mater pr var A CNY   1232 Yes 1   no
+123290   Six Sigma差异（mat allow A CNY   1232 Yes 1   no
+123291   Kaizen差异（usage varian A CNY   1232 Yes 1   no
+124300   库存商品-产成品座椅      A CNY   1243 Yes 1   no
+124301   库存商品-存货重估        A cny   1243 Yes 1   no
+124305   库存商品-门板顶衬        A CNY   1243 Yes 1   no
+124310   库存商品-人工成本差异    A cny   1243 Yes 1   no
+124311   库存商品-发泡车间        A CNY   1243 Yes 1   no
+124312   库存商品-缝纫            A CNY   1243 Yes 1   no
+124313   库存商品-裁片            A CNY   1243 Yes 1   no
+124320   库存商品-制造费用差异    A cny   1243 Yes 1   no
+124330   库存商品-材料成本差异    A cny   1243 Yes 1   no
+124331   库存商品-材料使用差异    A cny   1243 Yes 1   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+124332   库存商品-方法差异        A cny   1243 Yes 1   no
+124340   库存商品-标准成本变更差  A cny   1243 Yes 1   no
+124350   库存商品-废品差异        A CNY   1243 Yes 1   no
+124351   库存商品-转包使用差异    A CNY   1243 Yes 1   no
+124352   库存商品-转包费率差异    A CNY   1243 Yes 1   no
+124370   库存商品-转移差异        A cny   1243 Yes 1   no
+125101   委托加工物资             A CNY   1251 Yes 1   no
+128100   存货跌价准备             A cny   1281 Yes 1   no
+128101   原材料-发泡内部存货      A CNY   1211 Yes 1   no
+128102   原材料-材料成本差异      A CNY   1211 Yes 1   no
+128103   原材料-样品              A CNY   1211 Yes 1   no
+130100   待摊费用                 A cny   1301 Yes 1   no
+140100   长期股投-投资成本杰通    A CNY   1401 Yes 1   no
+140101   长期股投-投资成本亦庄    A CNY   1401 Yes 1   no
+140190   长期股权投资-损益调整    A CNY   1401 Yes 1   no
+150100   固定资产-房屋(Buildings) A cny   1501 Yes 1   no
+150101   固定资产-机器设备(M&E)   A cny   1501 Yes 1   no
+150102   固定资产-工装模具        A cny   1501 Yes 1   no
+150103   固定资产-办公设备(F&E)   A cny   1501 Yes 1   no
+150104   固定资产-车辆(Vehicle)   A cny   1501 Yes 1   no
+150105   固定资产-工位器具        A cny   1501 Yes 1   no
+150106   固定资产-信息系统(I&S)   A CNY   1501 Yes 1   no
+150107   固定资产-土地            A CNY   1501 Yes 1   no
+150200   累计折旧-房屋(Accum Depr A cny   1502 Yes 1   no
+150201   累计折旧-设备            A cny   1502 Yes 1   no
+150202   累计折旧-工装模具        A cny   1502 Yes 1   no
+150203   累计折旧-办公设备        A cny   1502 Yes 1   no
+150204   累计折旧-车辆            A cny   1502 Yes 1   no
+150205   累计折旧-工位器具        A cny   1502 Yes 1   no
+150207   累计折旧-土地            A CNY   1502 Yes 1   no
+150500   固定资产减值准备         A CNY   1505 Yes 1   no
+160305   在建工程(CIP)            A cny   1603 Yes 1   no
+170100   固定资产清理             A CNY   1701 Yes 1   no
+170200   待处理财产损溢           A CNY   1701 Yes 1   no
+180101   无形资产-土地            A CNY   1801 Yes 1   no
+180201   无形资产摊销-土地        A CNY   1802 Yes 1   no
+190100   长期待摊费用             A CNY   1901 Yes 1   no
+190120   长期待摊软件款           A CNY   1901 Yes 1   no
+190130   软件费用摊销             A CNY   1901 Yes 1   no
+190137   长期待摊模具工装费       A CNY   1901 Yes 1   no
+190138   模具工装摊销             A CNY   1901 Yes 1   no
+190139   模具工装摊销             A CNY   1901 Yes 1   no
+190140   长期待摊模具工装费       A CNY   1901 Yes 1   no
+190800   其他资产                 A CNY   1908 Yes 1   no
+210100   短期借款(USD）           L USD   2101 Yes 1   no
+210101   短期借款（RMB）          L CNY   2101 Yes 1   no
+210102   短期借款(JC BE)17780     L CNY   2101 No  1   no
+210103   短期借款RMB-关联AE0382   L CNY   2101 Yes 1   no
+211100   应付票据(Notes Payable)  L cny   2111 Yes 1   no
+212100   应付账款(Account Payable L cny   2121 Yes 1   no
+212101   应付账款-JCI荷兰         L usd   2121 Yes 1   no
+212102   应付账款-JC奥地利        L usd   2121 No  1   no
+212103   应付帐款--Geel 582       L EUR   2121 Yes 1   no
+212104   应付账款-Boeblingen520   L EUR   2121 Yes 1   no
+212105   应付帐款-北京江森        L CNY   2121 Yes 1   no
+212106   应付帐款-光华杰通        L CNY   2121 Yes 1   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+212107   AP-USD(Austria Gmbh&co)  L USD   2121 Yes 1   no
+212108   应付账款-上海凯博1446    l CNY   2121 Yes 1   no
+212109   应付账款-昆山施尔奇1379  L CNY   2121 Yes 1   no
+212110   应付账款暂估             L cny   2121 Yes 1   no
+212112   应付账款-EUR             L EUR   2121 Yes 1   no
+212113   应付账款-USD             L USD   2121 Yes 1   no
+212114   应付账款-JPY             L JPY   2121 Yes 1   no
+212115   应付账款-AE0914一厂使用  L CNY   2121 Yes 1   no
+212116   应付账款-AE0382二厂使用  L CNY   2121 Yes 1   no
+212117   AP-AE1616                L CNY   2121 Yes 1   no
+212200   AP-Foam plant RMB        L CNY   2121 Yes 1   no
+212201   AP-Foam Plant USD        L USD   2121 Yes 1   no
+212202   AP-Foam Plant JPY        L JPY   2121 Yes 1   no
+212203   AP-Foam Plant EUR        L EUR   2121 Yes 1   no
+212210   AP Accrual-Foam plant    L CNY   2121 Yes 1   no
+213100   预收账款                 L cny   2131 Yes 1   no
+215100   应付工资(Accured Wages)  L cny   2151 Yes 1   no
+215101   应付工资-预提10天工资    l CNY   2151 Yes 1   no
+215102   应付工资-加班费          L CNY   2151 Yes 1   no
+215301   应付福利费-计提奖励基金  L CNY   2153 Yes 1   no
+215302   应付福利费-养老保险pens  L cny   2153 Yes 1   no
+215303   应付福利费-待业保险      L cny   2153 Yes 1   no
+215304   应付福利费-工伤保险      L cny   2153 Yes 1   no
+215305   应付福利费-医疗保险      L cny   2153 Yes 1   no
+215306   应付福利费-住房公积金    L cny   2153 Yes 1   no
+215307   应付福利费-生育保险      L CNY   2153 Yes 1   no
+215329   应付福利费-补充医疗保险  L CNY   2153 Yes 1   no
+215330   应付福利费-结转          L CNY   2153 Yes 1   no
+216101   应付股利-JCI             L CNY   2161 Yes 1   no
+216102   应付股利-小股东          L CNY   2161 Yes 1   no
+216103   应付利润                 L CNY   2161 Yes 1   no
+217100   应交增值税               L cny   2171 Yes 1   no
+217101   应交增值税-销项税额17%   L cny   2171 Yes 1   no
+217102   应交增值税-进项税额      L cny   2171 Yes 1   no
+217103   应交增值税-己交税金      L cny   2171 Yes 1   no
+217104   应交增值税-未交税金      L cny   2171 Yes 1   no
+217105   应交增值税-进项税额转出  L cny   2171 Yes 1   no
+217106   应交税金-销项税6%        L CNY   2171 Yes 1   no
+217110   应交增值税-未交税金      L cny   2171 No  1   no
+217115   应交税金-营业税          L cny   2171 Yes 1   no
+217120   应交税金-企业所得税      L cny   2171 Yes 1   no
+217125   应交税金-个人所得税      L cny   2171 Yes 1   no
+217126   应交税金-企业代扣代交税  L CNY   2171 Yes 1   no
+217127   应交税金-城镇土地使用税  L CNY   2171 Yes 1   no
+217128   应交税金-城市维护建设税  L CNY   2171 Yes 1   no
+217129   应交税金-教育费附加      L CNY   2171 Yes 1   no
+217130   应缴税金-印花税          L CNY   2171 Yes 1   no
+217131   应缴税金-房产税          L CNY   2171 Yes 1   no
+217132   应交税金-地方教育费附加  L CNY   2171 Yes 1   no
+218001   内部往来转移AE0382二厂用 L CNY   2181 Yes 1   no
+218100   其他应付款-MRO           L cny   2181 Yes 1   no
+218104   其他应付款-光华职工福利  L cny   2181 No  1   no
+218107   其他应付款-工会经费      L CNY   2181 Yes 1   no
+218111   其他应付款-其他          L cny   2181 Yes 1   no
+218115   应付帐款暂估-MRO         L CNY   2181 Yes 1   no
+218121   OP-strabourg341          L EUR   2181 Yes 1   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+218132   其他应付款-PU201索赔     L CNY   2181 Yes 1   no
+218150   其他应付款- BJJC(RMB)    L CNY   2181 Yes 1   no
+218151   OP-central staff RMB     L CNY   2181 Yes 1   no
+218152   OP-center staff No use   L CNY   2181 No  1   no
+218160   其他应付款-非材料USD     L USD   2181 Yes 1   no
+218170   其他应付款-非材料EUR     L EUR   2181 Yes 1   no
+218171   OP-JC BE 17760           L CNY   2181 Yes 1   no
+218172   OP-687 Holding Malaysia  L USD   2181 Yes 1   no
+218173   OP-Japan675JPY           L JPY   2181 Yes 1   no
+218174   OP-Malaysia688 EUR       L EUR   2181 Yes 1   no
+218175   OP-Malysia interior689   L EUR   2181 Yes 1   no
+218176   OP-Malysia688USD         L USD   2181 Yes 1   no
+218177   OP-616                   L EUR   2181 Yes 1   no
+218178   OP-523Neustadt           L EUR   2181 Yes 1   no
+218179   op-Malaysia 689 USD      L USD   2181 Yes 1   no
+218180   OP-Japan675USD           L USD   2181 Yes 1   no
+218181   op-Thailand373EUR        L EUR   2181 Yes 1   no
+218182   OP-head office PLT001    L USD   2181 Yes 1   no
+218183   op-JCI bremen480         L EUR   2181 Yes 1   no
+218184   OP-JCI strasbourg341     L USD   2181 Yes 1   no
+218185   op-Thailand373USD        L USD   2181 Yes 1   no
+218186   OP-S.A east London 646   L EUR   2181 Yes 1   no
+218187   OP-Europe Engineering142 L EUR   2181 Yes 1   no
+218188   op-Mercedes HQ366EUR     L EUR   2181 Yes 1   no
+218189   OP-Austria mandling144   L EUR   2181 Yes 1   no
+218190   OP-JCI Singapore378USD   L USD   2181 Yes 1   no
+218191   OP-JCI KOREA 375USD      L USD   2181 Yes 1   no
+218192   OP-JCI KOREA 735USD      L USD   2181 Yes 1   no
+218193   OP-JCI Singapore RMB     L CNY   2181 Yes 1   no
+218194   其他应付款-润宇员工福利  L CNY   2181 Yes 1   no
+218195   op- Mercedes HQ 366USD   L USD   2181 Yes 1   no
+218196   OP-SH Manag 908 CNY      L CNY   2181 Yes 1   no
+218197   其他应付款-Singapore IT  L USD   2181 No  1   no
+218198   其他应付款-Graz USD(0264 L USD   2181 Yes 1   no
+218199   其他应付款-Graz EUR(0264 L EUR   2181 Yes 1   no
+218200   OP-intr 526tooling Eur   L EUR   2181 Yes 1   no
+218201   70646 JCISouthAfrica646  L usd   2181 Yes 1   no
+218202   70879 USD                L USD   2181 Yes 1   no
+218203   70521 EUR                L EUR   2181 Yes 1   no
+218204   其他应付款-上海CSC       L CNY   2181 Yes 1   no
+218205   其他应付款-江森自控BE658 l CNY   2181 Yes 1   no
+218206   其他应付款-江森自控BE356 l CNY   2181 Yes 1   no
+218207   其他应付款-AE143 EUR     L EUR   2181 Yes 1   no
+218208   其他应付款-AE0943        L CNY   2181 No  1   no
+218209   其他应付款-AE1187        L CNY   2181 No  1   no
+218210   其他应付款-AE0170        L CNY   2181 No  1   no
+218211   其他应付款-AE0446        L CNY   2181 No  1   no
+218212   其他应付款-AE0943        L EUR   2181 Yes 1   no
+218213   其他应付款-AE1187        L EUR   2181 Yes 1   no
+218214   其他应付款-AE0170        L EUR   2181 Yes 1   no
+218215   其他应付款-AE0446        L USD   2181 Yes 1   no
+218216   OP-AE1489                L EUR   2181 Yes 1   no
+218217   OP-AE0529                L EUR   2181 Yes 1   no
+218218   OP-AE0532                L EUR   2181 Yes 1   no
+218219   OP-AE1344                L EUR   2181 Yes 1   no
+218220   OP-AE0522                L EUR   2181 Yes 1   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+218221   其他应付款-AE0744        L EUR   2181 Yes 1   no
+219101   预提费用-工资            L cny   2191 Yes 1   no
+219103   预提费用-培训费          L cny   2191 No  1   no
+219104   预提费用-TA费            L cny   2191 Yes 1   no
+219105   预提费用-奖金            L CNY   2191 Yes 1   no
+219106   预提费用-运费            L cny   2191 Yes 1   no
+219107   预提费用-水电费 取暖费   L CNY   2191 Yes 1   no
+219108   预提费用-咨询费          L CNY   2191 Yes 1   no
+219109   预提费用-搬家费          L CNY   2191 Yes 1   no
+219110   预提费用-IT              L CNY   2191 Yes 1   no
+219111   预提费用-其他            L CNY   2191 Yes 1   no
+219112   预提费用-审计费          L CNY   2191 Yes 1   no
+219113   预提费用-保险费          L CNY   2191 Yes 1   no
+219115   预提费用-租车费          L CNY   2191 Yes 1   no
+219116   预提费用-研发费          L CNY   2191 Yes 1   no
+219117   预提费用-CI Award        L CNY   2191 Yes 1   no
+219119   预提费用-关税            L CNY   2191 Yes 1   no
+219120   预提费用-借款利息        L CNY   2191 Yes 1   no
+219121   预提费用-反倾销税        L CNY   2191 Yes 1   no
+219122   预提费用-印花税          L CNY   2191 No  1   no
+219123   预提费用-房产税          L CNY   2191 No  1   no
+219124   预提费用-零星TA费        L CNY   2191 Yes 1   no
+219126   预提费用-土地使用费      L CNY   2191 Yes 1   no
+219127   预提费用-BE Loan interes L CNY   2191 Yes 1   no
+219129   预提费用-CIP             L CNY   2191 Yes 1   no
+219130   预提费用-质保            L CNY   2191 Yes 1   no
+219131   预提费用-电子处理基金    L CNY   2191 Yes 1   no
+230100   长期借款                 L cny   2301 Yes 1   no
+310101   实收资本-江森公司        L usd   3101 No  1   no
+310102   实收资本-江森自控亚洲控  L CNY   3101 Yes 1   no
+310201   实收资本-北京汽车工业公  L cny   3102 Yes 1   no
+310202   实收资本-上海杰华        L cny   3102 Yes 1   no
+310203   实收资本-海纳川股份有限  L CNY   3102 Yes 1   no
+310204   实收资本-北汽光华汽车    l CNY   3102 Yes 1   no
+310251   实收资本-杰华汽车饰件发  L CNY   3102 Yes 1   no
+310252   实收资本-北汽光华汽车部  L CNY   3102 Yes 1   no
+310253   实收资本-海纳川汽车部件  L CNY   3102 Yes 1   no
+310254   实收资本-江森汽车部件    L CNY   3102 Yes 1   no
+310260   实收资本-江森亦庄工厂    L CNY   3102 Yes 1   no
+311100   资本公积                 L cny   3111 Yes 1   no
+311101   资本公积                 L CNY   3111 Yes 1   no
+312101   盈余公积-职工奖励基金    L cny   3121 Yes 1   no
+312102   盈余公积-企业发展基金    L cny   3121 Yes 1   no
+312103   盈余公积-企业储备基金    L cny   3121 Yes 1   no
+312104   盈余公积-应付股利        L CNY   3121 Yes 1   no
+312105   盈余公积-提取法定盈余公  L CNY   3121 Yes 1   no
+312106   盈余公积-提取法定公益金  L CNY   3121 Yes 1   no
+313100   本年利润                 L cny   3131 Yes 1   no
+313110   初始化前本年利润         L CNY   3141 Yes 1   no
+314100   利润分配-未分配利润      L cny   3141 Yes 1   no
+314101   利润分配－职工奖励基金   L CNY   3141 Yes 1   no
+314102   利润分配－企业发展基金   L CNY   3141 Yes 1   no
+314103   利润分配－企业储备基金   L CNY   3141 Yes 1   no
+314104   利润分配－股利           L CNY   3141 Yes 1   no
+314105   利润分配－提取法定盈余公 L CNY   3141 Yes 1   no
+314106   利润分配－提取法定公益金 L CNY   3141 Yes 1   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+314107   利润分配以前年度损益调整 l CNY   3141 Yes 1   no
+410110   生产成本-标准材料成本    A cny   4101 Yes 1   no
+410120   生产成本-标准人工成本    A cny   4101 Yes 1   no
+410130   生产成本-标准制造费用    A cny   4101 Yes 1   no
+410135   生产成本-标准固定制造费  A CNY   4101 Yes 1   no
+410140   生产成本-标准委外加工    A cny   4101 Yes 1   no
+410198   生产成本-标准成本        A CNY   4101 Yes 1   no
+410199   生产成本-标准成本        A cny   4101 Yes 1   no
+410501   制造费用--工资           A CNY   4105 No  1   no
+410502   制造费用职工失业保险     A CNY   4105 No  1   no
+410503   制造费用-工伤保险        A CNY   4105 No  1   no
+410504   制造费用-养老保险        A CNY   4105 No  1   no
+410505   制造费用-医疗保险        A CNY   4105 No  1   no
+410506   制造费用-住房公积金      A CNY   4105 No  1   no
+410507   制造费用-补充医疗保险    A CNY   4105 No  1   no
+410508   制造费用-生育保险        A CNY   4105 No  1   no
+410509   制造费用--运输费         A CNY   4105 No  1   no
+410510   制造费用--劳动保护费     A CNY   4105 No  1   no
+410511   制造费用--折旧费建筑物   A CNY   4105 No  1   no
+410512   制造费用--折旧费机械设备 A CNY   4105 Yes 1   no
+410513   制造费用--折旧费工装模具 A CNY   4105 Yes 1   no
+410514   制造费用--折旧费办公设备 A CNY   4105 Yes 1   no
+410515   制造费用--低值易耗       A CNY   4105 No  1   no
+410516   制造费用--水电取暖费     A CNY   4105 No  1   no
+410517   制造费用--一般修理费     A CNY   4105 No  1   no
+410518   制造费用--加工费         A CNY   4105 No  1   no
+410519   制造费用--计提福利费     A CNY   4105 No  1   no
+410599   制造费用-结转到销售成本  A CNY   4105 No  1   no
+450103   人事档案费               E CNY   5501 Yes 2   no
+450104   Softwares                E CNY   5501 Yes 2   no
+450105   临时劳务费－直接         E CNY   5501 Yes 2   no
+450106   夜班加班费               E CNY   5501 Yes 2   no
+450107   Other Tax Expense        E CNY   5501 Yes 2   no
+450108   维修费－泡沫模具         E CNY   5501 Yes 2   no
+450110   出差补助                 E CNY   5501 Yes 2   no
+450111   垃圾清理费               E CNY   5501 Yes 2   no
+450114   员工保健费               E CNY   5501 Yes 2   no
+450201   Maint Supplies 维修材料  E CNY   5501 Yes 2   no
+450202   Maint&Repairs-Tool小工具 E CNY   5501 Yes 2   no
+450203   Repairs修理费            E CNY   5501 Yes 2   no
+450204   Fuel汽油费               E CNY   5501 Yes 2   no
+450205   Non-Productionfreigh运费 E CNY   5501 Yes 2   no
+450206   Heating Exps取暖费       E CNY   5501 Yes 2   no
+450207   Apparatus工位器具        E CNY   5501 Yes 2   no
+450208   项目PT材料               E CNY   5501 Yes 2   no
+450209   Maint-Bldg建筑物维修费   E CNY   5501 Yes 2   no
+450210   safty supply劳保用品     E CNY   5501 Yes 2   no450211   Perishable tools低值易耗 E CNY   5501 Yes 2   no
+450212   Outside service现场服务  E CNY   5501 Yes 2   no
+450213   Rental-Bldg租赁费-房产   E CNY   5501 Yes 2   no
+450214   QC Appraisal实验检验费   E CNY   5501 Yes 2   no
+450215   office supply办公用品    E CNY   5501 Yes 2   no
+450216   Postage邮电费            E CNY   5501 Yes 2   no
+450217   Toll过桥过路费           E CNY   5501 Yes 2   no
+450219   Maint-Mach维修费-设备    E CNY   5501 Yes 2   no
+450220   PV tests已有产品试验费   E CNY   5501 Yes 2   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+450222   Training-Ext外部培训费   E CNY   5501 Yes 2   no
+450223   Prof fees/consult咨询费  E CNY   5501 Yes 2   no
+450228   Business Meal业务餐费    E CNY   5501 Yes 2   no
+450229   Maint Contract维护合同   E CNY   5501 Yes 2   no
+450230   Depre-Bldg折旧费-建筑物  E CNY   5501 Yes 2   no
+450231   Insurance-Prop保险费财产 E CNY   5501 Yes 2   no
+450232   Salary-manage管理人工资  E CNY   5501 Yes 2   no
+450233   OtherBenefits其他福利费  E CNY   5501 Yes 2   no
+450234   Abroad Exps出国人员经费  E CNY   5501 Yes 2   no
+450236   折旧Land right土地使用   E CNY   5501 Yes 2   no
+450237   social plan职工失业保险  E CNY   5501 Yes 2   no
+450238   healthInsurance工伤保险  E CNY   5501 Yes 2   no
+450239   Pension养老保险          E CNY   5501 Yes 2   no
+450240   MedicalInsurance医疗保险 E CNY   5501 Yes 2   no
+450241   Housing Fund住房公积金   E CNY   5501 Yes 2   no
+450242   临时间接人员工资         E CNY   5501 Yes 2   no
+450243   Mobile手机费             E CNY   5501 Yes 2   no
+450245   MSA外方服务费            E CNY   5501 Yes 2   no
+450246   T.A.技术支持费           E CNY   5501 Yes 2   no
+450247   Head Hunting猎头费       E CNY   5501 Yes 2   no
+450249   Other Supply其他维修材料 E CNY   5501 Yes 2   no
+450251   Sup.Med.Ins补充医疗保险  E CNY   5501 Yes 2   no
+450253   Air Tickets机票          E CNY   5501 Yes 2   no
+450254   Car Allowance车补        E CNY   5501 Yes 2   no
+450255   Rental -TAXI 出租车费    E CNY   5501 Yes 2   no
+450256   Hotel旅馆费              E CNY   5501 Yes 2   no
+450257   Mtg&Entain会议费及娱乐费 E CNY   5501 Yes 2   no
+450258   Sample样品费及回收费用   E CNY   5501 Yes 2   no
+450259   train/shipTicket其他交通 E CNY   5501 Yes 2   no
+450260   Water水费                E CNY   5501 Yes 2   no
+450261   PlantRearrange工厂启动费 E CNY   5501 Yes 2   no
+450262   生育保险                 E CNY   5501 Yes 2   no
+450263   Telephone-voice电话费    E CNY   5501 Yes 2   no
+450264   Data Commu数据传输费     E CNY   5501 Yes 2   no
+450265   PCSuppliy计算机消耗品    E CNY   5501 Yes 2   no
+450267   CntrEmplyMan临时劳务费   E CNY   5501 Yes 2   no
+450268   Hiring招聘信息费         E CNY   5501 Yes 2   no
+450269   OutsideStorage外部存贮费 E CNY   5501 Yes 2   no
+450270   Subscr会员费,书报费      E CNY   5501 Yes 2   no
+450271   DepExp-Mach折旧费-机械设 E CNY   5501 Yes 2   no
+450272   DepExp-Fixt折旧费工装模  E CNY   5501 Yes 2   no
+450273   Safety&Protection保安费  E CNY   5501 Yes 2   no
+450274   Worker Union工会经费     E CNY   5501 Yes 2   no
+450275   Ins-Other保险费-其他     E CNY   5501 Yes 2   no
+450276   Ins-RealEst保险费-财产   E CNY   5501 Yes 2   no
+450278   Enviro prot环境保护费    E CNY   5501 Yes 2   no
+450280   Rental-Equipment         E CNY   5501 Yes 2   no
+450281   Relocation employee      E CNY   5501 Yes 2   no
+450282   team buliding团队建设    E CNY   5501 Yes 2   no
+450283   Training-Int内部培训费   E CNY   5501 Yes 2   no
+450284   CommunityRela地区关系费  E CNY   5501 Yes 2   no
+450285   Bonus奖金                E CNY   5501 Yes 2   no
+450286   Rental-Auto租车费        E CNY   5501 Yes 2   no
+450287   Dep-exp折旧费-办公设备   E CNY   5501 Yes 2   no
+450288   Depre-Auto折旧费-汽车    E CNY   5501 Yes 2   no
+450289   Localization国产化开发费 E CNY   5501 Yes 2   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+450290   DevptSample新产品试验费  E CNY   5501 Yes 2   no
+450292   CI Award CI奖金          E CNY   5501 Yes 2   no
+450293   Electricity电费          E CNY   5501 Yes 2   no
+450294   DL-Wages直接人员工资     E CNY   5501 Yes 2   no
+450295   IDL-Wages间接人员工资    E CNY   5501 Yes 2   no
+450296   OT-DL直接人员加班费      E CNY   5501 Yes 2   no
+450297   OT-IDL间接人员加班费     E CNY   5501 Yes 2   no
+450300   Small TOLL小工具         E CNY   5501 Yes 2   no
+450999   450999-5020              E CNY   5501 Yes 2   no
+510101   主营业务收入-座椅        I CNY   5101 Yes 2   no
+510102   主营收入-门板/顶衬座舱   I CNY   5101 Yes 2   no
+510103   泡沫外部销售收入         I CNY   5101 Yes 2   no
+510104   缝纫销售收入             I CNY   5101 Yes 2   no
+510110   主营业务收入-单一销售成  I CNY   5101 Yes 2   no
+510111   主营业务收入-售后成品    I CNY   5101 Yes 2   no
+510116   销售收入关联公司销售收入 I CNY   5101 Yes 2   no
+510117   销售收入-发泡车间（INTR  i CNY   5101 Yes 2   no
+510120   其他业务收入-非生产材料  I CNY   5405 Yes 2   no
+510121   其他业务收入单一售后材料 I CNY   5405 Yes 2   no
+510122   其他业务收入-其他        I CNY   5405 Yes 2   no
+510150   销售折扣和折让           I CNY   5101 Yes 2   no
+510190   其他业务收入关联材料收入 I CNY   5405 Yes 2   no
+510197   sales-economic recovery  I CNY   5101 Yes 2   no
+510198   sales-unbilled sales     I CNY   5101 Yes 2   no
+510199   sales-LTA                I CNY   5101 Yes 2   no
+510301   营业外收入-处置固定资产  I CNY   5600 Yes 2   no
+510302   营业外收入               I CNY   5600 Yes 2   no
+520100   投资收益                 E CNY   5201 Yes 2   no
+540101   销售成本-原材料成本      E cny   5102 Yes 2   no
+540102   销售成本-人工成本        E cny   5102 Yes 2   no
+540103   销售成本-变动制造费用    E cny   5102 Yes 2   no
+540104   销售成本-固定制造费用    E cny   5102 Yes 2   no
+540105   销售成本-转包成本        E cny   5102 Yes 2   no
+540106   销售成本-其他            E CNY   5102 Yes 2   no
+540107   其他业务支出-材料        E CNY   5405 Yes 2   no
+540108   销售成本-SMRR            E CNY   5102 Yes 2   no
+540109   销售成本－Claim          E CNY   5102 Yes 2   no
+540110   销售成本-制造费用人工    E CNY   5102 Yes 2   no
+540111   销售成本-制造费用变动    E CNY   5102 Yes 2   no
+540112   销售成本-制造费用固定    E CNY   5102 Yes 2   no
+540120   销售成本-采购价格差异    E cny   5102 Yes 2   no
+540121   销售成本-应付帐款量差    E cny   5102 Yes 2   no
+540122   销售成本-应付帐款价差    E cny   5102 Yes 2   no
+540123   销售成本-标准成本变更    E cny   5102 Yes 2   no
+540124   销售成本-海运费          E CNY   5102 Yes 2   no
+540125   销售成本-汇率差异        E cny   5102 Yes 2   no
+540126   销售成本-转移成本变更    E cny   5102 Yes 2   no
+540127   销售成本-人工成本差异    E cny   5102 No  2   no
+540128   销售成本-制造差异        E cny   5102 Yes 2   no
+540129   销售成本-材料成本差异    E cny   5102 Yes 2   no
+540130   销售成本-材料使用差异    E cny   5102 Yes 2   no
+540131   销售成本-方法差异        E cny   5102 Yes 2   no
+540132   销售成本-人工费率差异    E cny   5102 Yes 2   no
+540133   销售成本-人工使用差异    E cny   5102 Yes 2   no
+540134   销售成本-库存重估-循环盘 E cny   5102 Yes 2   no
+540135   销售成本-空运费          E cny   5102 Yes 2   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+540136   销售成本-废品差异        E CNY   5102 Yes 2   no
+540137   销售成本-转包使用差异    E CNY   5102 Yes 2   no
+540138   销售成本核算-转包费率差  E CNY   5102 Yes 2   no
+540139   销售成本-固定制造差异    E CNY   5102 Yes 2   no
+540140   销售成本-关税            E CNY   5102 Yes 2   no
+540141   销售成本-材料报废        E CNY   5102 Yes 2   no
+540142   销售成本核算-返工维修费  E CNY   5102 Yes 2   no
+540143   销售成本-售后服务包装    E CNY   5102 Yes 2   no
+540144   销售成本-中转库运费      E CNY   5102 Yes 2   no
+540145   存货跌价准备             E CNY   5102 Yes 2   no
+540146   销售成本－Material Econo e CNY   5102 Yes 2   no
+540147   销售成本-Materialsaving  E CNY   5102 Yes 2   no
+540148   销售成本-VAVE            E CNY   5102 Yes 2   no
+540149   销售成本-PPV-LTA         E CNY   5102 Yes 2   no
+540150   销售成本-Inv claim OEM   E CNY   5102 Yes 2   no
+540151   销售成本-国产化咯擦local E CNY   5102 Yes 2   no
+540152   产品销售成本-反倾销税    E CNY   5102 Yes 2   no
+540153   产品销售成本-遏制成本    E CNY   5102 Yes 2   no
+540154   产品销售成本-处理基金    E CNY   5102 Yes 2   no
+540155   销售成本-客户指定供应商P E CNY   5102 Yes 2   no
+540156   销售成本-供应商返还      E CNY   5102 Yes 2   no
+540157   销售成本-大盘点差异      E CNY   5102 Yes 2   no
+540190   产品销售税金及附加       E CNY   5110 Yes 2   no
+540191   产品销售成本-样件试制    E CNY   5102 Yes 2   no
+540192   产品销售成本-样件试制回  E CNY   5102 Yes 2   no
+540201   COGS-Foam materi(Intr)   E CNY   5102 Yes 2   no
+540202   COGS-Foam Lab(Intr)      E CNY   5102 Yes 2   no
+540203   COGS-Foam Bur(Intr)      E CNY   5102 Yes 2   no
+540204   COGS-Foam OH(Intr)       e CNY   5102 Yes 2   no
+540205   COGS-OUTBOND FRRIGHT     E CNY   5102 Yes 2   no
+540208   销售成本－加急运费       E CNY   5102 Yes 2   no
+540272   销售成本-模具摊销        E CNY   5102 Yes 2   no
+540273   运费-材料inbound         E CNY   5102 Yes 2   no
+540274   产品销售成本-MBBP        E CNY   5102 Yes 2   no
+540298   其他业务支出关联材料成本 E CNY   5405 Yes 2   no
+540299   销售成本JCI合并企业内部  E CNY   5102 Yes 2   no
+550101   Other Tax                E CNY   5502 Yes 2   no
+550103   人事档案费               E cny   5502 Yes 2   no
+550104   Softwares                E CNY   5502 Yes 2   no
+550105   临时劳务费－直接         E CNY   5502 Yes 2   no
+550106   夜班加班费               E CNY   5502 Yes 2   no
+550107   管理费用-营业税          E CNY   5502 Yes 2   no
+550108   维修费－泡沫模具         E CNY   5502 Yes 2   no
+550110   出差补助                 E CNY   5502 Yes 2   no
+550111   垃圾清理费               E CNY   5502 Yes 2   no
+550114   员工保健费               E CNY   5502 Yes 2   no
+550117   新产品测试费-PM          E CNY   5502 Yes 2   no
+550118   新产品差旅费-PM          E CNY   5502 Yes 2   no
+550119   新产品培训费-PM          E CNY   5502 Yes 2   no
+550120   central staff charges    E CNY   5502 Yes 2   no
+550121   Land right usage         E CNY   5502 Yes 2   no
+550195   Alloc-IFRI.43900         E CNY   5502 Yes 2   no
+550196   Alloc-MPUR.44099         E CNY   5502 Yes 2   no
+550197   Alloc-MPUR.46999         E CNY   5502 Yes 2   no
+550198   Alloc-MCHG.47850         E CNY   5502 Yes 2   no
+550199   Alloc-ECHG.77099         E CNY   5502 Yes 2   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+550201   Maint Supplies 维修材料  E cny   5502 Yes 2   no
+550202   Maint&Repairs-Tool小工具 E cny   5502 Yes 2   no
+550203   Repairs修理费            E cny   5502 Yes 2   no
+550204   Fuel汽油费               E cny   5502 Yes 2   no
+550205   Non-Productionfreigh运费 E cny   5502 Yes 2   no
+550206   Heating Exps取暖费       E cny   5502 Yes 2   no
+550207   Apparatus工位器具        E cny   5502 Yes 2   no
+550208   项目PT材料               E CNY   5502 Yes 2   no
+550209   Maint-Bldg建筑物维修费   E cny   5502 Yes 2   no
+550210   safty supply劳保用品     E cny   5502 Yes 2   no
+550211   Perishable tools低值易耗 E cny   5502 Yes 2   no
+550212   Outside service现场服务  E cny   5502 Yes 2   no
+550213   Rental-Bldg租赁费-房产   E cny   5502 Yes 2   no
+550214   QC Appraisal实验检验费   E cny   5502 Yes 2   no
+550215   office supply办公用品    E cny   5502 Yes 2   no
+550216   Postage邮电费            E cny   5502 Yes 2   no
+550217   Toll过桥过路费           E cny   5502 Yes 2   no
+550218   Eng deve产品设计工程变更 E cny   5502 Yes 2   no
+550219   Maint-Mach维修费-设备    E cny   5502 Yes 2   no
+550220   PV tests已有产品试验费   E cny   5502 Yes 2   no
+550221   Other Expense公司年检费  E cny   5502 Yes 2   no
+550222   Training-Ext外部培训费   E cny   5502 Yes 2   no
+550223   Prof fees/consult咨询费  E cny   5502 Yes 2   no
+550224   Accounting&Audit审计费   E cny   5502 Yes 2   no
+550225   Lawyer Fees诉讼费        E cny   5502 Yes 2   no
+550226   ProvisionforBadDebt坏账  E cny   5502 Yes 1   no
+550227   Fines and Penalties罚金  E cny   5502 Yes 2   no
+550228   Business Meal业务餐费    E cny   5502 Yes 1   no
+550229   Maint Contract维护合同   E cny   5502 Yes 1   no
+550230   Depre-Bldg折旧费-建筑物  E cny   5502 Yes 1   no
+550231   Insurance-Prop保险费财产 E cny   5502 Yes 1   no
+550232   Salary-manage管理人工资  E cny   5502 Yes 1   no
+550233   OtherBenefits其他福利费  E cny   5502 Yes 1   no
+550234   Abroad Exps出国人员经费  E cny   5502 Yes 1   no
+550235   Stamp Tax印花税          E cny   5502 Yes 1   no
+550236   折旧Land right土地使用   E cny   5502 Yes 1   no
+550237   social plan职工失业保险  E cny   5502 Yes 1   no
+550238   healthInsurance工伤保险  E cny   5502 Yes 1   no
+550239   Pension养老保险          E cny   5502 Yes 1   no
+550240   MedicalInsurance医疗保险 E cny   5502 Yes 1   no
+550241   Housing Fund住房公积金   E cny   5502 Yes 2   no
+550242   临时间接人员工资         E cny   5502 Yes 2   no
+550243   Mobile手机费             E CNY   5502 Yes 2   no
+550244   BOD expense董事会经费    E CNY   5502 Yes 2   no
+550245   MSA外方服务费            E CNY   5502 Yes 2   no
+550246   T.A.技术支持费           E CNY   5502 Yes 2   no
+550247   Head Hunting猎头费       E CNY   5502 Yes 2   no
+550248   管理费用-总部管理费用    E CNY   5502 Yes 2   no
+550249   Other Supply其他维修材料 E CNY   5502 Yes 2   no
+550250   Donation捐款             E CNY   5502 Yes 2   no
+550251   Sup.Med.Ins补充医疗保险  E CNY   5502 Yes 2   no
+550252   计提的存货跌价准备       E CNY   5502 No  2   no
+550253   Air Tickets机票          E CNY   5502 Yes 2   no
+550254   Car Allowance车补        E CNY   5502 Yes 2   no
+550255   Rental - TAXI出租车费    E CNY   5502 Yes 2   no
+550256   Hotel旅馆费              E CNY   5502 Yes 2   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+550257   Mtg&Entain会议费及娱乐费 E CNY   5502 Yes 2   no
+550258   Sample样品费及回收费用   E CNY   5502 Yes 2   no
+550259   train/shipTicket其他交通 E CNY   5502 Yes 2   no
+550260   Water水费                E CNY   5502 Yes 2   no
+550261   PlantRearrange工厂启动费 E CNY   5502 Yes 2   no
+550262   生育保险                 E CNY   5502 Yes 2   no
+550263   Telephone-voice电话费    E CNY   5502 Yes 2   no
+550264   Data Commu数据传输费     E CNY   5502 Yes 2   no
+550265   PCSuppliy计算机消耗品    E CNY   5502 Yes 2   no
+550266   IT Allocation            E CNY   5502 Yes 2   no
+550267   CntrEmplyMan临时劳务费   E CNY   5502 Yes 2   no
+550268   Hiring招聘信息费         E CNY   5502 Yes 2   no
+550269   OutsideStorage外部存贮费 E CNY   5502 Yes 2   no
+550270   Subscr会员费,书报费      E CNY   5502 Yes 2   no
+550271   DepExp-Mach折旧费-机械设 E CNY   5502 Yes 2   no
+550272   DepExp-Fixt折旧费工装模  E CNY   5502 Yes 2   no
+550273   Safety&Protection保安费  E CNY   5502 Yes 2   no
+550274   Worker Union工会经费     E CNY   5502 Yes 2   no
+550275   Ins-Other保险费-其他     E CNY   5502 Yes 2   no
+550276   Ins-RealEst保险费-财产   E CNY   5502 Yes 2   no
+550277   Real Estate房产土地税    E CNY   5502 Yes 2   no
+550278   Enviro prot环境保护费    E CNY   5502 Yes 2   no
+550279   停产损失                 E CNY   5502 Yes 2   no
+550280   Rental-Equipment         E CNY   5502 Yes 2   no
+550281   Relocation employee      E CNY   5502 Yes 2   no
+550282   team buliding团队建设    E CNY   5502 Yes 2   no
+550283   Training-Int内部培训费   E CNY   5502 Yes 2   no
+550284   CommunityRela地区关系费  E CNY   5502 Yes 2   no
+550285   Bonus奖金                E CNY   5502 Yes 2   no
+550286   Rental-Auto租车费        E CNY   5502 Yes 2   no
+550287   Dep-exp折旧费-办公设备   E CNY   5502 Yes 2   no
+550288   Depre-Auto折旧费-汽车    E CNY   5502 Yes 2   no
+550289   Localization国产化开发费 E CNY   5502 Yes 2   no
+550290   DevptSample新产品试验费  E CNY   5502 Yes 2   no
+550291   高新专利费用             E CNY   5502 Yes 2   no
+550292   CI Award CI奖金          E CNY   5502 Yes 2   no
+550293   Electricity电费          E CNY   5502 Yes 2   no
+550294   DL-Wages直接人员工资     E CNY   5502 Yes 2   no
+550295   IDL-Wages间接人员工资    E CNY   5502 Yes 2   no
+550296   OT-DL直接人员加班费      E CNY   5502 Yes 2   no
+550297   OT-IDL间接人员加班费     E CNY   5502 Yes 2   no
+550298   team rally               E CNY   5502 Yes 2   no
+550299   TranferAcc零星采购过渡   E CNY   5502 Yes 2   no
+550300   Small TOLL小工具         E CNY   5502 Yes 2   no
+550301   财务费用-未实现汇兑损益  E CNY   5503 Yes 2   no
+550302   财务费用-已实现汇兑损益  E CNY   5503 Yes 2   no
+550303   财务费用-利息收入        E CNY   5503 Yes 2   no
+550304   财务费用-利息支出        E CNY   5503 Yes 2   no
+550305   财务费用-其他财务费用    E CNY   5503 Yes 2   no
+550306   财务费用-金融机构手续费  E CNY   5503 Yes 2   no
+550307   财务费用-利息支出BE      E CNY   5503 No  2   no
+550308   财务费用-汇兑损益hedge   E CNY   5503 Yes 2   no
+550310   财务费用-关联利息收入382 E CNY   5503 Yes 2   no
+550311   财务费用-关联利息支出914 E CNY   5503 Yes 2   no
+550312   财务费用关联息收入AE1384 E CNY   5503 Yes 2   no
+560100   营业外支出-FA dispsal    E CNY   5601 Yes 2   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+560101   营业外支出-固定资产减值  E CNY   5601 Yes 2   no
+570100   所得税                   E CNY   5701 Yes 2   no
+600101   MOUT.47690 reclass       A CNY   1000 No  1   yes
+600102   MOUT.47691 reclass       A CNY   1000 No  1   no
+600103   MOUT.47692  reclass      A CNY   1000 No  1   no
+600104   MOUT.47693  reclass      A CNY   1000 No  1   no
+600105   MFXA.48999 reclass       A CNY   1000 No  1   no
+600106   MVBA.47699 reclass       A CNY   1000 No  1   no
+600201   MOUT.47690 reclass       E CNY   5502 Yes 2   no
+600202   MOUT.47691 reclass       E CNY   5502 Yes 2   no
+600203   MOUT.47692  reclass      E CNY   5502 Yes 2   no
+600204   MOUT.47693  reclass      E CNY   5502 Yes 2   no
+600205   MFXA.48999 reclass       e CNY   5502 Yes 2   no
+600206   MVBA.47699 reclass       E CNY   5502 Yes 2   no
+600801   MFIN.48900  reclass      E CNY   5502 Yes 2   no
+600802   MFIN.48901 reclass       E CNY   5502 Yes 2   no
+600803   MFIN.48902  reclass      E CNY   5502 Yes 2   no
+600804   MFIN.48903 reclass       E CNY   5502 Yes 2   no
+600805   CFIX.31800  reclass      E CNY   5502 Yes 2   no
+600806   CVAR.31400  reclass      E CNY   5502 Yes 2   no
+600901   MFIN.48900  reclass      A CNY   1000 No  1   no
+600902   MFIN.48901 reclass       A CNY   1000 No  1   no
+600903   MFIN.48902  reclass      A CNY   1000 No  1   no
+600904   MFIN.48903 reclass       A CNY   1000 No  1   no
+600905   CFIX.31800  reclass      A CNY   1000 No  1   no
+600906   CVAR.31400  reclass      A CNY   1000 No  1   no
+60099    Retained Earnings        E CNY   5502 No  2   no
+600999   retain year earing       A CNY   1000 Yes 1   no
+77001    EQUT_6410 equity earning E CNY   5502 Yes 2   no
+77002    IDLE_14700 reser impaire E CNY   5502 Yes 2   no
+77003    MDEP_61240provision idle E CNY   5502 Yes 2   no
+77004    XOCA.09550               E CNY   5502 No  2   no
+77005    ONCA.12872               E CNY   5502 No  2   no
+77006    ITAX_68541 defer expense E CNY   5502 Yes 2   no
+77007    OTAX.14820               E CNY   5502 No  2   no
+77008    ONCL_2710 other NC liabi E CNY   5502 Yes 2   no
+77009    PYRE_3610 RE-prior year  L CNY   3141 Yes 1   no
+77010    MNSH_6420 minority share E CNY   5502 Yes 2   no
+77011    MNSH_6818 interest incom E CNY   5502 Yes 2   no
+77012    MNSH_6808 inte espense   E CNY   5502 Yes 2   no
+77013    MNSH_6866 Fore income ta E CNY   5502 Yes 2   no
+77014    MINI_2700 minor interest L CNY   3141 Yes 2   no
+77015    Federal (Non-U.S.) Defe  E CNY   5700 Yes 2   no
+77016    Federal (Non-US) Current E CNY   5700 Yes 2   no
+77017    DTAX_25131 defer liablit L CNY   2171 Yes 1   no
+77018    CADT_13801ST defer asset A CNY   1151 Yes 1   no
+77019    ONCA_18031 LT defer asse A CNY   1151 Yes 1   no
+77020    DTXP_23951ST defer liabi L CNY   2171 Yes 1   no
+77021    LIAB_2351Hedge payable   L CNY   2191 Yes 1   no
+77022    CAPP_1351Hedge receivabl A CNY   1151 Yes 1   no
+77023    期初未分配利润-上期结转  L CNY   3145 Yes 1   no
+78000    利润分配-小股东股利      L CNY   3141 Yes 1   no
+78001    实收资本-增资小股东      l CNY   3141 Yes 1   no
+78002    利润分配-小股东利润      l CNY   3141 Yes 1   no
+901001   Sample partsfor evaluati E CNY   5502 Yes 2   no
+901002   Packing for sample parts E CNY   5502 Yes 2   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+901003   Transport for samplepart E CNY   5502 Yes 2   no
+901004   Design engineering costs E CNY   5502 Yes 2   no
+901005   Flightsfor EXT ENGperson E CNY   5502 Yes 2   no
+901006   Hotlesfor EXT ENG person E CNY   5502 Yes 2   no
+901007   Mealsfor EXT ENG persona E CNY   5502 Yes 2   no
+901008   Transportfor EXTENGperso E CNY   5502 Yes 2   no
+901009   FEA studies              E CNY   5502 Yes 2   no
+901010   Prototype tools spend    E CNY   5502 Yes 2   no
+901011   Portotype tools recovery E CNY   5502 Yes 2   no
+901012   DV Testing               e CNY   5502 Yes 2   no
+901013   Product drawings         E CNY   5502 Yes 2   no
+901014   Customer prototype spend e CNY   5502 Yes 2   no
+901015   Customer prototype recov e CNY   5502 Yes 2   no
+901016   Customer prototype costs E CNY   5502 Yes 2   no
+901017   Material for PV testing  E CNY   5502 Yes 2   no
+901018   Packaging for PV testing E CNY   5502 Yes 2   no
+901019   Transport for PV testing E CNY   5502 Yes 2   no
+901020   PV test costs            E CNY   5502 Yes 2   no
+902001   Flights for PM/SDT team  E CNY   5502 Yes 2   no
+902002   Hotels for PM/SDT team   E CNY   5502 Yes 2   no
+902003   Meals for PM/SDT team    E CNY   5502 Yes 2   no
+902004   Transport for PM/SDTteam E CNY   5502 Yes 2   no
+902005   TA for phase exit/review E CNY   5502 Yes 2   no
+903001   Training materials       E CNY   5502 Yes 2   no
+903002   Packagefor train materia E CNY   5502 Yes 2   no
+903003   Transportfor trainmatera E CNY   5502 Yes 2   no
+903004   Operator training flight E CNY   5502 Yes 2   no
+903005   Operator training hotels E CNY   5502 Yes 2   no
+903006   Operator training meals  E CNY   5502 Yes 2   no
+903007   Operator train transport E CNY   5502 Yes 2   no
+903008   TA support for training  E CNY   5502 Yes 2   no
+903009   Others                   E CNY   5502 Yes 2   no
+904001   Transition exp of progra e CNY   5502 Yes 2   no
+909101                            A CNY   1501 Yes 1   no
+909102   Installation             A CNY   1501 Yes 1   no
+909103   Andon boards             A CNY   1501 Yes 1   no
+909104   Others                   A CNY   1501 Yes 1   no
+909105   capital-maintanence      A CNY   1501 Yes 1   no
+909106   capitail-facility        A CNY   1501 Yes 1   no
+909107   capital-general equipmen A CNY   1501 Yes 1   no
+909108   capital-advance equipmen A CNY   1501 Yes 1   no
+909109   capital-mat shipping equ A CNY   1501 Yes 1   no
+909110   capital-quality lab fixt A CNY   1501 Yes 1   no
+909111   capital-IT system        A CNY   1501 Yes 1   no
+909112   capital-office furn vehi A CNY   1501 Yes 1   no
+909201   Foam tools               A CNY   1501 Yes 1   no
+909202   Electrical test equipmen A CNY   1501 Yes 1   no
+909203   Assembly fixtures        A CNY   1501 Yes 1   no
+909204   Gauges/checking fixtures A CNY   1501 Yes 1   no
+909205   Shipping trollies/pallet A CNY   1501 Yes 1   no
+909206   BIW                      A CNY   1501 Yes 1   no
+909207   Special hand tools       A CNY   1501 Yes 1   no
+909208   Material storage racks   A CNY   1501 Yes 1   no
+909209   Others                   A CNY   1501 Yes 1   no
+909210   tooling-maintanence      A CNY   1501 Yes 1   no
+909211   tooling-facility         A CNY   1501 Yes 1   no
+
+                                                       Sub
+Account  Description              T Cur Format Act Ind Only Stat Acc
+-------- ------------------------ - --- ------ --- --- ---- --------
+909212   tooling-general eqipment A CNY   1501 Yes 1   no
+909213   tooling-advance equipmen A CNY   1501 Yes 1   no
+909214   tooling-Mat shipping sys A CNY   1501 Yes 1   no
+909215   tooling-quality lab&fixt A CNY   1501 Yes 1   no
+909216   tooling-IT system        A CNY   1501 Yes 1   no
+909217   tooling-office furn vehi A CNY   1501 Yes 1   no
+999999   DO NOT USE               E CNY   9999 Yes 2   no
+

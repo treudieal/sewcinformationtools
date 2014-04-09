@@ -1,0 +1,203 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="IdioSoft.Site.Master.Csite.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../Style/css/jquery.colorboxs/colorbox.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../Style/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../../Style/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="../../Style/css/bootmetro.css" />
+    <link rel="stylesheet" type="text/css" href="../../Style/css/bootmetro-tiles.css" />
+    <link rel="stylesheet" type="text/css" href="../../Style/css/bootmetro-charms.css" />
+    <link rel="stylesheet" type="text/css" href="../../Style/css/metro-ui-light.css" />
+    <link rel="stylesheet" type="text/css" href="../../Style/css/icomoon.css" />
+    <link rel="stylesheet" type="text/css" href="../../Style/css/Default.css" />
+    <link rel="stylesheet" type="text/css" href="../../Style/css/jquery-ui-1.9.2.custom.css" />
+    <script type="text/javascript" src="../../Scripts/jquery-1.9.1.js"></script>
+
+    <script type="text/javascript" src="../../Scripts/modernizr-2.6.1.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/JsClass.js"></script>
+    <script type="text/javascript" src="../../Scripts/JsFunction.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery.datetime.js"></script>
+    <script type="text/javascript" src="../../Scripts/colorbox/jquery.colorbox.js"></script>
+      <script type="text/javascript" src="../../Scripts/jscroll.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery.cookies.2.2.0.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="row-fluid" id="divHeader">
+            <div id="header-container">
+                <div class="dropdown">
+                    <a class="header-dropdown dropdown-toggle" data-toggle="dropdown" href="#" style="color: #ffffff; padding-left: 2px;">Informationtools 
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="margin-bottom: 5px; width: 240px;">
+                        <li><a tabindex="-1" href="#">Bu Report</a></li>
+                        <li><a tabindex="-1" href="#">CallCenter</a></li>
+                        <li><a tabindex="-1" href="#">CaseMonitoring</a></li>
+                        <li><a tabindex="-1" href="#">CS Commercial</a></li>
+                        <li><a tabindex="-1" href="#">FeedBack</a></li>
+                        <li><a tabindex="-1" href="#">GoodWill</a></li>
+                        <li><a tabindex="-1" href="#">HelpLine</a></li>
+                        <li id="mainmenuSEAL" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SEAL</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSEALHome" runat="server"><a tabindex="-1" href="#">Home</a></li>
+                                <li id="menuSEALClarification" runat="server"><a tabindex="-1" href="#">Clarification</a></li>
+                                <li id="menuSEALFS" runat="server"><a tabindex="-1" href="#">FS</a></li>
+                                <li id="menuSEALIHRExch" runat="server"><a tabindex="-1" href="#">IHRExch</a></li>
+                                <li id="menuSEALReport" runat="server"><a tabindex="-1" href="#">Report</a></li>
+                            </ul>
+                        </li>
+                        <li id="mainmenuSEDL" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SEDL</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSEDLHome" runat="server"><a tabindex="-1" href="#">Home</a></li>
+                                <li id="menuSEDLClarification" runat="server"><a tabindex="-1" href="#">Clarification</a></li>
+                                <li id="menuSEDLEXCH" runat="server"><a tabindex="-1" href="#">EXCH</a></li>
+                                <li id="menuSEDLFS" runat="server"><a tabindex="-1" href="#">FS</a></li>
+                                <li id="menuSEDLIHR" runat="server"><a tabindex="-1" href="#">IHR</a></li>
+                            </ul>
+                        </li>
+                        <li id="mainmenuSEDS" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SEDS</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSEDSHome" runat="server"><a tabindex="-1" href="#">Home</a></li>
+                                <li id="menuSEDSFS" runat="server"><a tabindex="-1" href="#">FS</a></li>
+                                <li id="menuSEDSIHR" runat="server"><a tabindex="-1" href="#">IHR</a></li>
+                            </ul>
+                        </li>
+                        <li id="mainmenuSEWC" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SEWC</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSEWCHome" runat="server"><a tabindex="-1" href="../../SEWC/Home/Default.aspx">Home</a></li>
+                            </ul>
+                        </li>
+                        <li id="mainmenuSFAE" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SFAE</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSFAEHome" runat="server"><a tabindex="-1" href="#">Home</a></li>
+                                <li id="menuSFAEIHRMotor" runat="server"><a tabindex="-1" href="#">IHR Motor</a></li>
+                                <li id="menuSFAEIHRSD" runat="server"><a tabindex="-1" href="#">IHR SD</a></li>
+                                <li id="menuSFAESNC" runat="server"><a tabindex="-1" href="#">SNC</a></li>
+                            </ul>
+                        </li>
+                        <li id="mainmenuSIAS" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SIAS</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSIASHome" runat="server"><a tabindex="-1" href="#">Home</a></li>
+                                <li id="menuSIASEXCH" runat="server"><a tabindex="-1" href="#">EXCH</a></li>
+                                <li id="menuSIASGoodsReceipt" runat="server"><a tabindex="-1" href="#">GoodsReceipt</a></li>
+                                <li id="menuSIASIHR" runat="server"><a tabindex="-1" href="#">IHR</a></li>
+                                <li id="menuSIASSpareSales" runat="server"><a tabindex="-1" href="#">Spare Sales</a></li>
+                            </ul>
+                        </li>
+                        <li id="mainmenuSMDT" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SMDT</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSMDTHome" runat="server"><a tabindex="-1" href="#">Home</a></li>
+                                <li id="menuSMDTEXCH" runat="server"><a tabindex="-1" href="#">EXCH</a></li>
+                                <li id="menuSMDTFS" runat="server"><a tabindex="-1" href="#">FS</a></li>
+                                <li id="menuSMDTIHR" runat="server"><a tabindex="-1" href="#">IHR</a></li>
+                                <li id="menuSMDTReport" runat="server"><a tabindex="-1" href="#">Report</a></li>
+                                <li id="menuSMDTSpareSales" runat="server"><a tabindex="-1" href="#">Spare Sales</a></li>
+                            </ul>
+                        </li>
+                        <li><a tabindex="-1" href="#">SMS</a></li>
+                        <li><a tabindex="-1" href="#">SNC</a></li>
+                        <li id="mainmenuSPAS" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SPAS</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSPASHome" runat="server"><a tabindex="-1" href="#">Home</a></li>
+                                <li id="menuSPASFS" runat="server"><a tabindex="-1" href="#">FS</a></li>
+                            </ul>
+                        </li>
+                        <li id="mainmenuSSCL" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SSCL</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSSCLHome" runat="server"><a tabindex="-1" href="#">Home</a></li>
+                                <li id="menuSSCLFS" runat="server"><a tabindex="-1" href="#">FS</a></li>
+                                <li id="menuSSCLIHR" runat="server"><a tabindex="-1" href="#">IHR</a></li>
+                            </ul>
+                        </li>
+                        <li id="mainmenuSSML" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">SSML</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuSSMLHome" runat="server"><a tabindex="-1" href="#">Home</a></li>
+                                <li id="menuSSMLClarification" runat="server"><a tabindex="-1" href="#">Clarification</a></li>
+                                <li id="menuSSMLEXCH" runat="server"><a tabindex="-1" href="#">EXCH</a></li>
+                                <li id="menuSSMLFS" runat="server"><a tabindex="-1" href="#">FS</a></li>
+                                <li id="menuSSMLIHR" runat="server"><a tabindex="-1" href="#">IHR</a></li>
+                            </ul>
+                        </li>
+                        <li id="mainmenuEscalation" runat="server" class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Escalation</a>
+                            <ul class="dropdown-menu">
+                                <li id="menuEscalationHome" runat="server"><a tabindex="-1" href="../../Escalation/Home/Default.aspx">Home</a></li>
+                                <li id="menuEscalationOpenList" runat="server"><a tabindex="-1" href="../../Escalation/List/OpenList.aspx">Open List</a></li>
+                                <li id="menuEscalationInProcessList" runat="server"><a tabindex="-1" href="../../Escalation/List/InProcessList.aspx">InProcess List</a></li>
+                                <li id="menuEscalationFinishList" runat="server"><a tabindex="-1" href="../../Escalation/List/FinishList.aspx">Finish List</a></li>
+                                <li id="menuEscalationAllList" runat="server"><a tabindex="-1" href="../../Escalation/List/AllList.aspx">All List</a></li>
+                            </ul>
+                        </li>
+                        <li><a tabindex="-1" href="#">Survey</a></li>
+                        <li><a tabindex="-1" href="#">User</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="top-info" class="pull-right">
+                <a href="#" class="pull-left">
+                    <div class="top-info-block">
+                        <b class="icon-user" id="lnkMyInformation"></b>
+                    </div>
+                </a>
+                <hr class="separator pull-left" />
+                <a id="settings" class="pull-left" href="#">
+                    <div class="dropdown" style="float: left;">
+                        <a class="header-dropdown dropdown-toggle" data-toggle="dropdown" href="#" style="color: #ffffff; padding-left: 2px;"><b class="icon-settings"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="margin-bottom: 0px; left: -120px;">
+                            <li><a tabindex="-1" href="../../Default.aspx" style="width: 120px; height: 30px;">退出</a></li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div id="divBreadcrumbs">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div id="divContent" style="vertical-align: top;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+
+                    <td>
+                        <asp:ContentPlaceHolder ID="cplMain" runat="server"></asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </form>
+    <script type="text/javascript" src="../../JsLibrary/Master/JsMaster-default.js"></script>
+
+
+    <script type="text/javascript" src="../../scripts/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="../../scripts/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="../../scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="../../scripts/bootmetro.js"></script>
+    <script type="text/javascript" src="../../scripts/bootmetro-charms.js"></script>
+    <script type="text/javascript" src="../../scripts/holder.js"></script>
+
+    <script type="text/javascript">
+        $(".metro").metro();
+    </script>
+    <iframe src="../../Util/Page/Refresh.aspx" width="1" height="1" style="height: 1px; width: 1px;" title="" frameborder="0"></iframe>
+</body>
+</html>

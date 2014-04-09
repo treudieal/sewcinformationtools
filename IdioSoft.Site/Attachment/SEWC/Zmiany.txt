@@ -1,0 +1,848 @@
+wersja 1.5.1.10
+~~~~~~~~~~~~~~
+- usprawnienia w mechanizmie pobierania aktualizacji oraz obs³uga p³atnych aktualizacji
+- poprawki w mechanizmie przenoszenia kursów do nowych lokalizacji (problem odnajdywania czêœci œcie¿ki)
+- poprawki w mechanizmie aktywacji kursów
+- poprawka likwiduj¹ca brak mo¿liwoœci zaznaczenia fraz i ich t³umaczenia wystêpuj¹ca na niektórych stronach kursu
+
+
+wersja 1.5.1.7
+~~~~~~~~~~~~~~
+- poprawki w mechanizmie odtwarzania dŸwiêków - klawisz Ctrl przytrzymywany podczas odtwarzania dŸwiêku w celu wyœwietlenia analizatora wymowy, nie koliduje teraz ze skrótami zdefiniowanymi przez u¿ytkownika wykorzystuj¹cymi ten przycisk
+- poprawki w mechanizmie synchronizacji likwiduj¹ce problemy z przetwarzaniem danych z serwera
+
+
+
+wersja 1.5.1.6
+~~~~~~~~~~~~~~
+
+- mo¿liwoœæ konfiguracji wyœwietlanych elementów æwiczeñ w najnowszych kursach nauki s³ownictwa 2012
+- dodano mechanizm automatycznego przenoszenia kursów do nowych lokalizacji
+- poprawki b³êdów oraz liczne usprawnienia w mechanizmie odtwarzanie dŸwiêków
+- usprawnienia 'Mojej listy" pozwalaj¹ce na naukê s³ówek z listy przy ustawionej zerowej iloœci nowego materia³u/dzieñ
+- poprawki w wyszukiwarce s³ówek w kursach Extreme - po zamkniêciu wyszukiwarki program prawid³owo wraca do strony oraz kursu z poziomu których j¹ otwarto
+- poprawki w analizatorze wymowy (teraz zamykanie powoduje zakoñczenie odtwarzania)
+- poprawka w panelu nawigacyjnym pozwalaj¹ca na pracê z wykorzystaniem wielu monitorów
+- poprawka b³êdu kopii bezpieczeñstwa tworzonej podczas wy³¹czania aplikacji
+- automatyczne logowanie do profilu po restarcie aplikacji spowodowanym potrzeb¹ podniesiania uprawinieñ u¿ytkownika
+- dodano opcjê wyœwietlaj¹c¹ informacje o aktualnie wybranym kursie w menu kontekstowym po klikniêciu prawym klawiszem myszy na planie nauki
+- poprawiono mechanizm zliczania statystyk - teraz w iloœci przerobionego materia³u uwzglêdniane s¹ tak¿e strony oznaczone jako 'Trwale pamiêtam'
+- poprawka b³êdu zwi¹zanego z uporczywym przypominaniem o dostepnych aktualizacjach
+- zmieniono ikonkê konfiguracji kursów w drzewku kursu oraz ikony odtwarzania w analizatorze wymowy
+- poprawka wy³¹czaj¹ca odtwarzaie dŸwiêków przy minimalizacji okna programu
+
+
+wersja 1.5.0.6
+~~~~~~~~~~~~~~
+- zmiany w mechanizmie synchronizacji pozwalaj¹ce na synchronizacjê najnowszych kursów
+- poprawka zakresowego odtwarzania wideo w angielskim interfejsie u¿ytkownika
+
+
+wersja 1.5.0.5
+~~~~~~~~~~~~~~
+- poprawki w komponencie podgl¹du strony
+- poprawki w renderowaniu przyk³adów w wyszukiwarce wyra¿eñ
+- poprawki odtwarzacza dŸwiêków podczas odtwarzania na systemie Windows XP
+- poprawki odtwarzacza FLASH eliminuj¹ce b³êdy odtwarzania dŸwiêków w niektórcyh kursach
+- poprawki w mechanizmie zapisywania siê na kursu - teraz aktualizacja wywo³ywana jest po zapisaniu siê 
+  na ostatni z wybranych na lisice kursów
+
+
+wersja 1.5.0.2
+~~~~~~~~~~~~~~
+
+- poprawki w mechanizmie dezaktywacji kursów
+- poprawki w mechanizmie wyboru kursów po instalacji
+- poprawiono dzia³anie aktywacji kursu w przypadku aktywacji na Windows 7 64bit
+  i dostêpie do internetu przez Blue Connect.
+- poprawiono wygl¹d dwóch okien dialogowych w przypadku, gdy u¿ytkownik mia³
+  powiêkszone czcionki.
+
+
+wersja 1.5
+~~~~~~~~~~
+
+- dodano obs³ugê kursów w formacie 2.0.
+- poprawki w mechanizmie t³umaczeñ za pomoc¹ google-translate.
+- na stronie powitalnej podlinkowano informacje o nowych stronach do nauki (po
+  klikniêciu mo¿na zmieniæ liczbê stron do nauki) i iloœæ przerobionego materia³u
+  (mo¿na obejrzeæ statystyki kursu).
+- poprawki w opisach do kursów w formularzu w³aœciwoœci kursu.
+- dodano mo¿liwoœæ przesuwania kursów na ekranie g³ównym aplikacji.
+- podczas przywracania postêpów w nauce z pliku lub kopii bezpieczeñstwa
+  wykonywana jest operacja weryfikacji œcie¿ek do kursów, których dotycz¹
+  przywracane dane oraz ich automatyczna zmiana jeœli kursy zosta³y zainstalowane
+  w innych lokalizacjach.
+- dodano mechanizm tworzenia/edycji notatek dla stron kursu.
+- zintegrowano odtwarzacz dŸwiêku z interfejsem aplikacji.
+- poprawiono import z plików Q&A.
+
+
+
+wersja 1.4.10.12
+~~~~~~~~~~~~~~~~
+
+- poprawki w mechanizmie wy³¹czania stron z nauki.
+- liczne usprawnienia i poprawki w mechanizmie kopii bezpieczeñstwa.
+- usprawnienia i poprawki w mechanizmie aktualizacji.
+- dodano kolejno obs³ugê kolejnych kawiaturek dla komponentu luki w tekœcie.
+
+
+
+wersja 1.4.10.8
+~~~~~~~~~~~~~~~
+
+- obs³uga przyrostowego mechanizmu ³atania kursów (zmodyfikowana aktualizacja,
+  obs³uga plików kursu przez program, obs³uga ³atania kursu z pliku...).
+- usprawniony mechanizm synchronizacji.
+- poprawiony b³¹d zwi¹zany z wy³¹czaniem stron z nauki 'Ctrl+D' (nie zwija³
+  drzewka, pozostaje na tej samej stronie).
+- poprawiona wyszukiwarka SINS (przy wyjœciu wraca do miejsca z którego do niej
+  weszliœmy nawet gdy przeszliœmy w niej do innego kursu).
+- poprawiony mechanizm importu z Q&A.
+- poprawiony problem z nagrywaniem dŸwiêków w przypadku braku urz¹dzenia
+  nagrywaj¹cego (teraz wypisuje stosown¹ informacjê).
+- poprawiony mechanizm update - teraz nie zapyta czy aktualizowaæ jeœli
+  aktualizacja ju¿ trwa, pilnowana jest te¿ kolejnoœæ aktualizacji w pierwszej
+  kolejnoœci program g³ówny w dalszej kursy.
+- poprawiono b³¹d zwi¹zany z b³êdn¹ odmian¹ wyszukiwanych wyrazów po
+  prze³¹czeniu siê miêdzy kursami z ró¿nymi jêzykami.
+
+
+
+wersja 1.4.10.7
+~~~~~~~~~~~~~~~
+
+- zmieniono sposób wyboru jêzyka interfejsu podczas logowania. Dodatkowo
+  poprawiono intuicyjnoœæ obs³ugi okna logowania w przypadku pierwszego u¿ycia.
+- w oknie 'SprawdŸ aktualizacjê kursów' dodano w postaci przycisku opcjê
+  umo¿liwiaj¹c¹ aktualizowanie kursów z wykorzystaniem osobnych plików z ³atkami.
+- poprawki w mechanizmie synchronizacji zawartoœci kursów.
+- zmieniono wygl¹d okna Trenera Wymowy, aby mieœci³ siê na ekranie w niskiej
+  rozdzielczoœci.
+- delikatne zmiany w stemmerze niemieckim i hiszpañskim.
+- dodano wskaŸnik postêpu w oknie importu plików Q&A oraz poprawiono zgodnoœæ
+  importu z SM98.
+- poprawiono problem z wyj¹tkami zg³aszanymi przez Windows Media Player.
+- poprawiono b³¹d zwi¹zany z rysowaniem postêpów w nauce na Panelu z powtórkami
+  (nie by³ rysowany poprzedni interwa³).
+- wy³¹czono automatyczne pokazywanie okna w³aœciwoœci komponentu po wstawieniu
+  Kontrolera pisowni. Dziêki temu szybciej mo¿na tworzyæ kursy zawieraj¹ce du¿¹
+  iloœæ luk w tekœcie.
+- zmieniono ikonê aplikacji, aby by³a spójna z pozosta³ymi aplikacjami SuperMemo.
+- poprawiono b³¹d pojawiaj¹cy siê podczas synchronizacji kursów z serii Extreme.
+
+
+
+wersja 1.4.9.1
+~~~~~~~~~~~~~~
+
+- mo¿liwoœæ synchronizacji informacji o nauce gotowych kursów z supermemo.net.
+- dodano statystyki ca³ego kursu (menu Kurs / Informacje).
+- poprawiono mechanizm aktualizacji, aby nie przechodzi³ do ekranu powitalnego
+  jeœli nie znaleziono aktualizacji.
+- dodano stemmer jêzyka niemieckiego oraz hiszpañskiego u¿ywane do sprowadzania
+  odmienionych wyra¿eñ do formy podstawowej. Mechanizm ten u¿ywany jest podczas
+  wyszukiwania kontekstowego oraz w kursach SINS.
+- poprawiono sprawdzanie dostêpnoœci nowej wersji kursu po zapisaniu siê na
+  kurs. Nie blokuje ju¿ interfejsu u¿ytkownika.
+- wyszukiwarka w kursach SINS dzia³a równie¿ po wpisaniu wyrazu u¿ywaj¹c tylko 
+  znaków ASCII (bez akcentów i umlautów).
+- dodano mechanizm informuj¹cy o zmianach w nowej wersji po aktualizacji
+- dodano import kursów z plików XML SM2006. Odpowiednia opcja zosta³a dodana
+  w oknie tworzenia nowego kursu.
+- dane o nauce s¹ teraz aktualizowane przy wybudzaniu komputera ze stanu
+  uœpienia.
+
+
+
+wersja 1.4.7
+~~~~~~~~~~~~
+
+- dodano przyciski minimalizacji i prze³¹czania trybu pe³noekranowego do menu
+  wyœwietlanego po dojechaniu myszk¹ do górnej krawêdzi ekranu.
+- dodano mo¿liwoœæ kontekstowego wyszukiwania wyra¿eñ w s³owniku kursu.
+  Wystarczy zaznaczyæ myszk¹ fragment tekstu i klikn¹æ praw¹ myszk¹. Zostanie
+  wyœwietlona lista znalezionych wyra¿eñ wraz z t³umaczeniami.
+- poprawiono b³¹d polegaj¹cy na niewyœwietlaniu zadañ, zleconych przez
+  nauczyciela, przy pierwszym wyœwietleniu ekranu powitalnego.
+- poprawiono sposób renderowania nowoœci na ekranie powitalnym.
+- dodano skrót klawiszowy do opcji Pamiêtam trwale.
+
+
+
+wersja 1.4.6.3
+~~~~~~~~~~~~~~
+
+- dodano obs³ugê Ctrl+A we wszystkich oknach aplikacji.
+- zmniejszono marginesy i odstêpy miêdzy liniami dla list wypunktowanych
+  i numerowanych.
+- podczas kasowania kursu z poziomu menu, kurs jest teraz przenoszony do kosza,
+  a nie fizycznie usuwany.
+- poprawiono b³êdy zwi¹zane z wykonywaniem kopii bezpieczeñstwa podczas
+  zamykania/restartu aplikacji.
+- dodano menu kontekstowe dla panelu z planem nauki.
+- poprawiono b³¹d objawiaj¹cy siê nie aktualizowaniem kursów w przypadku, gdy
+  by³y zainstalowane na pendrive'ie lub karcie pamiêci.
+- poprawiono b³¹d prze³¹czania trybów: pe³noekranowy / okienkowy w trybie edycji.
+- poprawiono mechanizm procentowego zliczania postêpów w nauce.
+- dodano obs³ugê systemowego proxy podczas aktualizacji. Dodatkowo dodano
+  obejœcie b³êdu '417 Expectation failed'.
+- poprawiono b³¹d wystêpuj¹cy podczas aktualizacji kursów z poziomu nauki.
+- poprawiono b³¹d polegaj¹cy na niewypisywaniu t³umaczy kursów w oknie
+  W³aœciwoœci.
+- dodano wywo³anie aktualizacji po zapisaniu siê na kurs nie u¿ytkownika.
+- poprawiono wspó³pracê z Panelem Nauczyciela.
+
+
+
+wersja 1.4.5
+~~~~~~~~~~~~
+
+- dodano mo¿liwoœæ zaznaczania pojedynczych dni wolnych od nauki (z przesuwaniem
+  powtórek), oraz dni tygodnia. Mo¿na równie¿ ponownie w³¹czaæ dni wczeœniej 
+  wy³¹czone z nauki (z automatycznym przywracaniem powtórek na te dni).
+- dodano mo¿liwoœæ zmiany danych osobowych i has³a po klikniêciu na login 
+  u¿ytkownika widoczny na ekranie powitalnym.
+- system backupowania danych o postêpach w nauce (automatyczny i rêczny).
+- eksport/import informacji o nauce do pliku.
+- opcja sprawdzania i naprawy danych dotycz¹cych kursów w bazie danych.
+- opcja kompaktowania bazy danych.
+- opcja zg³aszania b³êdów przez u¿ytkowników z poziomu aplikacji.
+- poprawiono b³¹d uniemo¿liwiaj¹cy przeprowadzenie konwersji kursów do
+  nowego formatu w specyficznych przypadkach.
+- dodano do W³aœciwoœci kursu informacje o oryginalnej wersji kursu
+  i wersji ³atki.
+- przywrócono mo¿liwoœæ wejœcia do edycji obszaru strony za pomoc¹ kombinacji
+  Ctrl+Tab.
+- dostosowano program do dzia³ania z kursami z serii Extremes Deutsch.
+
+
+
+wersja 1.4.3.2
+~~~~~~~~~~~~~~
+
+- dodano mo¿liwoœæ importu ca³ego kursów w postaci Q&A. Podczas tworzenia nowego
+  kursu wystarczy zaznaczyæ flagê 'Zaimportuj kurs w postaci Q&A.
+- poprawiony rzadki b³¹d zwi¹zany z zapisywaniem w bazie nieprawid³owej wartoœci
+  i objawiaj¹cy siê komunikatem InvalidCastException.
+- dodano mo¿liwoœæ wyszukiwania wyra¿eñ w kursach s³ownikowych z serii SINS
+  z poziomu innych kursów. Wystarczy zaznaczyæ myszk¹ wyra¿enie i klikaj¹c praw¹
+  myszk¹ na zaznaczeniu wybraæ z menu opcjê 'Szukaj'.
+- dodano blokowanie na kilka sekund przycisku potwierdzaj¹cego operacjê
+  w przypadku bardzo istotnych komunikatów dotycz¹cych nieodwracalnych operacji
+  wybranych przez u¿ytkownika.
+- zmieniono sposób liczenia stopnia przerobienia kursu. Nie s¹ ju¿ brane pod
+  uwagê strony znajduj¹ce siê w egzaminach.
+- w ustawieniach kursu dodano mo¿liwoœæ zlokalizowania kursu w przypadku, gdy 
+  po³o¿enie kursu uleg³o zmianie.
+- zastosowano obejœcie b³êdu w œrodowisku .NET objawiaj¹cego siê brakiem postêpu
+  w oknie odtwarzacza nagrañ.
+- poprawiono zachowanie siê programu w przypadku, gdy plik kursu, na który
+  u¿ytkownik jest zapisany jest ju¿ niedostêpny (np. zosta³ usuniêty).
+- poprawiono b³¹d w terminarzu powoduj¹cy nieprawid³owe wyœwietlanie iloœci
+  powtórek dla wszystkich kursów.
+- przywrócono mo¿liwoœæ przechodzenia pomiêdzy polami do wpisywania odpowiedzi
+  za pomoc¹ tabulatora.
+- poprawiono drobny b³¹d objawiaj¹cy siê podczas konwersji kursów na nowy format
+  jeœli nie znaleziono na dysku pliku z kursem.
+- dodano mechanizm ratowania nieudanej konwersji wszystkich kursów w przypadku,
+  gdy lokalizacja kursu jest niezgodna z zapisan¹ w danych dotycz¹cych nauki.
+  W takim przypadku program próbuje odnaleŸæ w rejestrze alternatywn¹
+  lokalizacjê kursu.
+- poprawiony b³¹d pojawiaj¹cy siê przy kilkukrotnej próbie aktualizowania
+  kursów. Program niepotrzebnie pobiera³ i aktualizowa³ ponownie ju¿
+  zaktualizowane kursy.
+- poprawiono problem objawiaj¹cy siê po uruchomieniu aktualizacji programu
+  z poziomu nauki. Po zakoñczeniu aktualizacji i próbie kontynuowania nauki
+  pojawia³ siê komunikat b³êdu.
+
+
+
+wersja 1.4.2
+~~~~~~~~~~~~
+
+- dodano mo¿liwoœæ wspó³pracy z Multimedialn¹ Encyklopedi¹ Powszechn¹ PWN edycja
+  2010.
+
+
+
+wersja 1.4
+~~~~~~~~~~
+
+- dodano obs³ugê kursów zawieraj¹cych s³ownictwo (np. z nowej serii 
+  Extreme English).
+- poprawiono szybkoœæ dzia³ania programu (otwieranie kursów, uruchamianie
+  programu, wyznaczanie materia³u do nauki) poprzez przeniesienie procesu nauki
+  do bazy danych.
+- poprawiono zapamiêtywanie ostatnio uczonej pozycji (ju¿ nie aktualizuje jej
+  podczas powtórek i utrwaleñ).
+- zablokowano mo¿liwoœæ przesuwania panelu z przyciskami nawigacyjnymi poza
+  obszar ekranu lub okna.
+- poprawiono problem z brakiem podkreœlenia w kompenencie typu lista rozwijana
+  w przypadku, gdy nie by³o wiêcej linii tekstu poni¿ej listy.
+- zmieniono wygl¹d listy rozwijanej po najechaniu na ni¹ kursorem myszy.
+- dodano menu kontekstowe w spisie treœci kursu z podstawowymi opcjami obs³ugi
+  stron podczas nauki.
+- okno logowania domyœlnie pokazuje jêzyk interfejsu pobrany z systemu.
+- poprawiono pozycjonowanie okr¹g³ych przycisków na ró¿nych rozdzielczoœciach
+  ekranu.
+- poprawiono b³¹d powoduj¹cy b³êdy graficzne podczas rysowania paneli podczas
+  nauki pod Windows 7.
+- dodano efekt przejœcia pomiêdzy stronami (pojawia siê tylko dla kursów, które
+  posiadaj¹ szablony zgodne z wymaganiami zwi¹zanymi z tym efektem).
+- dodano mo¿liwoœæ prze³¹czania domyœlnego przycisku na panelu nawigacyjnym za
+  pomoc¹ klawiszy kursora.
+- poprawiono b³¹d w renderowaniu strony g³ównej po rozpoczêciu nauki,
+  w przypadku gdy kurs nie jest dostêpny na dysku.
+- uproszczono sposób wyboru uk³adu klawiatury przypisanego do kursu.~
+
+
+
+wersja 1.3.9.2
+~~~~~~~~~~~~~~
+
+- poprawiono drobne b³êdy w tekstach niemieckich w programie.
+- podczas edycji strony wklejany tekst jest teraz filtrowany, aby zapobiec
+  przenoszenia uszkodzonego HTMLa z innych programów.
+- dodano wyœwietlanie daty publikacji w informacjach od SuperMemo.
+- poprawiono automatyczne tworzenie nazwy nowo utworzonej strony podczas
+  edycji w kilku specyficznych przypadkach.
+- poprawiono zachowanie siê aplikacji w przypadku próby dodania do kursu
+  nagrania, które jest aktualnie otwarte w innej aplikacji.
+- zmieniono skróty klawiszowe umo¿liwiaj¹ce przechodzenie pomiêdzy
+  obszarami strony. Teraz wystarczy do tego klawisz Tab ju¿ bez klawisza
+  Ctrl.
+
+
+
+wersja 1.3.8.2
+~~~~~~~~~~~~~~
+
+- poprawiono mechanizm oceniania pytañ podczas egzaminu, aby udziela³
+  równie¿ cz¹stkowe oceny za czêœciowo rozwi¹zane æwiczenia. Aktualnie
+  zastosowany mechanizm nie odejmuje punktów za nieprawid³owe odpowiedzi.
+- rozwi¹zano problem z chwilowym zatrzymywaniem siê aplikacji na niektórych
+  konfiguracjach np. podczas rozpoczynania nauki.
+- w oknie W³aœciwoœci kursu dodano przycisk umo¿liwiaj¹cy wyœwietlenie
+  zawartoœci katalogu, w którym jest przechowywany aktualnie otwarty kurs.
+- drobne zmiany w wyœwietlaniu prawid³owej odpowiedzi w æwiczeniach typu
+  Przeci¹gnij i upuœæ, oraz Lista rozwijana.
+- zmieniono wielkoœæ przycisków odtwarzacza nagrañ.
+- czcionka listy rozwijanej skaluje siê teraz wraz ze zmian¹ rozdzielczoœci
+  szablonów.
+
+
+
+wersja 1.3.7
+~~~~~~~~~~~~
+
+- przyciski odtwarzacza nagrañ skaluj¹ siê wraz ze zmian¹ rozdzielczoœci
+  szablonów.
+- domyœlnie animacje Flash nie odwarzaj¹ siê w kó³ko. Dodano opcjê
+  w konfiguracji komponentu Gfx umo¿liwiaj¹c¹ w³¹czenie zapêtlenia animacji.
+
+
+
+wersja 1.3.6
+~~~~~~~~~~~~
+
+- poprawiono wiele b³êdów nagrywania z mikrofonu w analizatorze wymowy.
+- zredukowano liczbê w¹tków analizatora podczas nagrywania.
+- zast¹piono dotychczasowe odtwarzanie nagrañ w analizatorze przez plik
+  tymczasowy na odtwarazanie z pamiêci.
+- dodano statusy pracy analizatora wyœwietlane w oknie postêpu.
+- poprawiono dzia³anie programu uruchomionego z poziomu konta u¿ytkownika
+  z ograniczeniami.
+- dodano alceleratory do wszystkich okien i menu programu.
+- poprawiono problem zwi¹zany z wyœwielaniem przycisków minimalizacji
+  i maksymalizacji okna po wy³¹czeniu opcji karnacji okien.
+- okno odtwarzacza nagrañ jest ju¿ minimalizowane podczas minimalizacji
+  g³ównego okna programu.
+- udostêpniono mo¿liwoœæ importu stron w formacie Q&A do rozdzia³u kursu.
+- poprawiono problem pojawiaj¹cy siê sporadycznie jeœli podczas edycji
+  strony kursu, w trakcie edycji pola naciœniêto przycisk F9. Skutkowa³o to
+  zapamiêtaniem edytowanej treœci w innej stronie.
+
+
+
+wersja 1.3.5
+~~~~~~~~~~~~
+
+- dodano obs³ugê animacji Flash wyœwietlanych w osobnym oknie po klikniêciu
+  miniaturki osadzonej na stronie kursu.
+- poprawiono b³¹d polegaj¹cy na tym, ¿e domyœlne nowo utworzony kurs mia³
+  ustawion¹ liczbê nowych stron do nauki dziennie na 0.
+- poprawiono mechanizm generowania nazw stron podczas tworzenia nowych stron
+  kursu.
+- zmieniono sposób dzia³ania okna definiowania w³aœciwoœci komponentu Gfx.
+
+
+
+wersja 1.3.4.4
+~~~~~~~~~~~~~~
+
+- poprawiono wyœwietlanie informacji o nieprawid³owym haœle podczas logowania 
+  u¿ytkownika.
+- poprawiono problem z zawieszaniem siê aplikacji podczas nagrywania w³asnej
+  wypowiedzi.
+- poprawiono problem pojawiaj¹cy siê po aktualizacji kursu, w którym usuniêto
+  strony poprzednio istniej¹ce w kursie.
+
+
+
+
+wersja 1.3.4.3
+~~~~~~~~~~~~~~
+
+- zmieniono akcjê wywo³ywan¹ po klikniêciu na przycisk dŸwiêku pytania lub
+  odpowiedzi. Teraz zamiast okna wyboru pliku pojawia siê lista mediów dodanych
+  do danej strony. Z poziomu tej listy mo¿na ods³uchaæ nagrania i zarz¹dzaæ
+  nimi.
+- poprawiono niekonsekwencjê w wyœwietlaniu interwa³ów w panelu powtórek. Teraz
+  program prawid³owo pokazuje jako poprzedni interwa³ oryginalnie wyznaczon¹
+  wartoœæ zamiast wartoœci rzeczywistej.
+- poprawiono rzadki problem z b³êdem zg³aszanym w metodzie memorizeParentItem
+  podczas nauki.
+- dodano obs³ugê zdarzenia podwójnego klikniêcia na tle programu. Powoduje
+  prze³¹czanie siê programu pomiêdzy trybem pe³noekranowym a okienkowym.
+- program ju¿ nie pobiera ³atki kursu, jeœli nie znalaz³ g³ównego pliku
+  z kursem.
+- poprawiono problem z brakiem uprawnieñ do zapisu w rejestrze po uruchomieniu
+  programu z poziomu konta u¿ytkownika z ograniczeniami.
+
+
+
+wersja 1.3.3.2
+~~~~~~~~~~~~~~
+
+- dodano obs³ugê dodatkowych czcionek w kursie, na razie bez mo¿liwoœci edycji
+  (wymaga .NET 2.0 SP1).
+- automatycznie ustawiane nazwy strony s¹ ju¿ prawid³owo zapisywane.
+- drobne zmiany maj¹ce na celu przyspieszenie dzia³ania aplikacji.
+- usuniêto informacjê 'Proszê czekaæ', z któr¹ by³ zwi¹zany b³¹d objawiaj¹cy siê
+  brakiem reakcji aplikacji, np. po zapisaniu siê na kurs.
+- na wiêkszych rozdzielczoœciach ekranu ni¿ 1600px wype³nienie t³a jest
+  skalowane, aby wype³niæ ca³e t³o.
+- poprawiono drobny b³¹d z pozycjonowaniem przycisków prze³¹czaj¹cych wygl¹d
+  panelu z powtórkami.
+- zmieniono sposób rysowania ekranu planu nauki, aby poprawiæ dziwne zachowanie
+  siê suwaka obok kursów wybranych do nauki.
+- poprawiono obs³ugê zmiany jêzyka z poziomu okna logowania.
+
+
+
+wersja 1.3.2.3
+~~~~~~~~~~~~~~
+
+- podczas edycji stron program automatycznie proponuje nazwê strony bior¹c
+  pocz¹tek treœci pytania. Usuwa te¿ z pytania zbêdne tagi.
+- poprawiono problem objawiaj¹cy siê tylko pod Windows XP, gdzie po zapisaniu
+  siê na nowy kurs program przytyka³ siê na oknie Proszê czekaæ. Pomaga³o
+  prze³¹czenie siê na inne okno i ponowne prze³¹czenie siê na SuperMemo UX.
+- dodano automatycznie scrollowanie planu nauki podczas nauki, aby aktualnie
+  uczony kurs by³ zawsze widoczny.
+- przeprojektowano okno opcji programu. Dodano szczegó³owe opisy do czego s³u¿¹
+  poszczególne opcje.
+- dodano w Opcjach programu mo¿liwoœæ wy³¹czenia automatycznego kasowania
+  zaleg³ych utrwaleñ.
+- dodano w menu Widok opcjê umo¿liwiaj¹c¹ w³¹czenie lub wy³¹czenie panelu
+  z powtórkami.
+- wybór jêzyka w oknie logowania jest zapamiêtywany i u¿ywany póŸniej jako jêzyk
+  interfejsu w ca³ym programie dla danego u¿ytkownika.
+- po aktualizacji program uaktualnia sobie teraz wersjê kursu przez co nie jest
+  wymagane wejœcie do kursu, aby program zauwa¿y³ now¹ wersjê kursu.
+- dodano do klawiaturki niemieckiej dodatkow¹ literê e z akcentem.
+- dodano klawiaturkê z dwiema literkami u¿ywanymi czasem w jêzyku angielskim.
+  Klawiaturka ta jest wyœwietlana tylko w przypadku, gdy s³owo wpisywane
+  zawiera któr¹œ z liter.
+- poprawiono mechanizm aktualizacji programu pod Vist¹ w przypadku korzystania
+  z mechanizmu kontroli u¿ytkownika UAC.
+- poprawiono wyœwietlanie ikonki kursu w oknie w³aœciwoœci kursu w przypadku
+  ustawienia bardzo du¿ych czcionek ekranowych.
+
+
+
+wersja 1.3.2.1
+~~~~~~~~~~~~~~
+
+- dodano mo¿liwoœæ aktualizacji kursów. Œci¹gane s¹ tylko ³atki kursu (pliki
+  zawieraj¹ce zmiany wprowadzone w kursie). Mechanizm aktualizacji dzia³a tylko
+  w przypadku gdy kurs jest zainstalowany na dysku twardym komputera.
+- poprawiono sposób dzia³ania klawiaturki dla pola sprawdzania pisowni, aby
+  w przypadku jêzyka rosyjskiego nie zamyka³a siê automatycznie po wpisaniu
+  jednego znaku.
+- poprawiono zachowanie siê programu w przypadku wykrycia aktualizacji kursu,
+  który odczytywany jest z dysku CD-ROM.
+
+
+
+wersja 1.3.1.4
+~~~~~~~~~~~~~~
+
+- poprawiono mechanizm rysowania interwa³ów w panelu powtórek. Na bardzo
+  wysokich rozdzielczoœciach ekranu (np. 1600x1200 px) nie rysowa³ ca³ego paska
+  interwa³u.
+- zablokowano mo¿liwoœæ wejœcia do stron egzaminów za pomoc¹ opcji Skocz do
+  strony w trybie przegl¹dania stron.
+- poprawiono komponent Select Phrases, aby nieaktywne sk³adniki zdania (np.
+  znaki interpunkcyjne) wyœwietla³ w tym samym kolorze co resztê zdania.
+- poprawiono b³¹d objawiaj¹cy siê przy próbie wyciêcia strony z jednego kursu
+  i wklejenia jej do drugiego kursu.
+- poprawiono b³¹d objawiaj¹cy siê w przypadku, gdy w kursie by³ zdefiniowany
+  s³ownik, który nie zawiera³ jednak ¿adnych wpisów (przypadek angielskiej
+  wersji kursu Business English 1).
+
+
+
+wersja 1.3.1
+~~~~~~~~~~~~
+
+- poprawiono drobny b³¹d objawiaj¹cy siê, w specyficznych przypadkach, nie
+  pokazywaniem listy nowo zainstalowanych kursów.
+- poprawiona obs³uga komunikacji z panelem nauczyciela. Obs³uga zadañ zlecanych
+  przez nauczyciela.
+- poprawiono ³atwoœæ obs³ugi dodatkowej klawiaturki pojawiaj¹cej siê obok pola
+  wpisywania odpowiedzi. Dodatkowo po wpisaniu jednego znaku klawiaturka jest
+  automatycznie zamykana.
+- dodano mo¿liwoœæ zmiany danych osobowych u¿ytkownika (imiê i nazwisko).
+- zmieniono domyœlny odtwarzacz nagrañ na Direct Show Lib.
+- poprawiono ocenianie odpowiedzi przez komponent Multiple Drag-and-Drop.
+- dodano mo¿liwoœæ zdefiniowania uk³adu klawiatury dla ka¿dego kursu osobno.
+  Klawiaturê mo¿na ustawiæ w ustawieniach kursu. Opis instalacji klawiatury 
+  dostêpny jest na stronie http://www.supermemo.pl/keyboard_layout
+
+
+
+wersja 1.2.9
+~~~~~~~~~~~~
+
+- program pozwala teraz na wyœwietlenie w s³owniku numeru lekcji, w której dane
+  s³owo zosta³o wprowadzone. Istnieje dodatkowo mo¿liwoœæ posortowania wyra¿eñ
+  w s³owniku wed³ug lekcji lub alfabetycznie.  
+
+
+
+wersja 1.2.8.1
+~~~~~~~~~~~~~~
+
+- dodano system newsów informuj¹cy o nowych kursach dostêpnych na SuperMemo UX.
+- dodano wyœwietlanie zmieniaj¹cych siê interwa³ów w postaci animowanego paska
+  z dodatkowymi buŸkami sygnalizuj¹cymi udzielon¹ ocenê. Zmieniono równie¿ nieco
+  sposób funkcjonowania panelu z wykresami, aby mo¿na by³o zaznajomiæ siê
+  ze starym jak i nowo wyznaczonym interwa³em.
+- poprawiono dzia³anie algorytmu obliczaj¹cego szacowane daty powtórek na panelu
+  z wykresami.
+- poprawiono problem z trzaskami na koñcu nagranego zdania odtwarzanego z okna
+  trenera wymowy.
+- poprawiono b³¹d polegaj¹cy na tym, ¿e komunikaty b³êdów by³y wyœwietlane tylko
+  po polsku. 
+- program ustawia teraz w³asny kolor linków na stronach a nie korzysta z kolorów
+  ustawionych w systemie.
+
+
+
+wersja 1.2.7
+~~~~~~~~~~~~
+
+- program czasem nie przerysowywa³ wype³nienia t³a kursu przy przejœciu
+  z jednego kursu do drugiego (w przypadku, gdy nazwy te³ by³y identyczne).
+- poprawiono brakuj¹ce t³umaczenie opisu przycisku w oknie wyboru kursów.
+
+
+
+wersja 1.2.6
+~~~~~~~~~~~~
+
+- poprawiono wygl¹d t³a okien programu prezentowany nieprawid³owo w przypadku,
+  gdy znacznie powiêkszono systemow¹ czcionkê.
+- poprawiono b³¹d zwi¹zany z zachowaniem siê przycisków panelu nawigacyjnego
+  podczas edycji treœci strony.
+- zablokowano podczas edycji reagowanie programu na skróty klawiszowe zwi¹zane
+  z panelem nawigacyjnym.
+- poprawiono obs³ugê skrótu Ctrl+N podczas edycji kursów.
+- opcje dodawania nowych stron podczas edycji nowych kursów ustawiaj¹ nowo
+  dodanej stronie taki sam szablon jaki mia³a strona poprzednio edytowana.
+- poprawiono domyœlnie wbudowane szablony kursów. Uwaga: poprawione szablony
+  pojawi¹ siê tylko w nowo utworzonych kursach. Istniej¹ce ju¿ kursy nie zmieni¹
+  swojego wygl¹du.
+- podczas kasowania kursu program kasuje teraz tylko i wy³¹cznie pliki wchodz¹ce
+  w sk³ad kursu pozostawiaj¹c obce pliki w katalogu nietkniête.
+- poprawiono zachowanie siê aplikacji w przypadku uszkodzenia pliku
+  z informacjami o postêpach w nauce. Program próbuje teraz automatycznie
+  odtworzyæ te informacje z kopii zapasowej.
+- dodano mo¿liwoœæ odtwarzania nagrañ pytania i odpowiedzi za pomoc¹ klawiatury.
+  Skróty klawiszowe steruj¹ce odtwarzaniem mo¿na zdefiniowaæ w Opcjach programu.
+  Domyœlnie s¹ to klawisze '7' i '9' na klawiaturze numerycznej.
+- sprawdzanie dostêpnoœci aktualizacji programu realizowane jest teraz na
+  osobnym w¹tku, dziêki temu wszelkie problemy z dostêpem do internetu nie
+  powoduj¹ ju¿ wyd³u¿enia czasu uruchamiania siê programu.
+- w przypadku, gdy program potwierdzi istnienie nowszej wersji i jeœli
+  u¿ytkownik zgodzi siê na aktualizacjê pobieranie aktualizacji przeprowadzane
+  jest teraz rozpoczynane automatycznie bez potrzeby dodatkowego klikania
+  przycisków przez u¿ytkownika.
+- poprawiono dzia³anie przycisku zamykaj¹cego okno ze szczegó³owymi informacjami
+  dotycz¹cymi nauki strony.
+- poprawiono wygl¹d i dzia³anie odtwarzacza nagrañ.
+- dodano mo¿liwoœæ edycji komponentu Objaœnienie.
+- dodano funkcjê wyszukiwania tekstu w kursie. Opcja jest aktywna tylko podczas
+  nauki nowego materia³u lub przegl¹dania kursu.
+- poprawiono b³¹d powstaj¹cy przy próbie skoku do strony o numerze 0.
+- zmieniono mechanizm wybierania kursów do nauki. Wybór zainstalowanych kursów,
+  tworzenie nowego kursu, czy te¿ wybór kursu z dysku odbywa siê teraz z poziomu
+  jednego okna. Obs³uga tego typu operacji powinna byæ teraz bardziej
+  intuicyjna.
+- zmieniono okno ustawieñ kursu. Poprzednio schowane opcje kasowania,
+  wypisywania z kursu, czy te¿ czyszczenia postêpów w nauce zosta³y teraz
+  pokazane w postaci osobnych przycisków. Obs³uga tego okna powinna byæ teraz
+  bardziej intuicyjna.
+- dodano mo¿liwoœæ prze³¹czania siê pomiêdzy edytowalnymi obszarami na stronie
+  za pomoc¹ klawiatury (Ctrl+Tab).
+- poprawiono b³¹d polegaj¹cy na tym, ¿e jeœli podczas edycji treœci strony
+  klikniêto na drzewie kursu inn¹ stronê, to wprowadzone zmiany zapisywane by³y
+  w tej nowej, klikniêtej, stronie.
+
+
+
+wersja 1.2.2
+~~~~~~~~~~~~
+
+- poprawiono znamienny b³¹d objawiaj¹cy siê zg³aszaniem przez system b³êdów typu
+  OutOfMemoryException lub BufferAlreadyDisposedException. B³¹d by³ zwi¹zany 
+  z obs³ug¹ przezroczystoœci w panelu nawigacyjnym i niestety jest to b³¹d po
+  stronie œrodowiska .NET. Jedynym wyjœciem by³o napisanie od nowa obs³ugi
+  panelu nawigacyjnego bez przezroczystoœci. 
+- poprawiono b³¹d zakresu objawiaj¹cy siê czasem podczas odtwarzania nagrañ
+  korzystaj¹c z Windows Media Playera.
+- poprawiono dzia³anie s³ownika pod Windows XP bez zainstalowanego Service
+  Packa.
+- podczas edycji komponentu typu Checkbox i modyfikacji zawartoœci opcji to po 
+  dwukliku otwiera³o siê okno ze star¹ zawartoœci¹ opcji. Poprawione.
+- poprawiono funkcjonalnoœæ okna logowania u¿ytkownika.
+- poprawiono szybkoœæ dzia³ania mechanizmu aktualizuj¹cego program.
+- zwiêkszono czêstotliwoœæ sprawdzania aktualnych wersji do raz na 7 dni.
+
+
+
+wersja 1.1.14.2
+~~~~~~~~~~~~~~~
+
+- dodano obs³ugê s³ownika w wersji 2.0. Zwiekszono równie¿ wielkoœæ okna
+  s³ownika.
+- wprowadzono kilka drobnych poprawek maj¹cych na celu usuniêcie b³êdu
+  zwi¹zanego z BufferedGraphicsContext.
+- poprawiono mechanizm odtwarzania dŸwiêków, aby przy ponownym odtwarzaniu tego
+  samego dŸwiêku nie wczytywa³ ponownie nagrania.
+- dodano zabezpieczenie przed omy³kowym wielokrotnym uruchamianiem programu na
+  komputerze.
+
+
+
+wersja 1.1.13.3
+~~~~~~~~~~~~~~~
+
+- dodano wyœwietlanie schowanego menu na górze ekranu po klikniêciu prawym
+  klawiszem myszki.
+- dodano w menu Kurs opcjê resetowania macierzy optymalizacji powtórek.
+- podczas logowania siê do programu, jeœli u¿ytkownik za³o¿y nowe konto, to po
+  powrocie z okna zak³adania nowe konto jest ju¿ automatycznie wybierane.
+- poprawiony b³¹d dzielenia przez zero objawiaj¹cy siê w specyficznych
+  przypadkach podczas analizy wymowy.
+- poprawiono kilka b³êdów pojawiaj¹cych siê podczas analizy wymowy
+  w specyficznych przypadkach (np. gdy d³ugoœæ nagranego dŸwiêku wynosi³a 0).
+
+
+
+wersja 1.1.12.14
+~~~~~~~~~~~~~~~~
+
+- poprawiono dzia³anie prezentacji w egzaminie (prawid³owo s¹ ju¿ wyœwietlane
+  przyciski nawigacyjne).
+- jeœli próg zaliczenia egzaminu wynosi 0%, to nie jest wyœwietlany
+  w podsumowaniu status zaliczenia egzaminu.
+- poprawiono problem w egzaminie z przenoszeniem udzielonych odpowiedzi
+  z jednego pytania do nastêpnego.
+- pytania otwarte w egzaminie wymagaj¹ teraz udzielenia procentowej odpowiedzi,
+  na podstawie której wyznaczana jest u³amkowa liczba uzyskanych punktów za
+  æwiczenie.
+- poprawiono opcjê wyboru zainstalowanych kursów. W specyficznych przypadkach
+  myli³ wybrany kurs.
+- poprawiono t³umaczenia.
+- zmieniono sposób aktualizacji programu. Nowy mechanizm pozwala na
+  aktualizowanie równie¿ zainstalowanych kursów, a nie tylko samego programu.
+- dodano automatyczne sprawdzanie dostêpnoœci nowszej wersji programu zaraz po
+  wykonaniu aktualizacji.
+- poprawiono dzia³anie aplikacji pod 64 bitowymi systemami Windows.
+- poprawiono dzia³anie systemu aktualizacji programu. Aktualnie jest bardziej
+  odporna na b³êdy i dzia³a równie¿ pod 64 bitowymi systemami.
+- przywrócono opcjê resetowania pojedynczej strony, która zaginê³a w nowej
+  wersji.
+- dodano w menu opcjê 'Trwale pamiêtam' (Dismiss), która powoduje, ¿e dana
+  strona nie bêdzie ju¿ w ogóle pokazywana w powtórkach.
+- poprawiono mechanizm zapisywania informacji o postêpach w nauce. Aktualnie
+  zapisuje informacje raz na 10 sekund, a nie za ka¿dym razem jak to by³o
+  wczeœniej.
+- podczas zapisu b³êdu do logu programu zapisywane s¹ równie¿ dodatkowe
+  informacje dotycz¹ce wersji programu i systemu operacyjnego.
+- poprawiono b³¹d pojawiaj¹cy siê przy podaniu nieprawid³owego has³a przy
+  logowaniu siê u¿ytkownika po uruchomieniu programu zanim otworzy siê g³ówne
+  okno.
+- poprawiono problem z nieprawid³owym dobieraniem rozdzielczoœci szablonu
+  g³ównej strony przy nietypowych rozdzielczoœciach ekranu (np. 1280x800).
+- dodano wyœwietlanie na g³ównej stronie danych zalogowanego u¿ytkownika.
+- poprawiono b³¹d pojawiaj¹cy siê na komputerze bez karty sieciowej przy
+  sprawdzaniu aktualizacji.
+- zwiêkszono maksymalny czas nagrania dostêpnego dla analizatora wymowy
+  (przedtem nie wszystkie nagrania w kursie Niemiecki. Kein Problem! by³y
+  dostêpne dla analizatora).
+- poprawiono dzia³anie dymków z podpowiedziami i t³umaczeniami. Czasem chowa³y
+  siê za krawêdŸ okna. 
+- zmieniono dostêpnoœæ opcji z menu U¿ytkownik i opcji sprawdzania aktualizacji.
+  Dotychczas opcje te by³y dostêpne tylko z g³ównego ekranu programu. Teraz s¹
+  równie¿ dostêpne podczas nauki.
+- poprawiono mechanizm rysowania animowanych przycisków nawigacyjnych.
+- poprawiono ró¿ne drobne b³êdy sygnalizowane przez program w krytycznych
+  sytuacjach.
+- poprawiono b³¹d, pojawiaj¹cy siê po skasowaniu ostatniej strony w kursie.
+- poprawiono algorytm przechodzenia pomiêdzy etapami nauki i kursami w przypadku
+  gdy przerobiono wszystkie strony w kursie.
+
+
+
+wersja 1.1.11.4
+~~~~~~~~~~~~~~~
+
+- poprawiono obs³ugê sytuacji, gdy nie ma ju¿ wiêcej materia³u do nauki w
+  kursie. Jeœli istnieje materia³ w innym kursie to przechodzi do niego,
+  a jeœli nie ma ju¿ w ogóle nic do nauki to wychodzi do strony powitalnej.
+- poprawiono dzia³anie edytora tabelek.
+- poprawiono dzia³anie programu na wiêkszych rozdzielczoœciach i przy ustawionej 
+  wiêkszej czcionce. Okr¹g³e przyciski na górze ekranu nie s¹ ju¿ obcinane.
+- poprawiono b³¹d zwi¹zany z obs³ug¹ Direct Show Lib objawiaj¹cy siê podczas
+  wychodzenia z programu.
+- dodano mo¿liwoœæ u¿ywania zwyk³ego wygl¹du okien Windows zamiast w³asnego
+  wygl¹du okienek programu.
+- dodano mo¿liwoœæ ustawienia szybkoœci animowania przycisków panelu
+  nawigacyjnego.
+- prze³¹czenie jêzyka na formularzu logowania wp³ywa ju¿ równie¿ na formularz
+  zak³adania nowego konta.
+
+
+
+wersja 1.1.10
+~~~~~~~~~~~~~
+
+- poprawiono zachowane siê programu w przypadku zmiany typu strony aktualnie
+  uczonej. Teraz program resetuje informacje o nauce tej strony.
+- dodano kilka dodatkowych menu kontekstowych dostêpnych w trybie edycji.
+- poprawiono zachowanie siê programu w przypadku przerobienia ca³ego materia³u
+  w kursie i próbie kontynuowania nauki lub edycji tego kursu.
+
+
+
+wersja 1.1.9
+~~~~~~~~~~~~
+
+- implementacja mechanizmów tworzenia i edycji w³asnych kursów.
+- dodano okno umo¿liwiaj¹ce wybór rodzaju strony i wybór szablonu
+  wykorzystywanego na stronie.
+- dodano kasowanie katalogów tymczasowych pozosta³ych z poprzednich uruchomieñ
+  programu.
+- po zakoñczeniu nauki zatrzymywany jest ju¿ poprzednio odtwarzany dŸwiêk
+  z æwiczenia.
+- przeprowadzono optymalizacjê iloœci przerysowywañ treœci strony, dziêki temu
+  program dzia³a sprawniej.
+- zmieniony zosta³ wygl¹d okienek dialogowych.
+- ka¿dy u¿ytkownik posiada teraz niezale¿nie zdefiniowany jêzyk interfejsu.
+  Podczas prze³¹czania u¿ytkowników zmieniany jest równie¿ jêzyk interfejsu
+  zdefiniowany przez u¿ytkownika.
+- dodano mo¿liwoœæ prze³¹czania jêzyka w oknie dialogowym logowania.
+- dodano mo¿liwoœæ prze³¹czania jêzyka w oknie dialogowym opcji programu.
+- dodano obs³ugê klawiszy Enter i ESC do wiêkszoœci okien dialogowych.
+- poprawiono zawijanie tekstu w odpowiedzi w komponencie Symulator.
+- dodano mo¿liwoœæ zatrzymania odtwarzania za pomoc¹ klawisza ESC automatycznie
+  odgrywanych nagrañ do æwiczeñ.
+- poprawiono zachowanie siê mechanizmu odtwarzania dŸwiêków za pomoc¹ Flasha
+  w przypadku dŸwiêków innych ni¿ mp3.
+- poprawiono problem z przechodzeniem pomiêdzy kursami objawiaj¹cy siê 
+  wyœwietlaniem strony poprzedniego kursu pomimo przejœcia do nowego.
+
+
+
+wersja 1.1.8
+~~~~~~~~~~~~
+
+- pierwsze zmiany zwi¹zane z umo¿liwieniem edycji w³asnych kursów.
+- Podczas skalowania okna program zapamiêtuje ju¿ udzielon¹ odpowiedŸ
+  i kolejnoœæ opcji pytania (nie losuj¹ siê podczas przerysowania okna).
+- Po klikniêciu podczas nauki na nazwie kursu, który nie ma ju¿ materia³u do
+  nauki program przechodzi teraz do podgl¹du wybranego kursu zamiast do nauki
+  nastêpnego kursu.
+- poprawiono zachowanie siê programu w przypadku, gdy w szablonie zdefiniowana
+  jest tylko wysoka rozdzielczoœæ. Nie prze³¹cza siê do mniejszej
+  (niezdefiniowanej) rozdzielczoœci jeœli brakuje miejsca na narysowanie ca³ego
+  szablonu.
+- lista zainstalowanych kursów jest teraz posortowana.
+
+
+
+wersja 1.1.7.6
+~~~~~~~~~~~~~~
+
+- dodano nowy mechanizm odtwarzania dŸwiêków wykorzystuj¹cy bibliotekê
+  DirectShowLib.
+- poprawiono b³¹d aplikacji pojawiaj¹cy siê sporadycznie podczas wyboru kursu do
+  nauki z listy zainstalowanych.
+
+
+
+wersja 1.1.7.4
+~~~~~~~~~~~~~~
+
+- poprawiono problem pojawiaj¹cy siê sygnalizowaniem b³êdu podczas wychodzenia
+  z aplikacji podczas, gdy nagranie lektora jest odtwarzane.
+- poprawiono nieprawid³owe wyœwietlanie b¹bli nawigacyjnych pod systemem Vista
+  na klasycznym interfejsie.
+- zmieniono sposób odtwarzania dŸwiêków. Program ju¿ nie wykorzystuje w tym celu
+  Windows Media Playera, który powodowa³ mnóstwo problemów pod Vist¹. Zamiast
+  tego wykorzystywany jest mechanizm DirectShow.
+
+
+
+wersja 1.1.7.3
+~~~~~~~~~~~~~~
+
+- poprawiono powa¿ny b³¹d zwi¹zany z konwersj¹ daty instalacji zapisanej
+  w poprzedniej wersji programu.
+- poprawiono b³¹d objawiaj¹cy siê nieprawid³owym dzia³aniem aplikacji
+  w podstawowym interfejsie Windows Vista (nie Aero).
+
+
+
+wersja 1.1.7
+~~~~~~~~~~~~
+
+- poprawiono dzia³anie wykrywania zainstalowanych nowych kursów pod Vist¹.
+- poprawiono kolejnoœæ przechodzenia miêdzy polami za pomoc¹ klawisza TAB na
+  oknie logowania siê do programu.
+
+
+
+wersja 1.1.6.3
+~~~~~~~~~~~~~~
+
+- poprawiono problem z automatycznym logowaniem. Da siê ju¿ wy³¹czyæ tê opcjê.
+- dodano obs³ugê domyœlnej iloœci nowych stron do nauki.
+- jeœli podczas nauki w danym kursie nie ma ju¿ wiêcej stron do nauki to
+  klikniêcie na jego nazwie w planie nauki powoduje przydzielenie dodatkowej
+  porcji materia³u i rozpoczêcie nauki zamiast przejœcia do kolejnego kursu.
+- dodano opcjê usuwania konta u¿ytkownika.
+- dodano brakuj¹c¹ opcjê 'Tematy pomocy' do menu g³ównego.
+- rozwi¹zano problem z brakuj¹cymi przyciskami z górnego panelu na niektórych
+  komputerach.
+- poprawiono b³¹d zwi¹zany z brakiem zaznaczania zapamiêtania nadrzêdnych stron.
+  B³¹d wystêpowa³ tylko w bardzo specyficznych przypadkach.
+- poprawiona ikonka programu wyœwietlana podczas prze³¹czania zadañ w Windows.
+- Ctrl+G w trybie powtórek wyœwietla tylko numer aktualnej strony.
+- usuniêto napis 'retencja' z wykresu przewidywanych powtórek.
+- poprawiono dzia³anie aplikacji pod Windows Vista.

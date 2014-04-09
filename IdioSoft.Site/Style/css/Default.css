@@ -1,0 +1,297 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #666;
+}
+
+body, html, form {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+#divLogo {
+    top: 0%;
+    position: absolute;
+    overflow: hidden;
+}
+
+#divLogin {
+    height: 300px;
+    top: 30%;
+    position: absolute;
+    background-color: #1a428a;
+    width: 100%;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+    #divLogin table td {
+        padding: 4px;
+    }
+
+
+
+.LoginTitle {
+    font-family: Segoe UI,Arial;
+    font-size: 18pt;
+}
+
+a:link {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #0044cc;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #0044cc;
+    text-decoration: none;
+}
+
+a:active {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #0044cc;
+    text-decoration: none;
+}
+
+a:visited {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #0044cc;
+    text-decoration: none;
+}
+
+.redlink:link {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.redlink:hover {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.redlink:active {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.TitleColor {
+    background-color: #f1f1f1;
+}
+
+.redlink:visited {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.bs-valign {
+    vertical-align: bottom;
+}
+
+
+#divHeader {
+    width: 100%;
+    margin: 0 auto;
+    background: #03375D;
+    height: 45px;
+    top: 0;
+}
+
+
+
+#divContent {
+    clear: both;
+    vertical-align: top;
+    padding: 8px;
+}
+
+.searchToolbar_SearchText {
+    margin-top: 10px;
+}
+
+#divMenu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #1D1D1D;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+
+
+.hide-object {
+    display: none;
+}
+
+.show-object {
+    display: block;
+}
+
+
+a.wlink:link {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.wlink:hover {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.wlink:active {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.wlink:visited {
+    font-family: Segoe UI,Arial;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#tblOperation {
+    border: 1px #cccccc solid;
+}
+
+    #tblOperation tr td {
+        padding: 2px;
+        border: 1px #cccccc solid;
+        height: 25px;
+        white-space: nowrap;
+    }
+
+        #tblOperation tr td input[type='text'], input[type='password'] {
+            margin: 0px;
+            width: 200px;
+        }
+
+        #tblOperation tr td select {
+            margin: 0px;
+            width: 200px;
+        }
+
+/*字体*/
+.FontRed {
+    color: #FF0000;
+}
+
+.FontGray {
+    color: #999999;
+}
+
+.FontWhiteBold {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.FontWhiteBold10px {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.FontBlue {
+    color: #1C41A7;
+}
+
+
+.breadcrumb .dropdown-menu li {
+    width: 160px;
+}
+
+#navToolbar .dropdown-menu li {
+    width: 180px;
+}
+
+    #navToolbar .dropdown-menu li a {
+        font-size: 12px;
+    }
+
+#navToolbar li a {
+    font-size: 24px;
+}
+
+#navToolbar li div {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#navToolbar li input {
+    margin-top: 10px;
+}
+
+.breadcrumb .dropdown-menu li a {
+    width: 132px;
+}
+
+.reportlist {
+    border-bottom: 1px #dddddd dotted;
+    padding: 4px;
+}
+
+.reportlist-icon {
+    color: darkblue;
+    padding: 4px;
+}
+
+.nav-tabs .active {
+    font-weight:bold;
+}
+
+.ui-titlebar-close { position: absolute;right:0px; width: 19px;margin-right:12px; padding: 1px; height:18px;}
+.ui-titlebar-close span { display: block; margin: 1px; }
+.ui-titlebar-close:hover { padding: 0; }
+
+.aLink:link
+{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #0044cc;
+	text-decoration: none;
+}
+.aLink:hover
+{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #0044cc;
+	text-decoration: none;
+}
+.aLink:active
+{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #0044cc;
+	text-decoration: none;
+}
+.aLink:visited
+{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #0044cc;
+	text-decoration: none;
+}

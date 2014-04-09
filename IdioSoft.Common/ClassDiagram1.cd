@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IdioSoft.Common.Class.ByteSerialization" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\ByteSerialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Class.Encryption" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAACAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Encryption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Class.ExportExcel" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAIAAAAAAAgAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\ExportExcel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Class.ListItemEx" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAACAAIAABQEAAAAAAAAAAAAAAAAgAAgCAAAAAA=</HashCode>
+      <FileName>Class\ListItemEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Class.Scan128Code" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hgAAAgKABAAQAxQCQCCYElQCABAUAACAAAAIIAQAAAA=</HashCode>
+      <FileName>Class\Scan128Code.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Class.ServiceAgent" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIgQAAAAAAAAAAAAAAAAAAAAAIAAAAAEA=</HashCode>
+      <FileName>Class\ServiceAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Class.XmlSerialization">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\XmlSerialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Controls.JqGridData" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAIAAIAAAgAEABAAAAAAABIIAMAAEAAACABCAg=</HashCode>
+      <FileName>Controls\JqGridData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Controls.JqGridDataHeading" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Controls\JqGridData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Method.DbSQLAccess">
+    <Position X="0.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAACAAAIAAAACAAAACAAAQAAAAAAAAgAACAAAA=</HashCode>
+      <FileName>Method\DbSQLAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Method.Function" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAARIS7JCgDjJWAiEgC0BCCEQUCEQAoAQEAkdQAwBGA=</HashCode>
+      <FileName>Method\Function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Method.OperationLog" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEI=</HashCode>
+      <FileName>Method\OperationLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdioSoft.Common.Method.NOPI.InsertRow" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Method\NOPI\InsertRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IdioSoft.Common.Frames.Forms.ILoad">
+    <Position X="8.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Frames\Forms\ILoad.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IdioSoft.Common.Frames.Forms.IForm" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frames\Forms\IForm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IdioSoft.Common.Frames.Forms.ISave">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frames\Forms\ISave.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

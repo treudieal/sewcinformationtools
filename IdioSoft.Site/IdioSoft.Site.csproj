@@ -1,0 +1,1231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48738C29-1058-4C0B-9818-4D2CDC944027}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IdioSoft.Site</RootNamespace>
+    <AssemblyName>IdioSoft.Site</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExcludeGeneratedDebugSymbol>false</ExcludeGeneratedDebugSymbol>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelPackage, Version=1.0.0.1, Culture=neutral, PublicKeyToken=f8bb63aa9d6969e8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExcelPackage.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="NPOI, Version=1.2.4.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Escalation\Home\Default.aspx" />
+    <Content Include="Escalation\List\AllList.aspx" />
+    <Content Include="Escalation\List\EscalationOperation.ascx" />
+    <Content Include="Escalation\List\FinishList.aspx" />
+    <Content Include="Escalation\List\InProcessList.aspx" />
+    <Content Include="Escalation\List\OpenList.aspx" />
+    <Content Include="Escalation\List\PendingList.aspx" />
+    <Content Include="Escalation\Operation\ActivitiesOperation.aspx" />
+    <Content Include="Escalation\Ucontrol\Breadcrumb.ascx" />
+    <Content Include="Escalation\Ucontrol\TabNav.ascx" />
+    <Content Include="InterfaceLibrary\Escalation\List\wsEscalation.asmx" />
+    <Content Include="InterfaceLibrary\SEWC\All\ws_All.asmx" />
+    <Content Include="InterfaceLibrary\SEWC\Delivery\ws_Delivery.asmx" />
+    <Content Include="InterfaceLibrary\SEWC\GoodsReceipt\ws_GoodsReceipt.asmx" />
+    <Content Include="InterfaceLibrary\SEWC\IssueRepairOrder\ws_IssueRepairOrder.asmx" />
+    <Content Include="InterfaceLibrary\SEWC\Repair\ws_Repair.asmx" />
+    <Content Include="InterfaceLibrary\SEWC\Report\wsReport.asmx" />
+    <Content Include="InterfaceLibrary\Util\ws_Util.asmx" />
+    <Content Include="JsLibrary\Escalation\List\ActivitiesOperation.js" />
+    <Content Include="JsLibrary\Escalation\List\CommonList.js" />
+    <Content Include="JsLibrary\Escalation\List\CommonOperation.js" />
+    <Content Include="JsLibrary\SEWC\Delivery\T6Operation.js" />
+    <Content Include="JsLibrary\SEWC\GoodsReceipt\T3Operation.js" />
+    <Content Include="JsLibrary\SEWC\Report\Default.js" />
+    <Content Include="JsLibrary\SEWC\Request\Default.js" />
+    <Content Include="JsLibrary\SEWC\All\Default.js" />
+    <Content Include="JsLibrary\SEWC\Util\Common.js" />
+    <Content Include="Scripts\ckeditor\adapters\jquery.js" />
+    <Content Include="Scripts\ckeditor\build-config.js" />
+    <Content Include="Scripts\ckeditor\ckeditor.js" />
+    <Content Include="Scripts\ckeditor\config.js" />
+    <Content Include="Scripts\ckeditor\contents.css" />
+    <Content Include="Scripts\ckeditor\lang\af.js" />
+    <Content Include="Scripts\ckeditor\lang\ar.js" />
+    <Content Include="Scripts\ckeditor\lang\bg.js" />
+    <Content Include="Scripts\ckeditor\lang\bn.js" />
+    <Content Include="Scripts\ckeditor\lang\bs.js" />
+    <Content Include="Scripts\ckeditor\lang\ca.js" />
+    <Content Include="Scripts\ckeditor\lang\cs.js" />
+    <Content Include="Scripts\ckeditor\lang\cy.js" />
+    <Content Include="Scripts\ckeditor\lang\da.js" />
+    <Content Include="Scripts\ckeditor\lang\de.js" />
+    <Content Include="Scripts\ckeditor\lang\el.js" />
+    <Content Include="Scripts\ckeditor\lang\en-au.js" />
+    <Content Include="Scripts\ckeditor\lang\en-ca.js" />
+    <Content Include="Scripts\ckeditor\lang\en-gb.js" />
+    <Content Include="Scripts\ckeditor\lang\en.js" />
+    <Content Include="Scripts\ckeditor\lang\eo.js" />
+    <Content Include="Scripts\ckeditor\lang\es.js" />
+    <Content Include="Scripts\ckeditor\lang\et.js" />
+    <Content Include="Scripts\ckeditor\lang\eu.js" />
+    <Content Include="Scripts\ckeditor\lang\fa.js" />
+    <Content Include="Scripts\ckeditor\lang\fi.js" />
+    <Content Include="Scripts\ckeditor\lang\fo.js" />
+    <Content Include="Scripts\ckeditor\lang\fr-ca.js" />
+    <Content Include="Scripts\ckeditor\lang\fr.js" />
+    <Content Include="Scripts\ckeditor\lang\gl.js" />
+    <Content Include="Scripts\ckeditor\lang\gu.js" />
+    <Content Include="Scripts\ckeditor\lang\he.js" />
+    <Content Include="Scripts\ckeditor\lang\hi.js" />
+    <Content Include="Scripts\ckeditor\lang\hr.js" />
+    <Content Include="Scripts\ckeditor\lang\hu.js" />
+    <Content Include="Scripts\ckeditor\lang\id.js" />
+    <Content Include="Scripts\ckeditor\lang\is.js" />
+    <Content Include="Scripts\ckeditor\lang\it.js" />
+    <Content Include="Scripts\ckeditor\lang\ja.js" />
+    <Content Include="Scripts\ckeditor\lang\ka.js" />
+    <Content Include="Scripts\ckeditor\lang\km.js" />
+    <Content Include="Scripts\ckeditor\lang\ko.js" />
+    <Content Include="Scripts\ckeditor\lang\ku.js" />
+    <Content Include="Scripts\ckeditor\lang\lt.js" />
+    <Content Include="Scripts\ckeditor\lang\lv.js" />
+    <Content Include="Scripts\ckeditor\lang\mk.js" />
+    <Content Include="Scripts\ckeditor\lang\mn.js" />
+    <Content Include="Scripts\ckeditor\lang\ms.js" />
+    <Content Include="Scripts\ckeditor\lang\nb.js" />
+    <Content Include="Scripts\ckeditor\lang\nl.js" />
+    <Content Include="Scripts\ckeditor\lang\no.js" />
+    <Content Include="Scripts\ckeditor\lang\pl.js" />
+    <Content Include="Scripts\ckeditor\lang\pt-br.js" />
+    <Content Include="Scripts\ckeditor\lang\pt.js" />
+    <Content Include="Scripts\ckeditor\lang\ro.js" />
+    <Content Include="Scripts\ckeditor\lang\ru.js" />
+    <Content Include="Scripts\ckeditor\lang\si.js" />
+    <Content Include="Scripts\ckeditor\lang\sk.js" />
+    <Content Include="Scripts\ckeditor\lang\sl.js" />
+    <Content Include="Scripts\ckeditor\lang\sq.js" />
+    <Content Include="Scripts\ckeditor\lang\sr-latn.js" />
+    <Content Include="Scripts\ckeditor\lang\sr.js" />
+    <Content Include="Scripts\ckeditor\lang\sv.js" />
+    <Content Include="Scripts\ckeditor\lang\th.js" />
+    <Content Include="Scripts\ckeditor\lang\tr.js" />
+    <Content Include="Scripts\ckeditor\lang\ug.js" />
+    <Content Include="Scripts\ckeditor\lang\uk.js" />
+    <Content Include="Scripts\ckeditor\lang\vi.js" />
+    <Content Include="Scripts\ckeditor\lang\zh-cn.js" />
+    <Content Include="Scripts\ckeditor\lang\zh.js" />
+    <Content Include="Scripts\ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="Scripts\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" />
+    <Content Include="Scripts\ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="Scripts\ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="Scripts\ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="Scripts\ckeditor\plugins\fakeobjects\images\spacer.gif" />
+    <Content Include="Scripts\ckeditor\plugins\icons.png" />
+    <Content Include="Scripts\ckeditor\plugins\icons_hidpi.png" />
+    <Content Include="Scripts\ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="Scripts\ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="Scripts\ckeditor\plugins\link\images\anchor.png" />
+    <Content Include="Scripts\ckeditor\plugins\link\images\hidpi\anchor.png" />
+    <Content Include="Scripts\ckeditor\samples\ajax.html" />
+    <Content Include="Scripts\ckeditor\samples\api.html" />
+    <Content Include="Scripts\ckeditor\samples\appendto.html" />
+    <Content Include="Scripts\ckeditor\samples\assets\inlineall\logo.png" />
+    <Content Include="Scripts\ckeditor\samples\assets\outputxhtml\outputxhtml.css" />
+    <Content Include="Scripts\ckeditor\samples\assets\sample.css" />
+    <Content Include="Scripts\ckeditor\samples\assets\sample.jpg" />
+    <Content Include="Scripts\ckeditor\samples\assets\uilanguages\languages.js" />
+    <Content Include="Scripts\ckeditor\samples\datafiltering.html" />
+    <Content Include="Scripts\ckeditor\samples\divreplace.html" />
+    <Content Include="Scripts\ckeditor\samples\index.html" />
+    <Content Include="Scripts\ckeditor\samples\inlineall.html" />
+    <Content Include="Scripts\ckeditor\samples\inlinebycode.html" />
+    <Content Include="Scripts\ckeditor\samples\inlinetextarea.html" />
+    <Content Include="Scripts\ckeditor\samples\jquery.html" />
+    <Content Include="Scripts\ckeditor\samples\plugins\dialog\assets\my_dialog.js" />
+    <Content Include="Scripts\ckeditor\samples\plugins\dialog\dialog.html" />
+    <Content Include="Scripts\ckeditor\samples\plugins\enterkey\enterkey.html" />
+    <Content Include="Scripts\ckeditor\samples\plugins\toolbar\toolbar.html" />
+    <Content Include="Scripts\ckeditor\samples\plugins\wysiwygarea\fullpage.html" />
+    <Content Include="Scripts\ckeditor\samples\readonly.html" />
+    <Content Include="Scripts\ckeditor\samples\replacebyclass.html" />
+    <Content Include="Scripts\ckeditor\samples\replacebycode.html" />
+    <Content Include="Scripts\ckeditor\samples\sample.css" />
+    <Content Include="Scripts\ckeditor\samples\sample.js" />
+    <Content Include="Scripts\ckeditor\samples\tabindex.html" />
+    <Content Include="Scripts\ckeditor\samples\uicolor.html" />
+    <Content Include="Scripts\ckeditor\samples\uilanguages.html" />
+    <Content Include="Scripts\ckeditor\samples\xhtmlstyle.html" />
+    <Content Include="Scripts\ckeditor\skins\moono\dialog.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\dialog_ie.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\dialog_ie7.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\dialog_ie8.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\dialog_iequirks.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\dialog_opera.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\editor.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\editor_gecko.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\editor_ie.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\editor_ie7.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\editor_ie8.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\editor_iequirks.css" />
+    <Content Include="Scripts\ckeditor\skins\moono\icons.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\icons_hidpi.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\images\arrow.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\images\close.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\images\hidpi\close.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\images\hidpi\lock-open.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\images\hidpi\lock.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\images\hidpi\refresh.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\images\lock-open.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\images\lock.png" />
+    <Content Include="Scripts\ckeditor\skins\moono\images\refresh.png" />
+    <Content Include="Scripts\ckeditor\styles.js" />
+    <Content Include="Scripts\grid.locale-cn.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\docs\examples.html" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\docs\footer.html" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\docs\formatting.html" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\docs\header.html" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\docs\i18n.html" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\docs\intro.html" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\docs\options.html" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-af.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-bg.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-ca.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-cs.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-da.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-de.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-el.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-es.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-et.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-eu.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-fi.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-fr.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-gl.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-he.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-hr.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-hu.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-id.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-it.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-ja.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-ko.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-lt.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-nl.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-no.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-pl.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-pt-BR.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-pt.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-ro.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-ru.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-sk.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-sv.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-th.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-tr.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-uk.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-vi.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-zh-CN.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\i18n\jquery-ui-timepicker-zh-TW.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\jquery-ui-sliderAccess.js" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\jquery-ui-timepicker-addon.css" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\jquery-ui-timepicker-addon.js" />
+    <Content Include="Scripts\jquery.cookies.2.2.0.js" />
+    <Content Include="Scripts\jquery.datetime.js" />
+    <Content Include="Scripts\jscroll.js" />
+    <Content Include="SEWC\All\Default.aspx" />
+    <Content Include="SEWC\Delivery\Default.aspx" />
+    <Content Include="SEWC\Delivery\DeliveryOperation.aspx" />
+    <Content Include="SEWC\Delivery\T6Operation.aspx" />
+    <Content Include="SEWC\Finish\Default.aspx" />
+    <Content Include="SEWC\GoodsReceipt\Default.aspx" />
+    <Content Include="SEWC\GoodsReceipt\GoodsReceiptOperation.aspx" />
+    <Content Include="SEWC\GoodsReceipt\T3Operation.aspx" />
+    <Content Include="SEWC\Home\Default.aspx" />
+    <Content Include="SEWC\IssueRepairOrder\Default.aspx" />
+    <Content Include="SEWC\IssueRepairOrder\IssueRepairOrderOperation.aspx" />
+    <Content Include="SEWC\Reject\Default.aspx" />
+    <Content Include="SEWC\Repair\Default.aspx" />
+    <Content Include="SEWC\Repair\RepairOperation.aspx" />
+    <Content Include="SEWC\Report\Default.aspx" />
+    <Content Include="SEWC\Request\Default.aspx" />
+    <Content Include="SEWC\Request\RequestPrintTemplate.aspx" />
+    <Content Include="SEWC\Request\RequestSenderMsg.aspx" />
+    <Content Include="SEWC\Request\RequestSendFax.aspx" />
+    <Content Include="SEWC\Request\RequestSendMail.aspx" />
+    <Content Include="SEWC\Request\SelectCustomerAndContactInfo.aspx" />
+    <Content Include="SEWC\Request\SEWCRequestOperation.aspx" />
+    <Content Include="SEWC\Ucontrol\Breadcrumb.ascx" />
+    <Content Include="SEWC\Ucontrol\navDetailMore.ascx" />
+    <Content Include="SEWC\Ucontrol\navModifyMore.ascx" />
+    <Content Include="test1.aspx" />
+    <Content Include="User\Default.aspx" />
+    <Content Include="User\Detail.aspx" />
+    <Content Include="User\MyInformation.aspx" />
+    <Content Include="User\Operation.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Scripts\jquery-autocomplete\changelog.txt" />
+    <Content Include="Scripts\jquery-autocomplete\demo\bg.gif" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Amsterdam Van-Gogh Museum.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Amsterdam.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Antwerpen Rubenshaus.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Antwerpen.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Appenzell.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Arnhem Historisches Museum.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Bled.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Bled_Die Burg von Bled.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Bogojina_Die Pfarrkirche.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\BolognaBasilicadiSanPetronio.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\BolognaFontanadelNettuno.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\BolognaPiazzaMaggiore.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Bolsward Martinikerk.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Bolsward Stadhuis.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Bolsward.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\BordeauxND.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\BordeauxPlaceB.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\BotanischerGartenZuerich.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Bouillon.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Gent Hotel de Ville2.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Gent.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\GenuabeiNacht.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\GenuaStrand.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Giessbachfaelle Brienz.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Giethoorn.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Gnesen.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Gornij Grad_KATHEDRALE.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Gossensass.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Grad_Burg Grad2.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\GrandDixence.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\GrenoblePanorama.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Groningen.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\GrottenvonReclere.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Guebwiller.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Kamnik_Die Franziskaner Bibliothek.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Karlsbad Muehlbrunnkolonnade.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Kazimierz.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\KirchbergAltesRathaus1.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\KlagenfurtDom.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\KleineMeerjungfreu.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\LazienkiparkWarschau.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Lednice.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Leeuwarden Fries Museum.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Leeuwarden.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\LeHavreHafen.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Lelystad.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\LeMans.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Lemmer.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Leper Halles aux draps.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Leuven Museum fuer Kirchenkunst.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Leuven.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Luxemburg.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\LuzernAltstadt.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\LuzernPicassoMuseum.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Lyon.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Maastricht Onze Lieve Vrou...jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Maastricht St Servaasbasiliek.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Maastricht Walmuur.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Maastricht.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\MagiatalMaggia.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Mailand3.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Metlika_Bela Krajina Museum.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\MilanoCastelloSforzesco.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\MilanoDom.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\MilazzoBurg.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Novo Mesto_Das Museum.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\ObervellachBurgFalkenstein.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\OdenseeAndersen.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Olimje_Kirche und Apotheke in Olimje.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Olomouc.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\OlympischesMuseumLausanne.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\OrleansMaisonJeannedArc.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\OrleansParcFloraldelaSource.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\OstiaAntica.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Ostrow Tumski.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\PoertschachSchlossLeonstain.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Portoroz.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Posen.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Postojna.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Prag Altstaedter Ring.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Prag Waldsteinpalais.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\RouenNotreDame.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\Salzbergwerk Bex.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\SalzbergwerkWieliczka.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\SalzburgFestungHohensalzburg.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\SalzburgResidenz.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\WienMuseumsQuartier.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\WienMusikverein.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\WienRiesenrad.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images\WienRingstrasse.jpg" />
+    <Content Include="Scripts\jquery-autocomplete\demo\index.html" />
+    <Content Include="Scripts\jquery-autocomplete\demo\indicator.gif" />
+    <Content Include="Scripts\jquery-autocomplete\demo\json.html" />
+    <Content Include="Scripts\jquery-autocomplete\demo\localdata.js" />
+    <Content Include="Scripts\jquery-autocomplete\demo\main.css" />
+    <Content Include="Scripts\jquery-autocomplete\jquery.autocomplete.css" />
+    <Content Include="Scripts\jquery-autocomplete\jquery.autocomplete.js" />
+    <Content Include="Scripts\jquery-autocomplete\jquery.autocomplete.min.js" />
+    <Content Include="Scripts\jquery-autocomplete\jquery.autocomplete.pack.js" />
+    <Content Include="Scripts\jquery-autocomplete\lib\jquery.ajaxQueue.js" />
+    <Content Include="Scripts\jquery-autocomplete\lib\jquery.bgiframe.min.js" />
+    <Content Include="Scripts\jquery-autocomplete\lib\jquery.js" />
+    <Content Include="Scripts\jquery-autocomplete\lib\thickbox-compressed.js" />
+    <Content Include="Scripts\jquery-autocomplete\lib\thickbox.css" />
+    <Content Include="JsLibrary\SEWC\Delivery\Default.js" />
+    <Content Include="JsLibrary\SEWC\Delivery\DeliveryOperation.js" />
+    <Content Include="JsLibrary\SEWC\Finish\Default.js" />
+    <Content Include="JsLibrary\SEWC\GoodsReceipt\Default.js" />
+    <Content Include="JsLibrary\SEWC\GoodsReceipt\GoodsReceiptOperation.js" />
+    <Content Include="JsLibrary\SEWC\IssueRepairOrder\Default.js" />
+    <Content Include="JsLibrary\SEWC\IssueRepairOrder\IssueRepairOrderOperation.js" />
+    <Content Include="JsLibrary\Login\JsLogin-default.js" />
+    <Content Include="JsLibrary\Master\JsMaster-myinformation.js" />
+    <Content Include="JsLibrary\Master\JsMaster-default.js" />
+    <Content Include="JsLibrary\SEWC\Reject\Default.js" />
+    <Content Include="JsLibrary\SEWC\Repair\Default.js" />
+    <Content Include="JsLibrary\SEWC\Repair\RepairOperation.js" />
+    <Content Include="JsLibrary\SEWC\Request\RequestPrintTemplate.js" />
+    <Content Include="JsLibrary\SEWC\Request\RequestSenderMsg.js" />
+    <Content Include="JsLibrary\SEWC\Request\RequestSendFax.js" />
+    <Content Include="JsLibrary\SEWC\Request\RequestSendMail.js" />
+    <Content Include="JsLibrary\SEWC\Request\SelectCustomerAndContactInfo.js" />
+    <Content Include="JsLibrary\SEWC\Request\SEWCRequestOperation.js" />
+    <Content Include="JsLibrary\User\JsUser-default.js" />
+    <Content Include="JsLibrary\User\JsUser-operation.js" />
+    <Content Include="Scripts\ajaxfileupload.js" />
+    <Content Include="Scripts\colorbox\jquery.colorbox-min.js" />
+    <Content Include="Scripts\colorbox\jquery.colorbox.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery.searchFilter.js" />
+    <Content Include="Scripts\jquery.tablednd.js" />
+    <Content Include="Scripts\jquery.ui.core.js" />
+    <Content Include="Scripts\jquery.ui.datepicker.js" />
+    <Content Include="Scripts\jquery.ui.widget.js" />
+    <Content Include="Scripts\JsClass.js" />
+    <Content Include="Scripts\JsFunction.js" />
+    <Content Include="Scripts\ui.multiselect.js" />
+    <Content Include="Style\css\jquery-ui-1.9.2.custom.css" />
+    <Content Include="Style\css\jquery-ui-custom.css" />
+    <Content Include="Style\css\jquery.colorboxs\colorbox.css" />
+    <Content Include="Style\css\jquery.colorboxs\images\border1.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\border2.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\ie6\borderBottomCenter.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\ie6\borderBottomLeft.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\ie6\borderBottomRight.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\ie6\borderMiddleLeft.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\ie6\borderMiddleRight.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\ie6\borderTopCenter.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\ie6\borderTopLeft.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\ie6\borderTopRight.png" />
+    <Content Include="Style\css\jquery.colorboxs\images\loading.gif" />
+    <Content Include="Style\images\black.png" />
+    <Content Include="Style\images\blue.png" />
+    <Content Include="Style\images\Cancel.png" />
+    <Content Include="Style\images\detailicon.gif" />
+    <Content Include="Style\images\Finished.png" />
+    <Content Include="Style\images\green.png" />
+    <Content Include="Style\images\InProcess.png" />
+    <Content Include="Style\images\loading.gif" />
+    <Content Include="Style\images\logo.gif" />
+    <Content Include="Style\images\NotComplete.png" />
+    <Content Include="Style\images\Outlook[1].gif" />
+    <Content Include="Style\images\red.png" />
+    <Content Include="Style\images\Reject.png" />
+    <Content Include="Style\images\Reopen.png" />
+    <Content Include="Style\images\sorticon.gif" />
+    <Content Include="Style\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Style\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Style\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Style\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Style\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Style\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Style\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Style\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Style\images\ui-icons_222222_256x240.png" />
+    <Content Include="Style\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Style\images\ui-icons_454545_256x240.png" />
+    <Content Include="Style\images\ui-icons_888888_256x240.png" />
+    <Content Include="Style\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Style\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Style\images\ui-icons_f6cf3b_256x240.png" />
+    <Content Include="Scripts\bootmetro-charms.js" />
+    <Content Include="Scripts\bootmetro.js" />
+    <Content Include="Scripts\bootstrap-datepicker.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\grid.locale-en.js" />
+    <Content Include="Scripts\holder.js" />
+    <Content Include="Scripts\jquery-1.9.0.min.js" />
+    <Content Include="Scripts\jquery.blockUI.js" />
+    <Content Include="Scripts\jquery.dataTables.js" />
+    <Content Include="Scripts\jquery.form.js" />
+    <Content Include="Scripts\jquery.jqGrid.src.js" />
+    <Content Include="Scripts\jquery.mousewheel.js" />
+    <Content Include="Scripts\jquery.scrollTo.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\modernizr-2.6.1.min.js" />
+    <Content Include="Scripts\mustache.js" />
+    <Content Include="Style\css\bootmetro-charms.css" />
+    <Content Include="Style\css\bootmetro-tiles.css" />
+    <Content Include="Style\css\bootmetro.css" />
+    <Content Include="Style\css\bootstrap-responsive.css" />
+    <Content Include="Style\css\bootstrap.css" />
+    <Content Include="Style\css\datepicker.css" />
+    <Content Include="Style\css\Default.css" />
+    <Content Include="Style\css\icomoon.css" />
+    <Content Include="Style\css\jquery-ui.css" />
+    <Content Include="Style\css\metro-ui-dark.css" />
+    <Content Include="Style\css\metro-ui-light.css" />
+    <Content Include="Style\css\ui.jqgrid.css" />
+    <Content Include="Style\font\IcoMoon.svg" />
+    <Content Include="Style\font\icomoon97172\IcoMoon.svg" />
+    <Content Include="Style\font\icomoon97172\index.html" />
+    <Content Include="Style\font\icomoon97172\license.txt" />
+    <Content Include="Style\font\icomoon97172\style.css" />
+    <Content Include="Style\font\LICENSE.txt" />
+    <Content Include="Style\font\opensans-bold-webfont.svg" />
+    <Content Include="Style\font\opensans-light-webfont.svg" />
+    <Content Include="Style\font\opensans-regular-webfont.svg" />
+    <Content Include="Style\font\opensans-semibold-webfont.svg" />
+    <Content Include="Style\images\yellow.png" />
+    <Content Include="Util\Page\Refresh.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebService\SFAE\Ws_DispatchRequest.asmx" />
+    <Content Include="wsJ.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassLibrary\Control\classBasicFaxInfo.cs" />
+    <Compile Include="ClassLibrary\Control\ClassRequest.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClassLibrary\Control\ClassRequestCopy.cs" />
+    <Compile Include="ClassLibrary\Control\ClassReturnCustomerAndContractInfo.cs" />
+    <Compile Include="ClassLibrary\Control\ClassSendFaxListTable.cs" />
+    <Compile Include="ClassLibrary\Control\ClassSMS.cs" />
+    <Compile Include="ClassLibrary\Escalation\Util.cs" />
+    <Compile Include="ClassLibrary\ICHttpHandler.cs" />
+    <Compile Include="ClassLibrary\IPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClassLibrary\IWebService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ClassLibrary\SEWC\Util.cs" />
+    <Compile Include="ClassLibrary\Sms.cs" />
+    <Compile Include="ClassLibrary\SQLInfo.cs" />
+    <Compile Include="ClassLibrary\UserInfo.cs" />
+    <Compile Include="Escalation\Home\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\Home\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Escalation\List\AllList.aspx.cs">
+      <DependentUpon>AllList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\List\AllList.aspx.designer.cs">
+      <DependentUpon>AllList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Escalation\List\EscalationOperation.ascx.cs">
+      <DependentUpon>EscalationOperation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\List\EscalationOperation.ascx.designer.cs">
+      <DependentUpon>EscalationOperation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Escalation\List\FinishList.aspx.cs">
+      <DependentUpon>FinishList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\List\FinishList.aspx.designer.cs">
+      <DependentUpon>FinishList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Escalation\List\InProcessList.aspx.cs">
+      <DependentUpon>InProcessList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\List\InProcessList.aspx.designer.cs">
+      <DependentUpon>InProcessList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Escalation\List\OpenList.aspx.cs">
+      <DependentUpon>OpenList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\List\OpenList.aspx.designer.cs">
+      <DependentUpon>OpenList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Escalation\List\PendingList.aspx.cs">
+      <DependentUpon>PendingList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\List\PendingList.aspx.designer.cs">
+      <DependentUpon>PendingList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Escalation\Operation\ActivitiesOperation.aspx.cs">
+      <DependentUpon>ActivitiesOperation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\Operation\ActivitiesOperation.aspx.designer.cs">
+      <DependentUpon>ActivitiesOperation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Escalation\Ucontrol\Breadcrumb.ascx.cs">
+      <DependentUpon>Breadcrumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\Ucontrol\Breadcrumb.ascx.designer.cs">
+      <DependentUpon>Breadcrumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Escalation\Ucontrol\TabNav.ascx.cs">
+      <DependentUpon>TabNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escalation\Ucontrol\TabNav.ascx.designer.cs">
+      <DependentUpon>TabNav.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\Escalation\List\ActivitiesOperation.ashx.cs">
+      <DependentUpon>ActivitiesOperation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\Escalation\List\ActivityList.ashx.cs">
+      <DependentUpon>ActivityList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\Escalation\List\CommonList.ashx.cs">
+      <DependentUpon>CommonList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\Escalation\List\FileUpLoad.ashx.cs">
+      <DependentUpon>FileUpLoad.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\Escalation\List\wsEscalation.asmx.cs">
+      <DependentUpon>wsEscalation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\All\Default.ashx.cs">
+      <DependentUpon>Default.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\All\ws_All.asmx.cs">
+      <DependentUpon>ws_All.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Delivery\Default.ashx.cs">
+      <DependentUpon>Default.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Delivery\ws_Delivery.asmx.cs">
+      <DependentUpon>ws_Delivery.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Finish\DefaultUtil.ashx.cs">
+      <DependentUpon>DefaultUtil.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\GoodsReceipt\T3Operation.ashx.cs">
+      <DependentUpon>T3Operation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\GoodsReceipt\ws_GoodsReceipt.asmx.cs">
+      <DependentUpon>ws_GoodsReceipt.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\IssueRepairOrder\DefaultUtil.ashx.cs">
+      <DependentUpon>DefaultUtil.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\IssueRepairOrder\IssueRepairOrderReport.ashx.cs">
+      <DependentUpon>IssueRepairOrderReport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\IssueRepairOrder\ws_IssueRepairOrder.asmx.cs">
+      <DependentUpon>ws_IssueRepairOrder.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Repair\OperationUtil.ashx.cs">
+      <DependentUpon>OperationUtil.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Repair\UpLoadFile.ashx.cs">
+      <DependentUpon>UpLoadFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Repair\ws_Repair.asmx.cs">
+      <DependentUpon>ws_Repair.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Report\wsReport.asmx.cs">
+      <DependentUpon>wsReport.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\Default.ashx.cs">
+      <DependentUpon>Default.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\Util\ws_Util.asmx.cs">
+      <DependentUpon>ws_Util.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MailSender.cs" />
+    <Compile Include="SEWC\All\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\All\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Delivery\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Delivery\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Delivery\DeliveryOperation.aspx.cs">
+      <DependentUpon>DeliveryOperation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Delivery\DeliveryOperation.aspx.designer.cs">
+      <DependentUpon>DeliveryOperation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Delivery\T6Operation.aspx.cs">
+      <DependentUpon>T6Operation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Delivery\T6Operation.aspx.designer.cs">
+      <DependentUpon>T6Operation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Finish\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Finish\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\GoodsReceipt\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\GoodsReceipt\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\GoodsReceipt\GoodsReceiptOperation.aspx.cs">
+      <DependentUpon>GoodsReceiptOperation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\GoodsReceipt\GoodsReceiptOperation.aspx.designer.cs">
+      <DependentUpon>GoodsReceiptOperation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\GoodsReceipt\T3Operation.aspx.cs">
+      <DependentUpon>T3Operation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\GoodsReceipt\T3Operation.aspx.designer.cs">
+      <DependentUpon>T3Operation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Home\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Home\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\IssueRepairOrder\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\IssueRepairOrder\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\IssueRepairOrder\IssueRepairOrderOperation.aspx.cs">
+      <DependentUpon>IssueRepairOrderOperation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\IssueRepairOrder\IssueRepairOrderOperation.aspx.designer.cs">
+      <DependentUpon>IssueRepairOrderOperation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Reject\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Reject\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Repair\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Repair\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Repair\RepairOperation.aspx.cs">
+      <DependentUpon>RepairOperation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Repair\RepairOperation.aspx.designer.cs">
+      <DependentUpon>RepairOperation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Report\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Report\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Request\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Request\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Request\RequestPrintTemplate.aspx.cs">
+      <DependentUpon>RequestPrintTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Request\RequestPrintTemplate.aspx.designer.cs">
+      <DependentUpon>RequestPrintTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Request\RequestSenderMsg.aspx.cs">
+      <DependentUpon>RequestSenderMsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Request\RequestSenderMsg.aspx.designer.cs">
+      <DependentUpon>RequestSenderMsg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Request\RequestSendFax.aspx.cs">
+      <DependentUpon>RequestSendFax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Request\RequestSendFax.aspx.designer.cs">
+      <DependentUpon>RequestSendFax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Request\RequestSendMail.aspx.cs">
+      <DependentUpon>RequestSendMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Request\RequestSendMail.aspx.designer.cs">
+      <DependentUpon>RequestSendMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Request\SelectCustomerAndContactInfo.aspx.cs">
+      <DependentUpon>SelectCustomerAndContactInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Request\SelectCustomerAndContactInfo.aspx.designer.cs">
+      <DependentUpon>SelectCustomerAndContactInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Request\SEWCRequestOperation.aspx.cs">
+      <DependentUpon>SEWCRequestOperation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Request\SEWCRequestOperation.aspx.designer.cs">
+      <DependentUpon>SEWCRequestOperation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Ucontrol\Breadcrumb.ascx.cs">
+      <DependentUpon>Breadcrumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Ucontrol\Breadcrumb.ascx.designer.cs">
+      <DependentUpon>Breadcrumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Ucontrol\navDetailMore.ascx.cs">
+      <DependentUpon>navDetailMore.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Ucontrol\navDetailMore.ascx.designer.cs">
+      <DependentUpon>navDetailMore.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="SEWC\Ucontrol\navModifyMore.ascx.cs">
+      <DependentUpon>navModifyMore.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEWC\Ucontrol\navModifyMore.ascx.designer.cs">
+      <DependentUpon>navModifyMore.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs" />
+    <Compile Include="test1.aspx.cs">
+      <DependentUpon>test1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test1.aspx.designer.cs">
+      <DependentUpon>test1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestModule.cs" />
+    <Compile Include="User\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Detail.aspx.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Detail.aspx.designer.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\MyInformation.aspx.cs">
+      <DependentUpon>MyInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\MyInformation.aspx.designer.cs">
+      <DependentUpon>MyInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Operation.aspx.cs">
+      <DependentUpon>Operation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Operation.aspx.designer.cs">
+      <DependentUpon>Operation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Delivery\DeliveryOperation.ashx.cs">
+      <DependentUpon>DeliveryOperation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Delivery\DeliveryReport.ashx.cs">
+      <DependentUpon>DeliveryReport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Finish\Default.ashx.cs">
+      <DependentUpon>Default.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\GoodsReceipt\Default.ashx.cs">
+      <DependentUpon>Default.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\IssueRepairOrder\Default.ashx.cs">
+      <DependentUpon>Default.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\IssueRepairOrder\IssueRepairOrderOperation.ashx.cs">
+      <DependentUpon>IssueRepairOrderOperation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\Login\Login.ashx.cs">
+      <DependentUpon>Login.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Reject\Default.ashx.cs">
+      <DependentUpon>Default.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Reject\ReverseOperation.ashx.cs">
+      <DependentUpon>ReverseOperation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Repair\Default.ashx.cs">
+      <DependentUpon>Default.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Repair\RepairOperation.ashx.cs">
+      <DependentUpon>RepairOperation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Repair\RepairReport.ashx.cs">
+      <DependentUpon>RepairReport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\doajaxfileupload.ashx.cs">
+      <DependentUpon>doajaxfileupload.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\EditCompanyOperation.ashx.cs">
+      <DependentUpon>EditCompanyOperation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\EditContactOperation.ashx.cs">
+      <DependentUpon>EditContactOperation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getAreaInfo.ashx.cs">
+      <DependentUpon>getAreaInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getContactInfo.ashx.cs">
+      <DependentUpon>getContactInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getDropDownList.ashx.cs">
+      <DependentUpon>getDropDownList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getMaterialFaultInfo.ashx.cs">
+      <DependentUpon>getMaterialFaultInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getMaterialProducDescInfo.ashx.cs">
+      <DependentUpon>getMaterialProducDescInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getMLFBNoList.ashx.cs">
+      <DependentUpon>getMLFBNoList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getMsgTemplateInfo.ashx.cs">
+      <DependentUpon>getMsgTemplateInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getProductDescInfo.ashx.cs">
+      <DependentUpon>getProductDescInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getRequestDocumentInfo.ashx.cs">
+      <DependentUpon>getRequestDocumentInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getTransferIDInfo.ashx.cs">
+      <DependentUpon>getTransferIDInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\getTransferUserInfo.ashx.cs">
+      <DependentUpon>getTransferUserInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\RequestPrintTemplate.ashx.cs">
+      <DependentUpon>RequestPrintTemplate.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\RequestSenderMsg.ashx.cs">
+      <DependentUpon>RequestSenderMsg.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\RequestSendFax.ashx.cs">
+      <DependentUpon>RequestSendFax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\RequestSendMail.ashx.cs">
+      <DependentUpon>RequestSendMail.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\SelectCustomerAndContactInfo.ashx.cs">
+      <DependentUpon>SelectCustomerAndContactInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\SelectCustomerAndContactItemInfo.ashx.cs">
+      <DependentUpon>SelectCustomerAndContactItemInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\SEWC\Request\SEWCRequestOperation.ashx.cs">
+      <DependentUpon>SEWCRequestOperation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\User\User-derfault.ashx.cs">
+      <DependentUpon>User-derfault.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceLibrary\User\User-operation.ashx.cs">
+      <DependentUpon>User-operation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Csite\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Csite\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Csite\Pop.Master.cs">
+      <DependentUpon>Pop.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Csite\Pop.Master.designer.cs">
+      <DependentUpon>Pop.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Csite\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Csite\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Page\Refresh.aspx.cs">
+      <DependentUpon>Refresh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Util\Page\Refresh.aspx.designer.cs">
+      <DependentUpon>Refresh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebService\SFAE\Ws_DispatchRequest.asmx.cs">
+      <DependentUpon>Ws_DispatchRequest.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="wsJ.asmx.cs">
+      <DependentUpon>wsJ.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Attachment\Escalation\" />
+    <Folder Include="Attachment\SEWC\" />
+    <Folder Include="Log\" />
+    <Folder Include="RequestDocument\" />
+    <Folder Include="Template\ServiceRequest\" />
+    <Folder Include="Temp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Style\font\IcoMoon.eot" />
+    <Content Include="Style\font\IcoMoon.ttf" />
+    <Content Include="Style\font\IcoMoon.woff" />
+    <Content Include="Style\font\icomoon97172\IcoMoon.eot" />
+    <Content Include="Style\font\icomoon97172\IcoMoon.ttf" />
+    <Content Include="Style\font\icomoon97172\IcoMoon.woff" />
+    <Content Include="Style\font\opensans-bold-webfont.eot" />
+    <Content Include="Style\font\opensans-bold-webfont.ttf" />
+    <Content Include="Style\font\opensans-bold-webfont.woff" />
+    <Content Include="Style\font\opensans-light-webfont.eot" />
+    <Content Include="Style\font\opensans-light-webfont.ttf" />
+    <Content Include="Style\font\opensans-light-webfont.woff" />
+    <Content Include="Style\font\opensans-regular-webfont.eot" />
+    <Content Include="Style\font\opensans-regular-webfont.ttf" />
+    <Content Include="Style\font\opensans-regular-webfont.woff" />
+    <Content Include="Style\font\opensans-semibold-webfont.eot" />
+    <Content Include="Style\font\opensans-semibold-webfont.ttf" />
+    <Content Include="Style\font\opensans-semibold-webfont.woff" />
+    <Content Include="Master\Csite\Site.Master" />
+    <Content Include="InterfaceLibrary\User\User-derfault.ashx" />
+    <Content Include="Master\Csite\Pop.Master" />
+    <Content Include="InterfaceLibrary\User\User-operation.ashx" />
+    <Content Include="InterfaceLibrary\Login\Login.ashx" />
+    <Content Include="Master\Csite\Main.Master" />
+    <Content Include="InterfaceLibrary\SEWC\GoodsReceipt\Default.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Repair\Default.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Repair\RepairOperation.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Delivery\DeliveryOperation.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Finish\Default.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getAreaInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getTransferIDInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getTransferUserInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getProductDescInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\SEWCRequestOperation.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getMaterialProducDescInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getMaterialFaultInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\RequestSenderMsg.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getMsgTemplateInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\RequestSendMail.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\RequestPrintTemplate.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\RequestSendFax.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\SelectCustomerAndContactInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\SelectCustomerAndContactItemInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\EditCompanyOperation.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\EditContactOperation.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getContactInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\doajaxfileupload.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getRequestDocumentInfo.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\IssueRepairOrder\Default.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\IssueRepairOrder\IssueRepairOrderOperation.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getMLFBNoList.ashx" />
+    <Content Include="Scripts\jquery-autocomplete\demo\emails.php" />
+    <Content Include="Scripts\jquery-autocomplete\demo\emails.phps" />
+    <Content Include="Scripts\jquery-autocomplete\demo\images.php" />
+    <Content Include="Scripts\jquery-autocomplete\demo\search.php" />
+    <Content Include="Scripts\jquery-autocomplete\demo\search.phps" />
+    <Content Include="Scripts\jquery-autocomplete\todo" />
+    <Content Include="InterfaceLibrary\SEWC\Delivery\DeliveryReport.ashx" />
+    <Content Include="Template\SEWC\DeliveryTemplate.xlsx" />
+    <Content Include="InterfaceLibrary\SEWC\Repair\RepairReport.ashx" />
+    <Content Include="Template\SEWC\RepairTemplate.xlsx" />
+    <Content Include="InterfaceLibrary\SEWC\Reject\Default.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Reject\ReverseOperation.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Request\getDropDownList.ashx" />
+    <Content Include="Scripts\jQuery-Timepicker-Addon\.jshintrc" />
+    <Content Include="InterfaceLibrary\SEWC\Request\Default.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\GoodsReceipt\T3Operation.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\IssueRepairOrder\IssueRepairOrderReport.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\IssueRepairOrder\DefaultUtil.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Repair\UpLoadFile.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Finish\DefaultUtil.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Repair\OperationUtil.ashx" />
+    <Content Include="InterfaceLibrary\Escalation\List\ActivityList.ashx" />
+    <Content Include="InterfaceLibrary\Escalation\List\CommonList.ashx" />
+    <Content Include="InterfaceLibrary\Escalation\List\ActivitiesOperation.ashx" />
+    <Content Include="InterfaceLibrary\Escalation\List\FileUpLoad.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\All\Default.ashx" />
+    <Content Include="InterfaceLibrary\SEWC\Delivery\Default.ashx" />
+    <None Include="Properties\PublishProfiles\newInformationtools.pubxml" />
+    <Content Include="Scripts\ckeditor\CHANGES.md" />
+    <Content Include="Scripts\ckeditor\LICENSE.md" />
+    <Content Include="Scripts\ckeditor\README.md" />
+    <Content Include="Scripts\ckeditor\samples\assets\posteddata.php" />
+    <Content Include="Scripts\ckeditor\samples\sample_posteddata.php" />
+    <Content Include="Scripts\ckeditor\skins\moono\readme.md" />
+    <None Include="Properties\PublishProfiles\SewcInforamation.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IdioSoft.Business\IdioSoft.Business.csproj">
+      <Project>{4cf9f8a2-808b-4e45-9ba2-d7ad4bd99ddf}</Project>
+      <Name>IdioSoft.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IdioSoft.Site.DB\IdioSoft.Site.DB.csproj">
+      <Project>{b253b19d-5572-4db7-9a2a-ecee77ce6771}</Project>
+      <Name>IdioSoft.Site.DB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>9565</DevelopmentServerPort>
+          <DevelopmentServerVPath>/NewInformationtools</DevelopmentServerVPath>
+          <IISUrl>http://localhost/NewInformationtools</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
